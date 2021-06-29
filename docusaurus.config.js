@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'blog.suningyao.com',
+  title: 'Blogs',
   tagline: 'by Suning Yao',
   url: 'https://fewwwww.github.io', // Your website URL
   baseUrl: '/',

@@ -29,7 +29,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`web&blockchain... ${siteConfig.title}`}
+      title={`web&blockchain...`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
