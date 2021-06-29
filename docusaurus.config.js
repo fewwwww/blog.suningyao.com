@@ -6,9 +6,9 @@ module.exports = {
   title: 'blog.suningyao.com',
   tagline: 'by Suning Yao',
   url: 'https://fewwwww.github.io', // Your website URL
-  baseUrl: '/blog.suningyao.com',
-  projectName: 'endiliey.github.io',
-  organizationName: 'endiliey',
+  baseUrl: '/',
+  projectName: 'blog.suningyao.com',
+  organizationName: 'fewwwww',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -27,7 +27,7 @@ module.exports = {
           label: 'docs',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/fewwwww/blog.suningyao.com',
           label: 'GitHub',
           position: 'right',
         },
@@ -40,7 +40,7 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'About',
               to: '/docs/intro',
             },
           ],
@@ -49,16 +49,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'WeChat',
+              href: 'https://fewwwww.github.io/WeChat-AddMe/',
             },
           ],
         },
@@ -71,7 +63,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/fewwwww',
             },
           ],
         },
