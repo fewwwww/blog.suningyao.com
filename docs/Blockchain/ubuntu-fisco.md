@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Ubantu搭建Fisco BcoS区块链'
+sidebar_label: 'Ubuntu搭建Fisco BcoS区块链'
 sidebar_position: 2
 ---
 # 搭建FISCO BCOS区块链网络(Ubuntu 16.04 64bit)
@@ -19,8 +19,9 @@ sidebar_position: 2
 >
 > 推荐新手开发者使用Ubuntu平台搭建.
 
----
 ### 第一步: 安装依赖
+
+---
 
 - 使用build_chain.sh脚本需要先安装openssl与curl.
   因此先安装这两个依赖.
@@ -29,8 +30,9 @@ sidebar_position: 2
 sudo apt install -y openssl curl
 ```
 
----
 ### 第二步: 创建目录, 下载脚本
+
+---
 
 - 首先创建fisco目录, 并且进入刚创建的目录.
 
@@ -47,8 +49,9 @@ curl -#LO https://github.com/FISCO-BCOS/FISCO-BCOS/releases/download/v2.7.2/buil
 > 如果因为网络问题无法正常下载, 可以尝试更换链接
 > `curl -#LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/FISCO-BCOS/FISCO-BCOS/releases/v2.7.2/build_chain.sh && chmod u+x build_chain.sh`
 
----
 ### 第三步: 搭建联盟链
+
+---
 
 注意要确保机器的30300~30303，20200~20203，8545~8548端口没有被占用, 否则会导致后续无法成功搭建.
 
@@ -63,8 +66,9 @@ bash build_chain.sh -l 127.0.0.1:4 -p 30300,20200,8545
 
 命令执行成功会在最后一行显示`[INFO] All completed. Files in /home/ubuntu/fisco/nodes`
 
----
 ### 第四步: 启动节点
+
+---
 
 - 通过脚本启动所有所有节点
 
@@ -96,8 +100,9 @@ ps -ef | grep -v grep | grep fisco-bcos
 ```
 > 若显示四行数据, 则FISCO BCOS链成功启动
 
----
 ### 第五步: 检查日志输出
+
+---
 
 - 查看节点链接的其他节点个数
 
@@ -133,8 +138,9 @@ tail -f nodes/127.0.0.1/node0/log/log*  | grep +++
 
 ## 2. 配置与使用控制台
 
----
 ### 第一步: 准备控制台依赖
+
+---
 
 我们通过脚本下载的程序为最新版本.
 2.6版本之后的控制台均用Java SDK实现.
@@ -166,8 +172,9 @@ cp -n console/conf/config-example.toml console/conf/config.toml
 cp -r nodes/127.0.0.1/sdk/* console/conf/
 ```
 
----
 ### 第二步: 启动并使用控制台
+
+---
 
 - 进入控制台路径并启动控制台
 
@@ -226,8 +233,10 @@ ClientVersion{
 ```
 
 ## 3. 部署并调用HelloWorld的智能合约
----
+
 ### 第一步: 部署合约
+
+---
 
 - 为了方便用户快速体验, HelloWorld的合约已经内置于控制台中, 位于控制台目录下contracts/solidity/HelloWorld.sol. 我们直接部署HelloWorld合约.
 
@@ -368,8 +377,9 @@ function register(string account, uint256 amount) public returns(int256)
 function transfer(string from_asset_account, string to_asset_account, uint256 amount) public returns(int256)
 ```
 
----
 ### 第二步: 开发接口源码
+
+---
 
 - 编写智能合约
 ```
@@ -562,8 +572,9 @@ contract Asset {
 
 - 保存并退出后运行ls, 可以看到Assert.sol和Table.sol.
 
----
 ### 第三步: 编译智能合约
+
+---
 
 控制台提供的编译工具可以编译出ABI和BIN文件, 使得.sol文件可以部署到区块链上.
 

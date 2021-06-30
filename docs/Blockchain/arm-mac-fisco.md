@@ -12,8 +12,9 @@ sidebar_position: 3
 官方推荐下载预编译程序. 由于是ARM架构,因此**需要编译源码获取fisco-bcos可执行程序**
 > 如果通过预编译程序进行搭建, 生成的FISCO链时会显示: `[ERROR] We only offer x86_64 precompiled fisco-bcos binary, your OS architecture is not x86_64. Please compile from source.`
 
----
 ### 第一步: 安装依赖
+
+---
 
 通过Homebrew进行依赖的安装.
 
@@ -25,8 +26,9 @@ brew install openssl git flex bison gmp cmake
 >
 > 所以需要先运行`brew update`来获取最新发布的ARM版本依赖, 再进行安装
 
----
 ### 第二步: 克隆源码
+
+---
 
 ```
 # 若网络良好
@@ -38,8 +40,10 @@ git clone https://gitee.com/FISCO-BCOS/FISCO-BCOS.git
 
 由于文件较大, 下载耗时可能有些长.
 
----
 ### 第三步: 进行编译
+
+---
+
 > ⚠️: 从这一步开始, 由于cmake脚本未适配ARM架构Macbook, 因此无法正常运行.
 
 ```

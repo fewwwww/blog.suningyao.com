@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Suning Yao
 
-Nice to meet you. OK, so that's my name.
+Nice to meet you. So that's my name.
 
 I am a web developer learning blockchain technology.
 
