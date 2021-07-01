@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: '',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../static/img/react.svg').default,
     description: (
       <>
       </>
@@ -13,7 +13,7 @@ const FeatureList = [
   },
   {
     title: '',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('../../static/img/vue.svg').default,
     description: (
       <>
       </>
@@ -21,7 +21,7 @@ const FeatureList = [
   },
   {
     title: '',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('../../static/img/eth.svg').default,
     description: (
       <>
       </>
