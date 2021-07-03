@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'CSS增粗字体但不改变字符大小'
+sidebar_label: 'CSS加粗字体但不改变字符大小'
 sidebar_position: 1
 ---
 # CSS增粗`<b>`字体但不改变字符大小
