@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # 一些小众网球拍的收藏(PC600 XL, Pure Drive Original XL, PT630)
 
-![网球拍全家福](/img/racquets.jpg)
+![网球拍全家福](/img/tennis/racquets.jpg)
 
 ## 1. PC600 XL
 

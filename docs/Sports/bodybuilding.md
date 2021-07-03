@@ -28,7 +28,7 @@ sidebar_position: 2
 回忆起来做的都是前平举之类的动作. 腹肌倒是练的还可以, 毕竟做做卷腹什么的也没技术含量. 期间, 我爸还让我去和家附近一个大学里学网球, 也算是
 埋下了我之后对网球拍的热爱的种子. 初中好像就这些了, 下面是初中时候我瘦弱但是挺健壮的样子(用当时偷偷买的手机拍的). 
 
-![初中时候的我](/img/middleschool-bodybuilding.jpg)
+![初中时候的我](/img/bodybuilding/middleschool-bodybuilding.jpg)
 
 ### 高中
 
@@ -47,7 +47,7 @@ sidebar_position: 2
 铅球奖牌, 还破了个校记录, 这就让我膨胀了些. 因为高中是公办的国际班, 所以只要应付一些规章制度, 剩下的就自由发挥, 所以就其实还挺空. 中午吃完饭还能
 去健身房练一练, 国际课程班的健身房钥匙甚至还从老师那里拿了过来, 自由出入. 下面是高二时候放学打完球的我. 
 
-![高二的我](/img/highschool-bodybuilding.JPG)
+![高二的我](/img/bodybuilding/highschool-bodybuilding.JPG)
 
 ### 兽化了
 
@@ -61,7 +61,7 @@ sidebar_position: 2
 
 比赛的照片我[主页](https://suningyao.com)有, 所以我放一个比赛前的照片吧. 
 
-![赛前状态](/img/highschool-beforeshow.jpg)
+![赛前状态](/img/bodybuilding/highschool-beforeshow.jpg)
 
 ### 之后呢
 
