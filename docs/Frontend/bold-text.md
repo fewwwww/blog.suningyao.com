@@ -110,7 +110,7 @@ CSS实现的效果是这样的:
   
   效果也非常好
   
-  ![future text bold](https://i.stack.imgur.com/U9wko.gif)
+  ![future text bold](/img/css-bold/7.gif)
 
   看了下 [谷歌的开发者文档](https://web.dev/variable-fonts/#axes_definitions) 发现是2018年出来的更新. 但查了[Mozilla的文档](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide), 
   发现这个属性需要比较新的操作系统; 同时在[caniuse上](https://caniuse.com/?search=font-variation-settings), 这个属性的适配也暂时不太好. 相较于前一种方法没有本质区别. 
