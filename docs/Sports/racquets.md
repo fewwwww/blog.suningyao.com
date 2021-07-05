@@ -1,5 +1,5 @@
 ---
-sidebar_label: '一些小众网球拍的收藏'
+sidebar_label: '一些小众网球拍的收藏🎾'
 sidebar_position: 1
 ---
 

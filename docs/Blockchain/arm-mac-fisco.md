@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Arm Mac搭建Fisco BcoS区块链'
+sidebar_label: 'Arm Mac搭建Fisco区块链💪'
 sidebar_position: 3
 ---
 # 搭建Fisco BsoC区块链网络(ARM架构macOS平台)

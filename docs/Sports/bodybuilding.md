@@ -1,5 +1,5 @@
 ---
-sidebar_label: '健身的起因经过结果'
+sidebar_label: '健身的起因经过结果🏋🏿‍️'
 sidebar_position: 2
 ---
 

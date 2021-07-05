@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Ubuntu搭建Fisco BcoS区块链'
+sidebar_label: 'Ubuntu搭建Fisco区块链📠'
 sidebar_position: 2
 ---
 # 搭建FISCO BCOS区块链网络(Ubuntu 16.04 64bit)
