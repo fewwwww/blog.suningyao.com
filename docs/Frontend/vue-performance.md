@@ -132,6 +132,29 @@ const routes = [
 
 > React的`router`[优化](https://serverless-stack.com/chapters/code-splitting-in-create-react-app.html#:~:text=Code%20Splitting%20in%20Create%20React%20App%201%20Code,the%20Async%20Component.%20...%205%20Next%20Steps.%20) 也类似.
 
+### 分割大文件
+
+通过观察Console内Network里的加载进度我们发现, 最后等的就是一个巨大的2MB的js文件, 其他资源都空闲着.
+
+> chrome等浏览器同域名可同时加载的文件大约都是6个.
+
+那么我们就可以拆分大文件, 做到浏览器空闲的时候也有东西可下载. 这样并发连接可以更有效率. 最理想的情况就是所有线程同时结束.
+
+```
+  configureWebpack: {
+    optimization: {
+      splitChunks: {
+        minSize: 10000,
+        maxSize: 25000,
+      }
+    }
+  }
+```
+
+> 因为最小最大其实也只能是node_module里单独依赖包的大小, 所以数值可以通过不停炼丹来调整.
+
+通过不断地尝试, 我们的加载时间少了1秒.
+
 ## 优化成果
 
 ![after optimize](/img/vue-performance/2.png)
@@ -140,9 +163,10 @@ const routes = [
 
 网站的性能大大提高, 用户的交互也将大大提升.
 
-## 课代表总结:
+## 课代表总结
 
 1. 懒加载`img`标签.
 2. 用[tinypng](https://tinypng.com)来压缩图片的大小.
 3. 通过修改`router`来懒加载组件.
+4. 配置`splitChunks`分割大js文件
 4. 使用`Prerender`或者`SSR`.
