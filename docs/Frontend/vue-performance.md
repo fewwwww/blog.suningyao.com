@@ -132,6 +132,10 @@ const routes = [
 
 > React的`router`[优化](https://serverless-stack.com/chapters/code-splitting-in-create-react-app.html#:~:text=Code%20Splitting%20in%20Create%20React%20App%201%20Code,the%20Async%20Component.%20...%205%20Next%20Steps.%20) 也类似.
 
+通过这几步, 我们的渲染时间大大加快.
+
+![after first optimize](/img/vue-performance/2.png)
+
 ### 分割大文件
 
 通过观察Console内Network里的加载进度我们发现, 最后等的就是一个巨大的2MB的js文件, 其他资源都空闲着.
@@ -157,7 +161,7 @@ const routes = [
 
 ## 优化成果
 
-![after optimize](/img/vue-performance/2.png)
+![finally optimized](/img/vue-performance/3.png)
 
 通过我们强硬的手段, 网站性能从❤️提高到了💛, 从**37**提高到了**52**, 提升了**40%**. 渲染时间从**4.6s**到**2.6s**, 减少了77%.
 
