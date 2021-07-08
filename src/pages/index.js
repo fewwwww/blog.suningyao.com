@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <Layout
       title={`web&blockchain...`}
-      description="Description will go into a meta tag in <head />">
+      description="Blog posts by Suning Yao. About web development and blockchain. Official website: suningyao.com.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
