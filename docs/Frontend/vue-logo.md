@@ -17,11 +17,11 @@ sidebar_position: 1
 
 之后经过讨论, 我们想到了要去爬取公司的Logo图片. 我们的页面里的Logo图都是圆形的显示, 必须标准化图片的比例大小等, 应该爬取哪些图片呢? 答案是Favicon.
 
-## 怎么做?
+## *最新完美解决方法*
 
-### *最新完美解决方法
+由于爬下来的Favicon图片质量参差不齐, 无法用filter或者image-rendering等方法有效优化.
 
-找到了个更好的API来解决问题: `https://clearbit.com/logo`. 此方法比后面的Favicon解决方案优秀很多. 具体使用方法可以参见网站.
+我找到了个更好的API来解决问题: `https://clearbit.com/logo`. 此方法比后面的Favicon解决方案优秀很多. 具体使用方法可以参见网站.
 
 实现代码如下:
 
@@ -67,6 +67,10 @@ const getIconSRC = (companyName) => {
 ```
 <a href="https://clearbit.com">Logos provided by Clearbit</a>
 ```
+
+之后是Favicon解决方法的内容, 仅供学习, 实际中推荐使用上面的API.
+
+## 怎么做?
 
 ### 爬取Favicon?
 ---
