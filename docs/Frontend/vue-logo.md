@@ -19,10 +19,59 @@ sidebar_position: 1
 
 ## 怎么做?
 
-> 具体代码在底部
+### *最新完美解决方法
+
+找到了个更好的API来解决问题: `https://clearbit.com/logo`. 此方法比后面的Favicon解决方案优秀很多. 具体使用方法可以参见网站.
+
+实现代码如下:
+
+`companyList.vue`(显示图片的组件)
+
+```
+<div
+  class="container"
+  // 如果公司名不在无法爬取的公司名列表中
+  v-if="companiesCannotGetIcons.indexOf(company.name) === -1">
+    <img
+      class="image"
+      // 传入去除特殊字符的公司名, 返回拼接后的字符串
+      :src="getIconSRC(removeSpecial(company.name))"
+    />
+</div>
+<div
+  v-else>
+    <img
+      class="default-image"
+      src="@/images/default-company-logo.png"
+    />
+</div>
+
+...
+
+const companiesCannotGetIcons = ['Apple', ...]
+
+const removeSpecial = (companyName) => {
+  companyName = companyName.toLowerCase().replace(/ /g,'');
+  companyName = companyName.replace(/\./g, '');
+  companyName = companyName.replace(/\&/g, 'and');
+  return companyName
+}
+
+const getIconSRC = (companyName) => {
+  return `//logo.clearbit.com/${companyName}.com`
+}
+```
+
+一定要给你的网站加个链接标签, 感谢API的提供者! 开源不易, 免费不易!
+
+```
+<a href="https://clearbit.com">Logos provided by Clearbit</a>
+```
 
 ### 爬取Favicon?
 ---
+
+> 具体爬Favicon的解决方法的代码在底部
 
 Favicon就是每个窗口标签页里标题左侧的小图标, 比如你现在看的这个窗口标签页里的小恐龙🦖, 其实就是 [docusaurus](https://docusaurus.io/) 自带的Favicon, 我懒所以没改.
 
