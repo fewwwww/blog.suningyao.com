@@ -25,4 +25,4 @@ sidebar_position: 0
 
 10. 不要加入加密货币交易的赌场, 更不要上杠杆. 如果非要, 那就在低价买入比特币/以太坊, 它们要是死了, 那么整个行业也死了.
 
-11. 只有[比特币和以太坊的设计]()值得研究, 其他的都是拙略的模仿者.
+11. 只有[比特币和以太坊的设计](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/Bitcoin系统与Ethereum系统技术特点整理.pdf) 值得研究, 其他的都是拙略的模仿者.
