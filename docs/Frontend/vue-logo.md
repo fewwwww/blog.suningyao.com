@@ -3,7 +3,7 @@ sidebar_label: 'Vue爬取并绑定公司Logo图片🏢'
 sidebar_position: 1
 ---
 
-# Vue项目批量爬取并绑定大公司Logo图片
+# Vue爬取并绑定公司Logo图片🏢
 
 ![done effect](/img/vue-logo/1.png)
 

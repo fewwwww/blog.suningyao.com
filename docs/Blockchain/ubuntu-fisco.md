@@ -2,7 +2,7 @@
 sidebar_label: 'Ubuntu搭建Fisco区块链📠'
 sidebar_position: 2
 ---
-# 搭建FISCO BCOS区块链网络(Ubuntu 16.04 64bit)
+# Ubuntu搭建Fisco区块链📠
 
 ## 1. 搭建单群组四节点FISCO BCOS联盟链
 
