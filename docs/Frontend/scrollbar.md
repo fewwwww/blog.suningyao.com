@@ -16,6 +16,8 @@ sidebar_position: 1
 
 ## 直接禁用iframe的滚动条
 
+---
+
 由于我不知道他的具体意思, 所以我猜测可能他是想彻底不要iframe里的滚动条.
 
 这种方法会彻底禁用滚动的功能, 实现如下:
@@ -35,6 +37,8 @@ sidebar_position: 1
 > 如果遇到了其他问题, 可以参考[这个](https://stackoverflow.com/questions/7398142/overflow-hidden-doesnt-work-on-chrome-with-iframes/7398202), 或者[这个帖子](https://stackoverflow.com/questions/10082155/remove-scrollbar-from-iframe).
 
 ## 父元素包裹覆盖掉iframe滚动条
+
+---
 
 首先, 我们的iframe是长这样的. 
 
@@ -57,6 +61,8 @@ sidebar_position: 1
 
 ## 浏览器窗口隐藏滚动条
 
+---
+
 当然仅仅让iframe的滚动条隐藏是不太够的, 经过热心群友的提示, 我们找到了这个新特性: [CSS滚动条选择器](https://developer.mozilla.org/zh-CN/docs/Web/CSS/::-webkit-scrollbar).
 
 通过这个选择器隐藏滚动条很方便, 实现如下:
@@ -78,6 +84,9 @@ sidebar_position: 1
 当然这个功能也是有危险的⚠️, 目前还处于草案阶段, 文章发布的两天前还在进行修改, 不能放心大胆地用到生产里. 此选择器只能在支持WebKit的浏览器(Safari, Chrome, 群友说小程序也行)上使用. 
 
 ## 课代表总结
+
+---
+
 1. 禁用iframe滚动条:
 ```
 <iframe
