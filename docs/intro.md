@@ -14,7 +14,7 @@ My tech stack is `React`+`Vue`+`Solidity`.
 
 Contact me if you want at `sy2940@nyu.edu`.
 
-Or if you like to see my professional [resumé](https://github.com/fewwwww/resume/raw/main/Suning%20Yao-sy2940%40nyu.edu.pdf).
+Or if you like to see my professional [resumé](https://github.com/fewwwww/resume/raw/main/Suning%20Yao-yaosuning%40gmail.com.pdf).
 
 ### Education
 About my education, I am now at [NYU Tandon](https://engineering.nyu.edu) (纽约大学工程学院), studying Math. 
