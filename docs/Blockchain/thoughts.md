@@ -21,7 +21,7 @@ sidebar_position: 0
 
 7. 元宇宙的重点是整个精神世界, 而不是NFT/DeFi, 后者只是其中的乐高.
 
-> 巧合的是, 我在大一全年都是线上授课, 因此从未当面见到一些老师和同学, 恰巧写了关于人的精神自我和物理自我的关系的文章. 这和元宇宙也有所关系, 感兴趣的话可以[阅读一下]((https://github.com/fewwwww/blog.suningyao.com/raw/master/static/SuningYao-Fedbyfeed.pdf))
+> 巧合的是, 我在大一全年都是线上授课, 因此从未当面见到一些老师和同学, 恰巧写了关于人的精神自我和物理自我的关系的文章. 这和元宇宙也有所关系, 感兴趣的话可以[阅读一下](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/SuningYao-Fedbyfeed.pdf).
 
 9. 加密游戏的重点是游戏, 而不是加密, 加密的部分大多只是激励机制.
 
@@ -31,8 +31,6 @@ sidebar_position: 0
 
 12. 都怪预言机.
 
-13. MetaVerse很远很远, 但是我们有: 接入设备: 显示器(VR)+OS(Linux?Browser?); 基础设施: 网络(ETH)+去中心化预言机+主权(外太空基站); 金融体系: 货币(BTC)+银行(DeFi)+商品(NFT).
+13. MetaVerse就像Teenage Sex, 每个人都在讨论它, 却没人知道怎么做, 每个人都觉得别人已经做过了, 所以每个人都声称自己也做过.
 
-14. MetaVerse真的很远很远.
-
-15. 可能有生之年也不一定能看到MetaVerse, 这很遗憾.
+14. MetaVerse很远, 但是我们有: 接入设备: 显示器(VR)+OS(Linux?Browser?); 基础设施: 网络(ETH)+去中心化预言机+主权(外太空基站); 金融体系: 货币(BTC)+银行(DeFi)+商品(NFT); 机构体系: 社区(DAO).
