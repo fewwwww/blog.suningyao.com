@@ -41,35 +41,47 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'About',
-              to: '/docs/intro',
+              label: "About",
+              to: "/docs/intro"
             },
-          ],
+            {
+              label: "Frontend",
+              to: "/docs/Frontend/bold-text"
+            },
+            {
+              label: "Blockchain",
+              to: "/docs/Blockchain/thoughts"
+            },
+            {
+              label: "Sports",
+              to: "/docs/Sports/racquets"
+            }
+          ]
         },
         {
-          title: 'Community',
+          title: "Contact",
           items: [
             {
-              label: 'WeChat',
-              href: 'https://fewwwww.github.io/WeChat-AddMe/',
+              label: "WeChat",
+              href: "https://fewwwww.github.io/WeChat-AddMe/"
             },
-          ],
+            {
+              label: "Portfolio",
+              to: "https://suningyao.com"
+            },
+            {
+              label: "GitHub",
+              href: "https://github.com/fewwwww"
+            }
+          ]
         },
         {
-          title: 'More',
+          title: "💗Thank U for reading~💗",
           items: [
-            {
-              label: 'Portfolio',
-              to: 'https://suningyao.com',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/fewwwww',
-            },
-          ],
+          ]
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Blog. Built with Docusaurus.`,
