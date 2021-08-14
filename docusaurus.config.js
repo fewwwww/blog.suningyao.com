@@ -31,6 +31,11 @@ module.exports = {
           label: 'docs',
         },
         {
+          href: 'https://suningyao.com',
+          label: 'Porfolio',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/fewwwww/blog.suningyao.com',
           label: 'GitHub',
           position: 'right',
@@ -70,7 +75,7 @@ module.exports = {
             },
             {
               label: "Portfolio",
-              to: "https://suningyao.com"
+              href: "https://suningyao.com"
             },
             {
               label: "GitHub",
