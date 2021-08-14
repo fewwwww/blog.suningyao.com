@@ -32,7 +32,7 @@ module.exports = {
         },
         {
           href: 'https://suningyao.com',
-          label: 'Porfolio',
+          label: 'Portfolio',
           position: 'right',
         },
         {
