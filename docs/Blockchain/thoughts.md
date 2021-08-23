@@ -41,4 +41,6 @@ sidebar_position: 0
 
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷
 
-> _"<b>It always seems impossible until it's done</b>."_  ----曼德拉
+> _"<b>It always seems impossible until it's done</b>."_  ----Nelson Mandela
+
+> _"<b>Art is not a mirror with which to reflect reality but a hammer with which to shape it</b>."_  ----Bertolt Brecht
