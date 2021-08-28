@@ -6,7 +6,7 @@ sidebar_position: 1
 
 今天在前端交流群里面遇到一位群友提出的问题蛮有意思的.
 
-群友的问题是`请问一个问题，怎么隐藏iframe的滚动条啊，`. 
+群友的问题是`请问一个问题，怎么隐藏iframe的滚动条啊，`.
 
 我看到了以后是比较不耐烦的, 因为之前实现过, 而且不难, 但是为了确保不会装逼失败, 还是去谷歌了一下.
 
@@ -25,8 +25,8 @@ sidebar_position: 1
 ```
 <iframe
   src="..."
-  scrolling="no" 
-  style="overflow: hidden;" 
+  scrolling="no"
+  style="overflow: hidden;"
   ...
 >
 </iframe>
@@ -40,7 +40,7 @@ sidebar_position: 1
 
 ---
 
-首先, 我们的iframe是长这样的. 
+首先, 我们的iframe是长这样的.
 
 ![1](/img/css-scrollbar/1.png)
 
@@ -70,7 +70,7 @@ sidebar_position: 1
 ```
 <head>
   <style>
-    ::-webkit-scrollbar { 
+    ::-webkit-scrollbar {
       display: none;
     }
   </style>
@@ -81,7 +81,20 @@ sidebar_position: 1
 
 如果你想只隐藏iframe的滚动条的话, 当然可以通过`iframe::-webkit-scrollbar`实现.
 
-当然这个功能也是有危险的⚠️, 目前还处于草案阶段, 文章发布的两天前还在进行修改, 不能放心大胆地用到生产里. 此选择器只能在支持WebKit的浏览器(Safari, Chrome, 群友说小程序也行)上使用. 
+当然这个功能也是有危险的⚠️, 目前还处于草案阶段, 文章发布的两天前还在进行修改, 不能放心大胆地用到生产里. 此选择器只能在支持WebKit的浏览器(Safari, Chrome, 群友说小程序也行)上使用.
+
+## 设置滚动条宽度为0
+
+---
+
+直接
+```
+html {
+  scrollbar-width: none;
+}
+```
+
+> 几个有趣的滚动条样式: scrollbar-width: thin/normal; scrollbar-color: red green. (和上面伪元素差不多, 但是写起来方便一点, 适配更好)
 
 ## 课代表总结
 
@@ -91,8 +104,8 @@ sidebar_position: 1
 ```
 <iframe
   src="..."
-  scrolling="no" 
-  style="overflow: hidden;" 
+  scrolling="no"
+  style="overflow: hidden;"
   ...
 >
 </iframe>
@@ -107,9 +120,15 @@ sidebar_position: 1
 ```
 <head>
   <style>
-    ::-webkit-scrollbar { 
+    ::-webkit-scrollbar {
       display: none;
     }
   </style>
 </head>
+```
+4. scrollbar-width隐藏滚动条:
+```
+html {
+  scrollbar-width: none;
+}
 ```
