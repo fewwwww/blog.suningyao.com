@@ -119,6 +119,7 @@ export default Window
     ✅: 给"拖动时计算位移的距离"这一步加上一个小于1的比值, 让它慢一点就可以, 或者灵活调整.
 
 3. 应用的大小是用`vw`和`vh`做单位的
+
     🐛: 我们在给"应用加上缩小放大的距离"这一步时, 计算出来的差值都是`px`的, 没法直接加上去.
 
     ✅: 处理一下就可以加上去了. 还记得`vw`和`vh`咋计算出来的吗, 给差值除以一个屏幕的大小就可以. 我们在一开始就获取屏幕大小, 然后到时候计算的时候加一个值就好了.
@@ -135,7 +136,20 @@ export default Window
 
 - 找一找有没有HTML原生的解决方案
 
-- 优化并减少渲染次数
+- 优化并减少渲染次数 (由于用的是类组件, 所以没法用`useCallback`, 可以直接简单粗暴随机选择是否渲染...)
+
+```javascript
+calcResizeChange = (event) => {
+    if (this.isResizing) {
+        this.resizeDifferenceX = ((event.clientX - this.beforeResizeMouseX)/this.windowWidth) * 0.8
+        this.resizeDifferenceY = ((event.clientY - this.beforeResizeMouseY)/this.windowHeight) * 0.8
+        if (Math.floor(Math.random() * 4) === 0) {
+            this.setState({width: this.state.width + this.resizeDifferenceX})
+            this.setState({height: this.state.height + this.resizeDifferenceY})
+        }
+    }
+}
+```
 
 - 精读别人写的库, 借鉴过来
 
