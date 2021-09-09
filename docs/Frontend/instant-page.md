@@ -12,7 +12,7 @@ sidebar_label: '通过预加载提高页面加载速度💫'
 
 把这段代码放在`</body>`前面. 完事.
 
-```
+```html
 <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
 ```
 

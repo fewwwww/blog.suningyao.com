@@ -20,7 +20,7 @@ Redux是状态管理库, 帮助在复杂应用中管理全局的状态. 有一�
 
 - 创建一个React项目, 引入Redux库.
 
-    ```
+    ```s
     npx create-react-app redux-demo
     npm install @reduxjs/toolkit react-redux
     ```
@@ -28,14 +28,14 @@ Redux是状态管理库, 帮助在复杂应用中管理全局的状态. 有一�
 - 确定组件需求
 
     我们要完成一个组件, 组件要实现一个Counter(Add button), 一个Post(Input, Submit button).
-    
+
     我们一步步拆解, 完成这个组件的搭建. 最好一定要跟着写, 写完就懂了.
 
 > 我们所处理的文件为`index.js`.
 
 - 引入依赖
 
-    ```
+    ```js
     import {createStore} from "@reduxjs/toolkit";
     import * as ReactDOM from "react-dom";
     import {useState} from "react";
@@ -44,12 +44,12 @@ Redux是状态管理库, 帮助在复杂应用中管理全局的状态. 有一�
     这步就先不用管, 接着写就完事了.
 
 - 创建reducer
-    
+
     看过useState源码的朋友们可能知道, useState其实就是一个useReducer. Reducer的作用类似就是把东西过滤一遍.
-    
+
     我们这里的reducer就是把用户发过来的action和现在的全局状态处理一遍, 返回更新后的状态.
 
-    ```
+    ```js
     const reducers = (state = {value: 0, post: "Default"}, action) => {
       switch (action.type) {
         case "ADD":
@@ -66,35 +66,35 @@ Redux是状态管理库, 帮助在复杂应用中管理全局的状态. 有一�
       }
     }
     ```
-  
-    reducer是个纯函数, 接收state(默认值是一个对象, value为0, post为"Default"字符串)和action(客户端发过来的, 之后会解释), 返回最新的state. 
-      
+
+    reducer是个纯函数, 接收state(默认值是一个对象, value为0, post为"Default"字符串)和action(客户端发过来的, 之后会解释), 返回最新的state.
+
     然后通过switch把不同type的action分配到不同的操作里, ADD操作就是把老state的value+1, POST操作就是把action里的post内容更新到state里.
 
 - 创建store
 
-    ```
+    js
     let store = createStore(reducers);
     ```
-    
+
     创建一个store, 把我们刚刚的reducer传进去.
 
 - 组件本体
 
     这里就直接在组件里注释解释.
-    
-    ```
+
+    ```js
     const App = () => {
     // 组件内部状态:
       // 创建组件value的state, 默认值是store最新的state里的value.
       const [value, setValue] = useState(store.getState().value)
       // 创建组件post的state, 默认值是store最新的state里的post.
       const [post, setPost] = useState(store.getState().post)
-    
+
     // 组件暂存输入框内容状态:
       // 创建暂时存储post输入框内容的state, 默认值为空.
       const [tempPost, setTempPost] = useState('')
-    
+
     // 组件联系store:
      // 订阅store的变化, 有变化就把更新的state挂到组件的state上.
       store.subscribe(() => {
@@ -103,7 +103,7 @@ Redux是状态管理库, 帮助在复杂应用中管理全局的状态. 有一�
         // 拉取store中最新post到组件post状态上.
         setPost(store.getState().post)
       })
-    
+
     // 组件回调函数:
       // 每次点加按钮, 就会发action到store.
       const onADD = () => {
@@ -115,7 +115,7 @@ Redux是状态管理库, 帮助在复杂应用中管理全局的状态. 有一�
         // 把tempPost清空, 让输入框重新变空.
         setTempPost('')
       }
-    
+
       return (
         <div className="App">
         // Counter:
@@ -124,7 +124,7 @@ Redux是状态管理库, 帮助在复杂应用中管理全局的状态. 有一�
           {/* 把回调函数挂到button上, 点击一次就发一次ADD的action */}
           <button onClick={onADD}>ADD</button>
           {/* 显示组件内部state的post */}
-          
+
         // Post:
           <h1>{post}</h1>
           {/* 每当输入框内容变化, 就会把tempPost更新成输入框内的内容 */}
@@ -135,12 +135,12 @@ Redux是状态管理库, 帮助在复杂应用中管理全局的状态. 有一�
       );
     }
     ```
-    
+
     > 记得我们reducer里default返回的是state吗? 如果返回空值, 这里组件初始化state的时候会报错.
 
 - 渲染组件
 
-  ```
+  ```js
   ReactDOM.render(<App/>,document.getElementById("root"))
   ```
 
@@ -153,7 +153,7 @@ App发出action(store.dispatch) => reducer接收action, 过滤发给store(switch
 完整代码+注释如下:
 
 `index.js`
-```
+```js
 import {createStore} from "@reduxjs/toolkit";
 import * as ReactDOM from "react-dom";
 import {useState} from "react";
@@ -239,7 +239,7 @@ ReactDOM.render(<App/>,document.getElementById("root"))
 试过了才发现, 这个貌似真没什么讲的, 直接安装配置完上代码..
 
 `hello.test.js`
-```
+```js
 // 声明是测试Stack这个类, 第一个参数是console打印的描述, 后面的callback是测试具体内容.
 describe("Stack: ", () => {
   // 我们需要有个stack变量供测试, 先不用赋值.

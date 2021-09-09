@@ -9,7 +9,7 @@ sidebar_position: 3
 ---
 
 我最近几个月一直在参与[VioLegacy](https://violegacy.org/)网站的建设. 前端的技术栈是`Vue`. 说实话一开始参与的时候我是懵的, 因为没怎么用过`Vue`, 平常大多是用`React`,
-后来我边看边学边写, 同时把样式的部分所有的活都揽下来了, 这才到现在一直显得很会写`Vue`. 
+后来我边看边学边写, 同时把样式的部分所有的活都揽下来了, 这才到现在一直显得很会写`Vue`.
 
 这几周大家一直在搞SEO的事情, 我加了几个`<meta>`标签, 把SEO的评分算是完全拉满了.
 
@@ -28,7 +28,7 @@ sidebar_position: 3
 
 网站的底部有每个团队成员的照片, 代码结构类似这样:
 
-```
+```js
 <div class="team-member">
   <img
     class="round-image"
@@ -69,29 +69,29 @@ sidebar_position: 3
 
 `Vue`的团队成员做过一个[预先渲染的插件](https://github.com/chrisvfritz/prerender-spa-plugin). 这个插件配置很方便, 可以预先渲染一些文件, 然后提高加载速度.
 
-`Prerender`与`SSR`不同. 
-1. - `SSR`是用户进入网址后, 把JS先送到服务器渲染完HTML再给客户端; 
-  
-   - `Prerender`是构建时通过一个无头浏览器去渲染出HTML. 
-2. - `SSR`会增加服务器的压力, 配置麻烦; 
-  
+`Prerender`与`SSR`不同.
+1. - `SSR`是用户进入网址后, 把JS先送到服务器渲染完HTML再给客户端;
+
+   - `Prerender`是构建时通过一个无头浏览器去渲染出HTML.
+2. - `SSR`会增加服务器的压力, 配置麻烦;
+
    - `Prerender`会很大拖慢构建的速度, 就连渲染一个网址也需要十秒左右的时间.
 
 由于我们的需求只是渲染首页, 所以我选择了`Prerender`.
 
 经过简单的配置, 生成了一个充满内容的HTML文件, 但是一运行, 怎么还是需要加载那么多JS. 于是我看了下生成的文件, 发现里面数据都是缺失的, 而且样式也是.
-问题大了. 
+问题大了.
 
 因为`Prerender`还有一个问题是不怎么适用于动态数据很多的页面... 如果想要把动态数据也带上, 需要给根组件设置一个定时器, 让它把数据拿完再渲染.
 那么可能就意味着, 开发时每次构建都得额外等个5秒等数据, 这就有点得不偿失了, 甚至还不如咬咬牙上`SSR`.
 
 ### Code Splitting
 
-之后我搜索了一些优化相关的内容, 发现可以通过修改`router`来做到组件的按需加载. 
+之后我搜索了一些优化相关的内容, 发现可以通过修改`router`来做到组件的按需加载.
 
 我清晰地记得之前有看到过我们的`router`, 因为它是长这样的.
 
-```
+```js
 import Official from '../views/Official.vue'
 import LogIn from '../views/LogIn.vue'
 import SignUp from '../views/SignUp.vue'
@@ -121,7 +121,7 @@ import Report from '../views/Main/Report.vue'
 
 为了优化这个情况, 可以[这样做](https://www.bacancytechnology.com/blog/vuejs-app-performance-optimization#3):
 
-```
+```js
 const routes = [
   {
     path: '/',
@@ -147,7 +147,7 @@ const routes = [
 
 那么我们就可以拆分大文件, 做到浏览器空闲的时候也有东西可下载. 这样并发连接可以更有效率. 最理想的情况就是所有线程同时结束.
 
-```
+```js
   configureWebpack: {
     optimization: {
       splitChunks: {

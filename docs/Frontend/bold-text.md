@@ -16,7 +16,7 @@ sidebar_position: 1
 
 于是我是这么通过HTML和CSS实现的
 
-```
+```html
 <div style="display: flex;">
   <div style="text-align: right; width: 11ch;">Programming</div>
   <div style="margin-left: 2ch;">
@@ -49,7 +49,7 @@ CSS实现的效果是这样的:
 
 ### 为什么出bug呢?
 
-这不坑人吗这不是. Programming加粗前好好的是11个字符的宽度, 加粗后超出去了. 
+这不坑人吗这不是. Programming加粗前好好的是11个字符的宽度, 加粗后超出去了.
 
 我快速地想到了一个办法, 那实在不行就稍微宽一点, 设置成12ch不就好了.
 
@@ -63,7 +63,7 @@ CSS实现的效果是这样的:
 
 ### 为什么不出bug呢?
 
-虽然我们通过将宽度设置为12ch解决了11ch的文字加粗后大小变大的问题. 
+虽然我们通过将宽度设置为12ch解决了11ch的文字加粗后大小变大的问题.
 
 但是为什么11个字符加粗后是12个字符的宽度呢?
 
@@ -80,42 +80,42 @@ CSS实现的效果是这样的:
 但是我找到了很多和我遇到相同问题的人.
 
 这个 [贴主](https://stackoverflow.com/questions/5687035/css-bolding-some-text-without-changing-its-containers-size) 的ul元素一hover上去粗体就宽了;
-这个 [贴主](https://stackoverflow.com/questions/556153/inline-elements-shifting-when-made-bold-on-hover) 的行内元素一hover上去粗体就宽了; 
-[这位](https://stackoverflow.com/questions/17650360/change-of-font-weight-to-bold-is-unwantingly-changing-width-of-element) 也是; 
+这个 [贴主](https://stackoverflow.com/questions/556153/inline-elements-shifting-when-made-bold-on-hover) 的行内元素一hover上去粗体就宽了;
+[这位](https://stackoverflow.com/questions/17650360/change-of-font-weight-to-bold-is-unwantingly-changing-width-of-element) 也是;
 [这位](https://bbs.csdn.net/topics/90395001?list=1569273) 更是重量级, 2006年发的帖子到现在没回复(他的帖子中不是HTML和CSS, 应该是某个桌面App开发时的问题, 这侧面印证了可能就是单纯字体的问题).
 
 从大家的讨论中我找到了几个好的解决方案:
 
 - 最好的解决方法:
   通过`text-shadow`来给字体加个阴影
-  ```
-  li:hover { 
-    text-shadow: -0.06ex 0 black, 0.06ex 0 black; 
+  ```css
+  li:hover {
+    text-shadow: -0.06ex 0 black, 0.06ex 0 black;
   }
   ```
   ![nice text bold](/img/css-bold/6.png)
-  
+
   左侧为normal, 中间为text-shadow, 右侧为bold.
-  
-  > 这是万能解决方法, 浏览器适配比较完美, 但是放大稍微有点晕影. 
+
+  > 这是万能解决方法, 浏览器适配比较完美, 但是放大稍微有点晕影.
 
 - 未来的解决方法:
-  
+
   通过`font-variation-settings`
-  ```
-  li:hover { 
-   font-variation-settings: 'GRAD' 150; 
+  ```css
+  li:hover {
+   font-variation-settings: 'GRAD' 150;
   }
   ```
-  
+
   效果也非常好
-  
+
   ![future text bold](/img/css-bold/7.gif)
 
-  看了下 [谷歌的开发者文档](https://web.dev/variable-fonts/#axes_definitions) 发现是2018年出来的更新. 但查了[Mozilla的文档](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide), 
-  发现这个属性需要比较新的操作系统; 同时在[caniuse上](https://caniuse.com/?search=font-variation-settings), 这个属性的适配也暂时不太好. 相较于前一种方法没有本质区别. 
-  
-  > 所以在本文完成的当下(2021.07), 还不太能放心使用. 
+  看了下 [谷歌的开发者文档](https://web.dev/variable-fonts/#axes_definitions) 发现是2018年出来的更新. 但查了[Mozilla的文档](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide),
+  发现这个属性需要比较新的操作系统; 同时在[caniuse上](https://caniuse.com/?search=font-variation-settings), 这个属性的适配也暂时不太好. 相较于前一种方法没有本质区别.
+
+  > 所以在本文完成的当下(2021.07), 还不太能放心使用.
 
 - 有限制的解决方法:
   ```

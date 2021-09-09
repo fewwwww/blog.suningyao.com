@@ -22,7 +22,7 @@ sidebar_position: 1
 
 这种方法会彻底禁用滚动的功能, 实现如下:
 
-```
+```html
 <iframe
   src="..."
   scrolling="no"
@@ -48,7 +48,7 @@ sidebar_position: 1
 
 实现如下:
 
-```
+```html
 <div style="width: 400px; overflow: hidden">
   <iframe src="https://blog.suningyao.com" width="407"height="480">
 </div>
@@ -67,7 +67,7 @@ sidebar_position: 1
 
 通过这个选择器隐藏滚动条很方便, 实现如下:
 
-```
+```html
 <head>
   <style>
     ::-webkit-scrollbar {
@@ -101,7 +101,7 @@ html {
 ---
 
 1. 禁用iframe滚动条:
-```
+```html
 <iframe
   src="..."
   scrolling="no"
@@ -111,13 +111,13 @@ html {
 </iframe>
 ```
 2. 遮掉iframe滚动条:
-```
+```html
 <div style="width: 400px; overflow: hidden">
   <iframe src="https://blog.suningyao.com" width="407"height="480">
 </div>
 ```
 3. 新选择器原生移除滚动条:
-```
+```html
 <head>
   <style>
     ::-webkit-scrollbar {
@@ -127,7 +127,7 @@ html {
 </head>
 ```
 4. scrollbar-width隐藏滚动条:
-```
+```css
 html {
   scrollbar-width: none;
 }

@@ -9,9 +9,9 @@ sidebar_position: 1
 
 ## 为什么要做?
 
-我们的 [VioLegacy](https://violegacy.org/) 是一个求职内推网站, 所以一些页面需要显示大量的公司Logo图片. 
+我们的 [VioLegacy](https://violegacy.org/) 是一个求职内推网站, 所以一些页面需要显示大量的公司Logo图片.
 
-在最初Logo图片全都是默认的, 由于密密麻麻全是同样的图片, 所以看多了会有点厌倦. 
+在最初Logo图片全都是默认的, 由于密密麻麻全是同样的图片, 所以看多了会有点厌倦.
 
 我开始采用了 [simple icons](https://simpleicons.org/) 的方法解决. 通过拉取全部Logo名称弄一个map, 然后`v-if: "company in iconsList"`, then `:src="...simpleicons/apple.svg"`, 但是由于是svg, 所以颜色都是黑色, 不太好看.
 
@@ -27,7 +27,7 @@ sidebar_position: 1
 
 `companyList.vue`(显示图片的组件)
 
-```
+```js
 <div
   class="container"
   // 如果公司名不在无法爬取的公司名列表中
@@ -64,7 +64,7 @@ const getIconSRC = (companyName) => {
 
 一定要给你的网站加个链接标签, 感谢API的提供者! 开源不易, 免费不易!
 
-```
+```js
 <a href="https://clearbit.com">Logos provided by Clearbit</a>
 ```
 
@@ -109,7 +109,7 @@ Favicon就是每个窗口标签页里标题左侧的小图标, 比如你现在�
 #### 2. 正则表达处理字符串
 
 发了几次请求都是404. 最后一看原来忘记把字符大小写和空格处理掉了. 这个好弄, 用生成器生成就行.
-```
+```js
 companyName = companyName.toLowerCase().replace(/ /g,'');
 companyName = companyName.replace(/\./g, '');
 companyName = companyName.replace(/\&/g, 'and');
@@ -150,7 +150,7 @@ companyName = companyName.replace(/\&/g, 'and');
 
 `getCompanyIcons.js`
 
-```
+```js
 const getCompanyIcons = (companyNames) => {
   let companyIcons = {}
   for (let companyName of companyNames) {
@@ -173,7 +173,7 @@ export default getCompanyIcons;
 
 `allCompanies.vue` (手动爬虫部分, 完成后注释掉)
 
-```
+```js
 ...
 
 const getAllCompanyNames = (companies) => {
@@ -194,7 +194,7 @@ const companiesCanGetIcons = await getCompanyIcons(companyNames.value)
 
 `companyList.vue`(显示图片的组件)
 
-```
+```js
 ...
 
   <div
@@ -216,7 +216,7 @@ const companiesCanGetIcons = await getCompanyIcons(companyNames.value)
     />
   </div>
 
-...  
+...
 
   const companiesCanGetIcons = {"akqa":"https://www.akqa.com/assets/images/favicon/favicon-32x32.png", .......}
 
