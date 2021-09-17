@@ -26,7 +26,11 @@ High School ECIC](http://www.jianping.com.cn/web/index1.html?id=1411&cid=133) (�
 About my experience, I spent a wonderful month at [Microsoft AIoT Lab](https://www.microsoftiotinsiderlabs.com/) (微软人工智能与物联网实验室) in Shanghai, working on an embedded engineering project
 and helping clients of Microsoft Azure build 3d shells for prototypes.
 
-Now I am working at [UnionPay](https://cn.unionpay.com) (中国银联) with Blockchain team (区块链与数字货币组) at Fintech Research Group (金融科技研究院).
+In Summer 2021, I worked at [UnionPay](https://cn.unionpay.com) (中国银联) with Blockchain team (区块链与数字货币组) at Fintech Research Group (金融科技研究院).
+
+I am now working for Foresight Ventures, a vc focus on blockchain projects. I am providing technical insights for the team by analyzing the source code of blockchain projects.
+
+I will be working at [CertiK](https://www.certik.io/) as SDE Intern (basically the best blockchain security company on the Earth) in Summer 2022.
 
 ### Project
 I am currently working on [WeLightProject](https://github.com/WeLightProject), an open-source community founded by SUIBE (上海对外经贸大学) 's [blockchain research center](https://suibe.net). I am building a operating system-like `React` WebApp bridging developer tools together.
