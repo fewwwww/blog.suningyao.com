@@ -28,7 +28,7 @@ and helping clients of Microsoft Azure build 3d shells for prototypes.
 
 In Summer 2021, I worked at [UnionPay](https://cn.unionpay.com) (中国银联) with Blockchain team (区块链与数字货币组) at Fintech Research Group (金融科技研究院).
 
-I am now working for Foresight Ventures, a vc focus on blockchain projects. I am providing technical insights for the team by analyzing the source code of blockchain projects.
+I am now working for Foresight Ventures, a VC focus on blockchain projects. I am providing technical insights for the team by analyzing the source code of blockchain projects.
 
 I will be working at [CertiK](https://www.certik.io/) as SDE Intern (basically the best blockchain security company on the Earth) in Summer 2022.
 
