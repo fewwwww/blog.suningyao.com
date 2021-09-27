@@ -4,6 +4,8 @@ sidebar_label: 'React组件拖拽改变大小功能🤗'
 
 # React组件拖拽改变大小(Resizing)功能🤗
 
+> 呜呜, CSS有[原生的property](https://www.w3schools.com/cssref/css3_pr_resize.asp)让div能resize(注意overflow: visible下不奏效). 亏我还自己手动实现, 改了几个月...
+
 ## 为啥要Resizing?
 
 最近在忙一个项目, [区块链的虚拟操作系统](https://github.com/WeLightProject/WeLightBlockchainOS). 主要做到的就是把各种区块链的工具集成到一起, 同时做成一个OS的样式, 方便开发者的开发. 基本上长这样:
@@ -134,7 +136,15 @@ export default Window
 
 之后有好几个优化的点:
 
-- 找一找有没有HTML原生的解决方案
+- 找一找有没有HTML原生的解决方案 (还真的有!呜呜)
+
+```CSS
+div {
+  resize: both;
+  overflow: auto;
+  /* overflow不能是visible.. */
+}
+```
 
 - 优化并减少渲染次数 (由于用的是类组件, 所以没法用`useCallback`, 可以直接简单粗暴随机选择是否渲染...)
 
