@@ -1,6 +1,8 @@
 # 浅谈Dfinity的云计算+区块链☁️
 
-> 本文为Foresight Ventures撰写, 已以机构身份发布于[链闻](https://www.chainnews.com/articles/385405770506.htm), [火星财经](https://news.huoxing24.com/20210930133115842687.html)等平台。
+> 本文为Foresight Ventures撰写, 已以机构身份发布于[链闻](https://www.chainnews.com/articles/385405770506.htm), [火星财经](https://news.huoxing24.com/20210930133115842687.html)等平台.
+
+> English Version: [Medium](https://foresightventures.medium.com/dfinity-explained-serverless-blockchain-6766da343e32).
 
 ## Dfinity 概览
 
