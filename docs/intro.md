@@ -33,7 +33,7 @@ I am now working for Foresight Ventures, a VC focus on blockchain projects. I am
 I will be working at [CertiK](https://www.certik.io/) as SDE Intern (basically the best blockchain security company on the Earth) in Summer 2022.
 
 ### Project
-I am currently working on [WeLightProject](https://github.com/WeLightProject), an open-source community founded by SUIBE (上海对外经贸大学) 's [blockchain research center](https://suibe.net). I am building a operating system-like `React` WebApp bridging developer tools together.
+I am currently working on [WeLightProject](https://github.com/WeLightProject), an open-source community founded by SUIBE (上海对外经贸大学) 's [blockchain research center](https://suibe.net). I am building a operating system-like `React` WebApp bridging developer tools together. The demo is up at [os.doge.university](http://os.doge.university).
 
 I worked on [VioLegacy](https://violegacy.org/). It is a mini-linkedin for NYU students. I worked on the front end `Vue` components, building responsive design with the UI/UX team.
 
