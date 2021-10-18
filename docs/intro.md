@@ -23,12 +23,11 @@ For high school, I studied at [Shanghai Jianping
 High School ECIC](http://www.jianping.com.cn/web/index1.html?id=1411&cid=133) (建平中学国际课程班).
 
 ### Experience
-About my experience, I spent a wonderful month at [Microsoft AIoT Lab](https://www.microsoftiotinsiderlabs.com/) (微软人工智能与物联网实验室) in Shanghai, working on an embedded engineering project
-and helping clients of Microsoft Azure build 3d shells for prototypes.
+About my experience, I spent a wonderful month at [Microsoft AIoT Lab](https://www.microsoftiotinsiderlabs.com/) (微软人工智能与物联网实验室) in Shanghai.
 
 In Summer 2021, I worked at [UnionPay](https://cn.unionpay.com) (中国银联) with Blockchain team (区块链与数字货币组) at Fintech Research Group (金融科技研究院).
 
-I am now working for Foresight Ventures, a VC focus on blockchain projects. I am providing technical insights for the team by analyzing the source code of blockchain projects.
+I am now working for [Foresight Ventures](https://foresightventures.com), a VC backed by [Bitget](https://bitget.com) (Bitget's logo is [on Juventus's sleeves](https://www.juventus.com/en/news/articles/juventus-to-unveil-bitget-as-first-sleeve-partner)!) focus on blockchain and metaverse.
 
 I will be working at [CertiK](https://www.certik.io/) as SDE Intern (basically the best blockchain security company on the Earth) in Summer 2022.
 
