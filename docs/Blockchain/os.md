@@ -15,7 +15,7 @@ sidebar_position: 1
 
 - Repo: [WeLightProject/WeLightBlockchainOS](https://github.com/WeLightProject/WeLightBlockchainOS)
 
-- Doc:
+- Doc: [下载pdf](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/os-doc.pdf)
 
 - PPT:
 
