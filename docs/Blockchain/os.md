@@ -19,6 +19,10 @@ sidebar_position: 1
 
 - PPT: [下载pdf](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/os-ppt.pdf)
 
+![os-empty](/img/os/os-empty.png)
+
+![os-full](/img/os/os-full.png)
+
 ## 构思阶段
 
 ---
