@@ -17,7 +17,7 @@ sidebar_position: 1
 
 - Doc: [下载pdf](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/os-doc.pdf)
 
-- PPT:
+- PPT: [下载pdf](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/os-ppt.pdf)
 
 ## 构思阶段
 
@@ -77,9 +77,9 @@ sidebar_position: 1
 
 ---
 
-- 大狗老师牛逼
+- 感谢共同战斗的大狗老师、会枫、宁波、杨博!
 
-- 写代码的能力没有天马行空的想法重要
+- 写代码的能力其实没有天马行空的想法重要
 
 - 多多参与开源对技术能力提升巨大
 
