@@ -29,7 +29,7 @@ In Summer 2021, I worked at [UnionPay](https://cn.unionpay.com) (中国银联) w
 
 I am now working for [Foresight Ventures](https://foresightventures.com), a VC backed by [Bitget](https://bitget.com) (Bitget's logo is [on Juventus's sleeves](https://www.juventus.com/en/news/articles/juventus-to-unveil-bitget-as-first-sleeve-partner)!) focus on blockchain and metaverse.
 
-I will be working at [CertiK](https://www.certik.io/) as SDE Intern (basically the best blockchain security company on the Earth) in Summer 2022.
+I will be working at Google (Wow, Google! But I don't know if it will be remote or in-person right now) as STEP Intern in Summer 2022.
 
 ### Project
 I am currently working on [WeLightProject](https://github.com/WeLightProject), an open-source community founded by SUIBE (上海对外经贸大学) 's [blockchain research center](https://suibe.net). I am building a operating system-like `React` WebApp bridging developer tools together. The demo is up at [os.doge.university](http://os.doge.university).
