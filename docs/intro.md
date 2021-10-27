@@ -32,7 +32,7 @@ I am now working for [Foresight Ventures](https://foresightventures.com), a VC b
 I will be working at Google (Wow, Google! But I don't know if it will be remote or in-person right now) as STEP Intern in Summer 2022.
 
 ### Project
-I am currently working on [WeLightProject](https://github.com/WeLightProject), an open-source community founded by SUIBE (上海对外经贸大学) 's [blockchain research center](https://suibe.net). I am building a operating system-like `React` WebApp bridging developer tools together. The demo is up at [os.doge.university](http://os.doge.university).
+I am currently working on [WeLightProject](https://github.com/WeLightProject), an open-source community founded by SUIBE (上海对外经贸大学) 's [blockchain research center](https://suibe.net) and [nonce geek studio](https://noncegeek.com/#/). I am building a operating system-like `React` WebApp bridging developer tools together. The demo is up at [os.doge.university](http://os.doge.university).
 
 I worked on [VioLegacy](https://violegacy.org/). It is a mini-linkedin for NYU students. I worked on the front end `Vue` components, building responsive design with the UI/UX team.
 
