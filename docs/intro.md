@@ -34,6 +34,8 @@ I will be working at Google (Wow, Google! But I don't know if it will be remote 
 ### Project
 I am currently working on [WeLightProject](https://github.com/WeLightProject), an open-source community founded by SUIBE (上海对外经贸大学) 's [blockchain research center](https://suibe.net) and [nonce geek studio](https://noncegeek.com/#/). I am building a operating system-like `React` WebApp bridging developer tools together. The demo is up at [os.doge.university](http://os.doge.university).
 
+I also did knowledge sharing at [Dapp Learning](https://github.com/fewwwww/Dapp-Learning). I wrote docs about [eth.build](https://github.com/austintgriffith/eth.build) for [Web3.0 dApp Camp](https://twitter.com/Web3dAppCamp) and translated a few episodes of MIT OCW about blockchain.
+
 I worked on [VioLegacy](https://violegacy.org/). It is a mini-linkedin for NYU students. I worked on the front end `Vue` components, building responsive design with the UI/UX team.
 
 ### Activities
