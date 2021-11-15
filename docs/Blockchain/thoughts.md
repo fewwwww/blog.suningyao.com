@@ -61,10 +61,8 @@ sidebar_position: 0
 
 25. 其实上涨靠的基本上都是大趋势carry. 天时地利, 再加上自己踩对时机.
 
-## 一些名人名言
+26. 学而不思则罔, 思而不学则殆.
+
+27. 保持学习, 保持思考, 保持谦虚. 
 
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷
-
-> _"<b>It always seems impossible until it's done</b>."_  ----Nelson Mandela
-
-> _"<b>Art is not a mirror with which to reflect reality but a hammer with which to shape it</b>."_  ----Bertolt Brecht
