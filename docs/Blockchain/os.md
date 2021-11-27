@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'WeLightOS开发的心路历程❤️'
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # WeLightBlockchainOS开发的心路历程(as a tech lead)❤️

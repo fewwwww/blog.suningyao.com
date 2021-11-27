@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Ubuntu搭建Fisco区块链📠'
-sidebar_position: 2
+sidebar_position: 5
 ---
 # Ubuntu搭建Fisco区块链📠
 
@@ -208,7 +208,7 @@ ClientVersion{
         node='node3',
         agency='agency',
         topic='[
-            
+
         ]'
     },
     PeerInfo{
@@ -226,7 +226,7 @@ ClientVersion{
         node='node2',
         agency='agency',
         topic='[
-            
+
         ]'
     }
 ]
@@ -251,12 +251,12 @@ pragma solidity ^0.4.24;
 contract HelloWorld {
     // 声明变量name
     string name;
-    
+
     // 将name值更新为Hello, World!
     function HelloWorld() {
         name = "Hello, World!";
     }
-    
+
     // 调用get方法时返回name的值
     function get()constant returns(string) {
         return name;
@@ -600,9 +600,9 @@ cd ~/fisco/console/
 > 本步骤项目源码可以通过如下命令直接获得, 获得后可以直接跳过本步骤:
 > ```
 > cd ~/fisco
-> 
+>
 > curl -#LO https://github.com/FISCO-BCOS/LargeFiles/raw/master/tools/asset-app.tar.gz
-> 
+>
 > # 解压得到Java工程项目asset-app
 > tar -zxf asset-app.tar.gz
 > ```
@@ -952,9 +952,9 @@ public class AssetClient {
 - 在`asset-app/tool`目录下添加一个调用`AssetClient`的脚本`asset_run.sh`. 内容如下:
 
 ```
-#!/bin/bash 
+#!/bin/bash
 
-function usage() 
+function usage()
 {
     echo " Usage : "
     echo "   bash asset_run.sh deploy"

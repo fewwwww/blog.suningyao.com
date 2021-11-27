@@ -1,6 +1,6 @@
 ---
 sidebar_label: '通过互动教程学习Solidity🧟‍♂️'
-sidebar_position: 2
+sidebar_position: 5
 ---
 
 # 通过CryptoZombies快速上手Solidity🧟‍♂️
