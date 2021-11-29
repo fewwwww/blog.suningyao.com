@@ -69,4 +69,8 @@ sidebar_position: 0
 
 29. DAO 就是白嫖之王. 项目无, 代码无, 白皮书无, 做个官网喊个口号就可以开干.
 
+30. Web2: 你就是产品; Web3: 产品是你的.
+
+31. Web1: get data; Web2: get/post data; Web3: get/post/own data.
+
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷
