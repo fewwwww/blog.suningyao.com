@@ -73,4 +73,6 @@ sidebar_position: 0
 
 31. Web1: get data; Web2: get/post data; Web3: get/post/own data.
 
+32. [Pied Piper](https://www.hbo.com/silicon-valley) 牛逼.
+
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷

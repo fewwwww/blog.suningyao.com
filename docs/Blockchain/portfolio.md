@@ -46,3 +46,9 @@ sidebar_position: 1
 - **ConstitutionDAO**:
 
     蛮喜欢无脑冲的这种成就感爆满的项目. 捐少了, 目前大概2,30倍的样子 (15倍走了). 不太喜欢DAO.
+
+## Metaverse:
+
+- **Realy**:
+
+    和非常喜欢的 Higher Brothers 合作的一个元宇宙 NFT 潮流平台. 很喜欢. 跟投的时候钱打到公司老账户去了, 还好没事, 晕...

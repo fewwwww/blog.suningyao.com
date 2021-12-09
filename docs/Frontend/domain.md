@@ -16,6 +16,8 @@ sidebar_label: '我的一些域名(Web2,Web3)☎️'
 - sny.is -> 在银联的时候买的 跳转官网
 - sayaka.io -> 乙白沙耶加的沙耶加 跳转官网
 - cryto.io -> 拼错了的crypto, 洗澡时候想到的 跳转官网
+> 红杉的沈南鹏也拼错了哈哈, 希望未来有人做项目用这个域名
+![cryto](/img/domain/cryto.jpg)
 - nonce.vc -> vc域名 之后可能用
 - foresight.ventures -> 公司域名 转给公司了
 - hellcat.co -> 学ThreeJS 做的demo
