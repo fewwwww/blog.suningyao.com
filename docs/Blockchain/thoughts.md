@@ -75,4 +75,6 @@ sidebar_position: 0
 
 32. [Pied Piper](https://www.hbo.com/silicon-valley) 牛逼.
 
+33. **一切为了赚钱.** 股权不投, 没有币圈基因. 要花时间精力孵化的不投. 
+
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷
