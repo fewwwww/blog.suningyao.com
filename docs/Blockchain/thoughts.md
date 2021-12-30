@@ -83,4 +83,6 @@ sidebar_position: 0
 
 35. 找到属于自己的圈子, 并且要敢于做那个质疑的人.
 
+36. [ARWEAVE YYDS!](https://twitter.com/msfew_eth/status/1476656262326665219)
+
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷

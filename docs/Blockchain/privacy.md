@@ -1,5 +1,8 @@
 # 读懂隐私: Web3 的另一面 🎭
-msfew@Foresight Ventures
+
+> 本文为Foresight Ventures撰写, 已以机构身份发布于[登链社区](https://learnblockchain.cn/article/3336)等平台, 推荐在[Foresight Research 公众号](https://mp.weixin.qq.com/s/b3wpHokezq3giknXxb1flQ)上阅读.
+
+> English Version: [Medium](https://foresightventures.medium.com/foresight-ventures-another-side-of-web3-privacy-144c92a6d61a).
 
 # 0. 概要
 
@@ -8,7 +11,7 @@ WEB3.0 时代, 用户拥有链上数据, 数据公开透明可追溯. 我们仿�
 以下为文章的思维导图:
 
 
-![](https://files.mdnice.com/user/23564/b67ed034-bc46-472f-96e4-c66b60fdd781.png)
+![](/img/privacy/mind-map.png)
 
 
 ## Web2 时代, 我们没有隐私
@@ -17,7 +20,7 @@ WEB3.0 时代, 用户拥有链上数据, 数据公开透明可追溯. 我们仿�
 
 在中本聪举的例子中, 区块链的隐私设计是从“银行进化到比特币网络”. 我们可以从这个例子里来引申到“Web2 到 Web3”的隐私设计中. **我们假设 Web3 的底层网络会是一个像比特币一样的区块链网络. 那么我们所讨论的隐私都会有交易公开, 数据开源和去中心化的前提.**
 
-![](https://files.mdnice.com/user/23564/523d9940-1d4f-48f4-8c00-122234b0ccb2.jpg)
+![](/img/privacy/dog.jpg)
 
 
 我们其实很早就意识到互联网中隐私的重要性. 在接触网络的时候, 小学信息课老师以及父母会让你千万不要在可怕的互联网上暴露真名, 毕竟你不知道屏幕后面是谁.
@@ -36,7 +39,7 @@ Web3 时代, 假设我们所做的所有交互以及网络踪迹都是在进行�
 - 真正的隐私 (Privacy) 应该是匿名 + 保密, 指的是: 交易的所有内容, 包括交易发送者, 交易接收者, 转账金额都需要是非公开的.
 
 
-![](https://files.mdnice.com/user/23564/e5d4fb60-fa3b-4dfb-aa1f-e453da8c024e.png)
+![](/img/privacy/privacy.png)
 
 
 在此基础上, 更进一步的隐私是, **Web3 用户需要被赋予在交易发送前选择是否公开数据的权利, 让用户主动选择这条交易是否需要隐私**. 而交易后, 用户主动选择对交易执行的隐私, 在区块链不可篡改的特点下, 可能比较难实现.
@@ -51,7 +54,7 @@ Web3 时代, 假设我们所做的所有交互以及网络踪迹都是在进行�
 > 用户数据不应该是产品. 用户对数据有绝对控制和所有权, 能保证数据的归属和杜绝平台对数据的非授权操作, 是一种隐私的体现.
 >
 
-![](https://files.mdnice.com/user/23564/3023c87e-607e-4c52-a533-fdde554c7ecd.jpg)
+![](/img/privacy/web2.jpg)
 
 **Web2 时代, [用户就是产品](https://arkenea.com/blog/big-tech-companies-user-worth/).** 回想一下, 是不是几乎所有搜索引擎, 电商平台, 视频网站都有无数的广告? Web2 时代的公司把用户数量当作财产, 用户就是他们广告的收益的来源. 从 Cookie 追踪到 Google Analytics, 你执行的每一个操作, 在页面上停留几秒, 都会被追踪下来. 而你或许只是给那些从来没有人看的隐私协议上打了勾. 在未来, 网络逐渐更加普及后, 更多的用户和数据会涌入互联网, 给专门做数据窃取的公司带来更加丰厚的报酬. Web2 时代, 默认的情况就是用户没有隐私, 用户没有对数据的控制与所有权.
 
@@ -81,7 +84,7 @@ Web2 平台的应用像是农场主, 会给用户圈一块地, 24小时监控着
 
     最近 everFinance 做了一个 Arweave 上的 [Mirror 搜索引擎](https://askmirror.xyz/). 其中任何的数据都是从 Arweave 这个去中心化网络上拿取的. 用户将不会有顾虑是否某一天自己心爱的媒体平台因为各种压力而被下架. 如果想通过 Arweave 的永久数据 BUIDL 更多平台, 可以尝试使用这个[开源库](https://github.com/decentldotland/weave-aggregator).
 
-![](https://files.mdnice.com/user/23564/8703d516-ba70-470a-8477-b15cb8ef6839.jpg)
+    ![](/img/privacy/ar.jpg)
 
 - **加密钱包**
 
@@ -109,7 +112,7 @@ Web3 趋势下, 几乎所有的用户数据都可随意查看, 而如何使用�
 
 比如, 下图中是某个黑客的地址, 他在网上爬别人泄露的私钥, 然后被害者一领空投就会被黑客转走. 我们可以清晰地看到他的犯罪过程. 虽然我们审视他的犯罪过程是很正义的, 但是这泄露了他的隐私......
 
-![](https://files.mdnice.com/user/23564/262722c8-845a-4fdc-a224-3668d4e6c1cd.png)
+![](/img/privacy/hacker.png)
 
 一种很简单暴力的方法来实现隐私交易, 就是将账户和交易全部加密然后解密. 但是这样的方法由于还得涉及到网络对交易的验证, 所以非常昂贵和耗时.
 
@@ -127,7 +130,7 @@ Web3 趋势下, 几乎所有的用户数据都可随意查看, 而如何使用�
 
     [zk.money](http://zk.money) 的使用流程为: 用户将资金从主网存入到 Layer2, 生成证明 → 用户在 Layer2 上进行发送操作(具有隐私保护) → 用户将资金提取到主网
 
-![](https://files.mdnice.com/user/23564/ebc19c6b-8b01-4d9b-9399-2918279ded73.jpeg)
+    ![](/img/privacy/aztec.jpeg)
 
 - **tornado.cash**
 
@@ -137,7 +140,7 @@ Web3 趋势下, 几乎所有的用户数据都可随意查看, 而如何使用�
 
     它通过一个智能合约作为交易中间过程中的黑盒, 来打破发送者和接收者的联系. 发送者在存款时提供保密的哈希值, 接收者 (可以是发送者自己) 在提现时只需要提供一个 zkSNARK 证明就可以来直接接受存款.
 
-![](https://files.mdnice.com/user/23564/18ec2480-6938-4007-b175-6eda8325a59e.svg)
+    ![](/img/privacy/tornado.svg)
 
 除此之外还有 monero, ZCash, DASH 等隐私交易的公链, 基本也是通过零知识证明和混币等技术来实现隐私交易来实现保密.
 
@@ -151,7 +154,7 @@ Web3 趋势下, 几乎所有的用户数据都可随意查看, 而如何使用�
 隐私计算在数据隐私的隐私交易上更近一步, 拓展到了图灵完备的智能合约上. 智能合约的隐私保护主要聚焦在智能合约的执行过程, 将执行中涉及到的数据以及中间状态对第三方与执行智能合约的节点进行屏蔽. **隐私计算技术分为三大方向: 密码学 (如多方安全计算 MPC), AI 技术 (如联邦学习), 可信执行环境 (如 SGX).**
 
 
-![](https://files.mdnice.com/user/23564/b5666288-1bbc-4b48-a0b1-a1863a7801db.png)
+![](/img/privacy/computation.png)
 
 
 多方安全计算通常借助多种底层密码框架完成, 主要包括不经意传输(Oblivious Transfer，OT), 混淆电路(Garbled Circuit，GC), 秘密共享(Secret Sharing，SS) 和同态加密(Homomorphic Encryption HE)等. 本文中不做拓展.
@@ -170,7 +173,7 @@ Web3 趋势下, 几乎所有的用户数据都可随意查看, 而如何使用�
 
     Oasis Network 的缺点主要在于可组合性低, 分层设计过于复杂, 不同 ParaTime 之间不能通信; 合约是无状态的, 应用不灵活; 应用场景依旧模糊.
 
-![](https://files.mdnice.com/user/23564/b4fce704-b7b9-4adf-bf3f-1070614547e2.png)
+    ![](/img/privacy/architecture.png)
 
 - **PlatON Network**
 
@@ -286,22 +289,6 @@ Web3 用户所有的数据你都可以随意带着走, 这让数字身份的养�
 在 Web3 时代, 我们需要数据自主权, 数据隐私, 数据计算隐私, 现实身份隐私. 同时理想中最好的隐私应用是需要以用户体验为中心的, 做到可插拔, 轻量, 心智负担小的特点.
 
 **Web3 = Get + Post + Own. Web3 时代, 每个人都会掌控自己的隐私.**
-
-# 关于 Foresight Ventures
-
-Foresight Ventures 支持创新和颠覆性的Web 3 项目. 我们相信未来的创新将由加密技术定义. 作为早期投资者, 我们希望参与项目的成长, 并从我们的生态系统中提供广泛的支持.
-
-Website:
-
-[https://www.foresightventures.com/](https://www.foresightventures.com/)
-
-Twitter:
-
-[https://twitter.com/ForesightVen](https://twitter.com/ForesightVen)
-
-Medium:
-
-[https://foresightventures.medium.com](https://foresightventures.medium.com/)
 
 # 相关文章来源:
 
