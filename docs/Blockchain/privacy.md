@@ -1,4 +1,4 @@
-# Foresight Ventures: 读懂 Web3 的另一面「隐私」
+# 读懂隐私: Web3 的另一面 🎭
 msfew@Foresight Ventures
 
 # 0. 概要
