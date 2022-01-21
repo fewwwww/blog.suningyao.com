@@ -3,11 +3,15 @@ sidebar_label: '关于区块链的一些个人思考💡'
 sidebar_position: 0
 ---
 
-# 关于(不止是)区块链的一些个人思考💡
+# 关于区块链的一些个人思考💡
+
+**Foresight Ventures 牛逼.**
 
 **搞区块链就是为了来赚钱的. 不忘初心, 牢记使命.**
 
-> 番外篇: 纽约 = 单行道 + 意大利菜 + 朋友的朋友 + 流浪汉 + 对中国人的歧视 + 文化 + 异国模特 + 做日本料理的中国人 + 西班牙语 + "弄堂" + 穿着 + 两座大桥 + 公园; 一个月内你能看到什么? 或许是隔学校一条街的中餐厅被流浪汉抢, 就在法院隔壁的学校教学楼发生枪击案, 某些人强行让你帮他买烟, 地铁口的人类排泄物, 大吼大叫的人和每条街的流浪汉. 欢迎来纽约!
+![Innovation === Innovation](/typewriter.JPG)
+
+**Innovation is innovation. 把所有所七八糟的扯的东西上链是很无聊的, 做一个Web3版本的某某东西是很无聊的. Superfluid, AsyncArt, RSS3, Arweave, Uniswap, Ethereum, BTC 这些才算是真正的 Innovation 和 Reinvention. Dfinity, Filecoin 这种真的比较没意思. 无论如何, 拉的和辣的 zInnovation 现在都发生在 Crypto 领域, 这很好.**
 
 1. 投资加密货币确实是投机, 但投资也是投机.
 
@@ -21,7 +25,7 @@ sidebar_position: 0
 
 6. 中国的场景(高并发, 移动支付, 央行)是最适合研究数字货币的. 央行把活儿分散给到了商业银行, 方便央行的制度管理和政策调整, 商业银行的活动开展和运营管理.
 
-> 巧合的是, 我在大一全年都是线上授课, 因此从未当面见到老师和同学, 恰巧写了关于人的精神自我和物理自我的关系的文章. 这和元宇宙也有所关系, 感兴趣的话可以[阅读一下](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/SuningYao-Fedbyfeed.pdf).
+> 巧合的是, 我在大一全年都是线上授课, 因此从未当面见到老师和同学, 恰巧写了关于人的精神自我和物理自我的关系的文章. 这和元宇宙也有所关系, 感兴趣的话可以[阅读一下](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/SuningYao-Fedbyfeed.pdf). 大二也水了[一篇关于去中心化的](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/SuningYao-DreamaboutDecentralization.pdf), 这篇有点瞎写.
 
 6. 加密游戏的重点是游戏, 而不是加密, 加密的部分大多只是激励机制. (211104: 这条不对, 重点就是币. 211225: 游戏要么就PPT, 专注于搞钱; 要么就搞得真的很好玩, 不然不上不下很没意思.)
 
@@ -85,6 +89,6 @@ sidebar_position: 0
 
 36. [ARWEAVE YYDS!](https://twitter.com/msfew_eth/status/1476656262326665219)
 
-37. 重要的书都应该连着读两遍，因为第二遍读的时候，你已经知道结局了，这样才能真正理解开头。另一个原因是第二遍阅读时，你有不一样的心情，可能会从另一种角度看待问题。
+37. 重要的书都应该连着读两遍, 因为第二遍读的时候, 你已经知道结局了, 这样才能真正理解开头. 另一个原因是第二遍阅读时, 你有不一样的心情, 可能会从另一种角度看待问题.
 
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷
