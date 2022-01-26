@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Arm Mac搭建Fisco区块链💪'
+sidebar_position: 6
 ---
 # Arm Mac搭建Fisco区块链💪
 

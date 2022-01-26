@@ -13,6 +13,8 @@ sidebar_position: 0
 
 **Innovation is innovation. 把所有所七八糟的扯的东西上链是很无聊的, 做一个Web3版本的某某东西是很无聊的. Superfluid, AsyncArt, RSS3, Arweave, Uniswap, Ethereum, BTC 这些才算是真正的 Innovation 和 Reinvention. Dfinity, Filecoin 这种真的比较没意思. 无论如何, 拉的和辣的 zInnovation 现在都发生在 Crypto 领域, 这很好.**
 
+**[Arweave](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/arweave-yellow-paper-cn.pdf)**
+
 1. 投资加密货币确实是投机, 但投资也是投机.
 
 2. 比特币不值钱, 美元也不值钱.

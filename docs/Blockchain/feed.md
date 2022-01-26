@@ -1,4 +1,4 @@
-# Web3时代的Feed：RSS3，CyberConnect，Project Galaxy，Showme
+# 读懂Feed: 回到过去的 Web3 🥄
 
 ## 前言
 

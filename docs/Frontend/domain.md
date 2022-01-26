@@ -25,5 +25,5 @@ sidebar_label: '我的一些域名(Web2,Web3)☎️'
 - hellcat.co -> 学ThreeJS 做的demo
 - urth.ink -> 讨要学校经费 做的项目官网
 - askperma.io -> ar搜索引擎 还没做出来 白买了
-- permapng.io -> ar搜索引擎 还没做出来 白买了
+- permapic.io -> ar搜索引擎 还没做出来 白买了
 - permajpg.io -> ar搜索引擎 还没做出来 白买了
