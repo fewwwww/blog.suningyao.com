@@ -17,7 +17,7 @@ Contact me if you want at `sy2940@nyu.edu`.
 Or if you like to see my professional [resumé](https://github.com/fewwwww/resume/raw/main/Suning%20Yao-yaosuning%40gmail.com.pdf).
 
 ### Education
-About my education, I am now at [NYU Tandon](https://engineering.nyu.edu) (纽约大学工程学院), studying Math.
+About my education, I am now at [NYU Tandon](https://engineering.nyu.edu) (纽约大学工程学院), studying Computer Science.
 
 For high school, I studied at [Shanghai Jianping
 High School ECIC](http://www.jianping.com.cn/web/index1.html?id=1411&cid=133) (建平中学国际课程班).
@@ -27,9 +27,9 @@ About my experience, I spent a wonderful month at [Microsoft AIoT Lab](https://w
 
 In Summer 2021, I worked at [UnionPay](https://cn.unionpay.com) (中国银联) with Blockchain team (区块链与数字货币组) at Fintech Research Group (金融科技研究院).
 
-I am now working for [Foresight Ventures](https://foresightventures.com), a VC backed by [Bitget](https://bitget.com) (Bitget's logo is [on Juventus's sleeves](https://www.juventus.com/en/news/articles/juventus-to-unveil-bitget-as-first-sleeve-partner)!) focus on blockchain and metaverse.
+I am now working for [Foresight Ventures](https://foresightventures.com), a VC backed by [Bitget](https://bitget.com) (Bitget's logo is [on Juventus's sleeves](https://www.juventus.com/en/news/articles/juventus-to-unveil-bitget-as-first-sleeve-partner)!) and Bitkeep (crypto wallet with 4 million users) focus on blockchain and metaverse.
 
-I will be working at Google (Wow, Google! But I don't know if it will be remote or in-person right now) as STEP Intern in Summer 2022.
+I will be working at Google Geo (the map) at the valley as STEP Intern in Summer 2022.
 
 ### Project
 I am currently working on [WeLightProject](https://github.com/WeLightProject), an open-source community founded by SUIBE (上海对外经贸大学) 's [blockchain research center](https://suibe.net) and [nonce geek studio](https://noncegeek.com/#/). I am building a operating system-like `React` WebApp bridging developer tools together. The demo is up at [os.doge.university](http://os.doge.university).

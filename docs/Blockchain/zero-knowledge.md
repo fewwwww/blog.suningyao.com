@@ -1,6 +1,14 @@
 # 从零知识到零知识证明 🎭
 
-> 全文都是对安比实验室文章的精准概括抄袭, 如果大家想好好学习的话可以搜索他们的公众号和 GitHub, 看真正的真知识.
+> 全文都是对以下文章的精准概括抄袭, 如果大家想好好学习的话可以搜索他们的公众号和 GitHub, 看真正的真知识.
+>
+> https://learnblockchain.cn/article/1078
+>
+> https://learnblockchain.cn/article/270
+>
+> https://learnblockchain.cn/article/271
+>
+> https://kndrck.co/posts/practical_guide_build_zk_dapps/
 
 ## 0. 好玩的小资料
 
@@ -78,6 +86,41 @@
 
 这下明白了吧.
 
-## 2. zk-SNARK
+## 2. zk-SNARK 的开发小教程
 
-> 没写完呢这个
+> Rust 已经入门了好几次了, 还在门外. C++ 我也是半吊子水平. 所以就先用 JS 的两个库来体验一下 SNARK 的开发.
+
+> 另一个用 JS 的原因是因为 JS 最灵活 (最方便构建屎山, 坑最多).
+
+zk-SNARK 是一种 zk 的技术. 它的全称和概念之类的其实也不必了解. 跟着开发一遍自然就能理解了. 或者可以自行搜索搜索.
+
+### a) 安装工具和库
+
+zk-SNARK 不能直接应用于计算问题. 我们首先需要将问题转换为正确的形式. 转换的第一步是将其转换为代数电路. 所以这波做 zk-SNARK 的开发, 需要用到两个库 [circom](https://github.com/iden3/circom) 和 [snarkjs](https://github.com/iden3/snarkjs).
+
+![](/img/zero-knowledge/pipeline.png)
+
+circom 是构建袋鼠电路的库, snarkjs 是纯 js 编写的对 zk-SNARK 协议的实现. 这两个库设计的时候就是互相搭配着使用的, 所以在 circom 里面构建的电路可以直接在 snarkjs 里使用.
+
+- 安装 node
+
+    ```
+    去 https://nodejs.org/en/ 装 LTS 版本的
+    ```
+
+- 打开终端, 安装 circom 和 snarkjs. (不行就 sudo
+
+    ```
+    npm install -g circom
+    npm install -g snarkjs
+    ```
+
+### b) 理清应用原理
+
+> [这篇文章](https://learnblockchain.cn/article/1078)写得七颠八倒, 错误百出. 所以我们直接干一个混币应用出来.
+
+#### 什么混币?
+
+通常链上交易都是可溯源的, 可以被追踪. 
+
+混币的目的是切断加密货币中交易发送方和接收方的联系, 做到隐私交易, 使第三方更难追踪加密货币的用途以及走向.
