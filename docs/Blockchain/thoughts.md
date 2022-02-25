@@ -9,6 +9,8 @@ sidebar_position: 0
 
 **搞区块链就是为了来赚钱的. 不忘初心, 牢记使命.**
 
+**[You see, cryptography is the only technology available to any individual today that enables defence against even the most powerful adversaries (like a mighty totalitarian regime).](https://twitter.com/amat_sophie/status/1449611174073405441)**
+
 ![Innovation === Innovation](/typewriter.JPG)
 
 **Innovation is innovation. 把所有所七八糟的扯的东西上链是很无聊的, 做一个Web3版本的某某东西是很无聊的. Superfluid, AsyncArt, RSS3, Arweave, Uniswap, Ethereum, BTC 这些才算是真正的 Innovation 和 Reinvention. Dfinity, Filecoin 这种真的比较没意思. 无论如何, 拉的和辣的 zInnovation 现在都发生在 Crypto 领域, 这很好.**
@@ -99,6 +101,6 @@ sidebar_position: 0
 
 40. 基础设施或许已经过多了.
 
-41. 创作者和粉丝和中介的关系会被 NFT 重新定义. 
+41. 创作者和粉丝和中介的关系会被 NFT 重新定义.
 
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷

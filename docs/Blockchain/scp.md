@@ -1,4 +1,4 @@
-# 读懂SCP: 基于存储的设计范式🎲
+# 读懂SCP: 基于存储设计范式🎲
 
 > 本文为Foresight Ventures撰写, 已以机构身份发布于[巴比特](https://www.defidaonews.com/media/6714782)等平台 (近期区块链媒体官网被封, 推荐在[Foresight Research 公众号](https://mp.weixin.qq.com/s/zBwkn8q_JRyKovUKijKLMQ)上阅读).
 
