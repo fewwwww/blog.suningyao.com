@@ -87,3 +87,11 @@ export default function UploadShow()  {
 [How to Build Your Own SCP App: Domain-oriented PoS Design — Token DAO 中翻英](https://medium.com/everfinance/how-to-build-your-own-scp-app-decentralized-news-media-45da1127c5fe)
 
 上面这两篇文章都是在 2022 年寒假期间在弗吉尼亚奶奶家翻译的. 当时每天都中午才起, 晚上发奋工作. 两篇文章让我有机会抢先阅读 everFinance 的先进设计, 学到不少. 挣了一点 AR 哈哈.
+
+## 社群运营
+
+### 1. ardrive/discord
+
+[Ardrive Discord 中文频道管理](/img/incubate/ardrive.png)
+
+之前一直在积极参加 Ardrive 的 [Public Drive Bounty](https://ardrive.io/pdb/). 后面就专门联系我让我做中文频道社群了, 还分配了个粉色 name tag, 很酷. Ardrive 和 AR I/O 团队很牛逼.

@@ -1,8 +1,8 @@
-# 读懂 NFT: 不止是艺术品 🌫
+# 读懂NFT: 不止是艺术品 🌫
 
 > 本文为Foresight Ventures撰写, 已以机构身份发布于[Foresight News](https://mirror.xyz/foresightnews.eth/N6Dk-b7-Fc3MQpYWOLdOrKqlqOVUbLQDVN0ixQDJXhM)等平台, 推荐在[Foresight Research 公众号](https://mp.weixin.qq.com/s/b3wpHokezq3giknXxb1flQ)上阅读.
 
-> English Version: 还没发.
+> English Version: [Medium](https://medium.com/@foresightventures/foresight-ventures-redefine-nft-music-4th-dimension-privacy-interaction-a81f011be86).
 
 # 0. 概要
 

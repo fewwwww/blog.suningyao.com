@@ -13,9 +13,11 @@ sidebar_position: 0
 
 ![Innovation === Innovation](/typewriter.JPG)
 
-**Innovation is innovation. 把所有所七八糟的扯的东西上链是很无聊的, 做一个Web3版本的某某东西是很无聊的. Superfluid, AsyncArt, RSS3, Arweave, Uniswap, Ethereum, BTC 这些才算是真正的 Innovation 和 Reinvention. Dfinity, Filecoin 这种真的比较没意思. 无论如何, 拉的和辣的 zInnovation 现在都发生在 Crypto 领域, 这很好.**
+**Innovation is innovation. 把所有所七八糟的扯的东西上链是很无聊的, 做一个Web3版本的某某东西是很无聊的. Superfluid, AsyncArt, RSS3, Arweave, Uniswap, Ethereum, BTC (货币不由胜利者发行) 这些才算是真正的 Innovation 和 Reinvention. Dfinity, Filecoin 这种真的比较没意思. 无论如何, 拉的和辣的 Innovation 现在都发生在 Crypto 领域, 这很好.**
 
-**[Arweave](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/arweave-yellow-paper-cn.pdf)**
+**[Arweave](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/arweave-yellow-paper-cn.pdf): [历史不再由胜利者书写, 而是 Arweave 书写.](https://www.forbes.com/sites/stevenehrlich/2022/02/25/a-blockchain-based-noahs-ark-is-being-used-to-preserve-a-record-of-the-ukraine-conflict/?sh=6ed865896651) 同时 Arweave 上的 SCP 代表了 Web3 无限的可能性.**
+
+**[Peteris Erins 讲自己如何做研究](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/research-for-writers.pdf), 挺认可的**
 
 1. 投资加密货币确实是投机, 但投资也是投机.
 
@@ -102,5 +104,9 @@ sidebar_position: 0
 40. 基础设施或许已经过多了.
 
 41. 创作者和粉丝和中介的关系会被 NFT 重新定义.
+
+42. 互联网传递信息, 区块链传递价值, 信息与价值是现代战争最重要的无形战场, 甚至可能比物理战争更加重要.
+
+43. [看这篇我的文章](https://mp.weixin.qq.com/s/mtpUympekLcCQRddylJzSw)
 
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷

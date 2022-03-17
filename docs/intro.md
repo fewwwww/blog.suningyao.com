@@ -32,7 +32,7 @@ I am now working for [Foresight Ventures](https://foresightventures.com), a VC b
 I will be working at Google Geo (the map) at the valley as STEP Intern in Summer 2022.
 
 ### Project
-I am currently working on [WeLightProject](https://github.com/WeLightProject), an open-source community founded by SUIBE (上海对外经贸大学) 's [blockchain research center](https://suibe.net) and [nonce geek studio](https://noncegeek.com/#/). I am building a operating system-like `React` WebApp bridging developer tools together. The demo is up at [os.doge.university](http://os.doge.university).
+I am currently working on [WeLightProject](https://github.com/WeLightProject), an open-source community founded by SUIBE (上海对外经贸大学) 's [blockchain research center](https://suibe.net) and [nonce geek studio](https://noncegeek.com/#/). I built a operating system-like `React` WebApp bridging developer tools together. The demo is up at [os.doge.university](http://os.doge.university). I also built the prototype for [a metaverse map generator](https://welightproject.github.io/tai_shang_world_generator/).
 
 I also did knowledge sharing at [Dapp Learning](https://github.com/fewwwww/Dapp-Learning). I wrote docs about [eth.build](https://github.com/austintgriffith/eth.build) for [Web3.0 dApp Camp](https://twitter.com/Web3dAppCamp) and translated a few episodes of MIT OCW about blockchain.
 
