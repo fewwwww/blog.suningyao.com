@@ -76,6 +76,17 @@ export default function UploadShow()  {
 }
 ```
 
+### 3. neonlabsorg/
+
+[#140 修正挂了的链接](https://github.com/neonlabsorg/neon-evm.docs/pull/140)
+
+在做 Neon Labs 的 DD 的时候, 发现文档的链接很多都挂了. 看了下发现应该是 base url 从 neonlabs 改成 neon-labs 了, 但是文档里用了绝对路径, 没改. 所以手动改了下链接, 依旧用了绝对路径, 但是应该是最好用相对路径就不怕 url 变了.
+
+```
+- https://doc.neonlabs.org/docs/glossary#remix
++ https://doc.neon-labs.org/docs/glossary#remix
+```
+
 ## 文档翻译
 
 ### 1. everFinance/medium
