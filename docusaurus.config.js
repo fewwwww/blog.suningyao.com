@@ -54,7 +54,7 @@ module.exports = {
             },
             {
               label: "Frontend",
-              to: "/docs/Frontend/bold-text"
+              to: "/docs/Frontend/incubate"
             },
             {
               label: "Blockchain",

@@ -99,6 +99,10 @@ export default function UploadShow()  {
 
 上面这两篇文章都是在 2022 年寒假期间在弗吉尼亚奶奶家翻译的. 当时每天都中午才起, 晚上发奋工作. 两篇文章让我有机会抢先阅读 everFinance 的先进设计, 学到不少. 挣了一点 AR 哈哈.
 
+### 3. everFinance/go-ar
+
+[Use Goar To Store Data Permanently On Arweave 中翻英](https://arweave.news/use-goar-to-store-data-permanently-on-arweave/)
+
 ## 社群运营
 
 ### 1. ardrive/discord

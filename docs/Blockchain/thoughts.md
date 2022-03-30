@@ -11,14 +11,6 @@ sidebar_position: 0
 
 **[You see, cryptography is the only technology available to any individual today that enables defence against even the most powerful adversaries (like a mighty totalitarian regime).](https://twitter.com/amat_sophie/status/1449611174073405441)**
 
-![Innovation === Innovation](/typewriter.JPG)
-
-**Innovation is innovation. 把所有所七八糟的扯的东西上链是很无聊的, 做一个Web3版本的某某东西是很无聊的. Superfluid, AsyncArt, RSS3, Arweave, Uniswap, Ethereum, BTC (货币不由胜利者发行) 这些才算是真正的 Innovation 和 Reinvention. Dfinity, Filecoin 这种真的比较没意思. 无论如何, 拉的和辣的 Innovation 现在都发生在 Crypto 领域, 这很好.**
-
-**[Arweave](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/arweave-yellow-paper-cn.pdf): [历史不再由胜利者书写, 而是 Arweave 书写.](https://www.forbes.com/sites/stevenehrlich/2022/02/25/a-blockchain-based-noahs-ark-is-being-used-to-preserve-a-record-of-the-ukraine-conflict/?sh=6ed865896651) 同时 Arweave 上的 SCP 代表了 Web3 无限的可能性.**
-
-**[Peteris Erins 讲自己如何做研究](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/research-for-writers.pdf), 挺认可的**
-
 1. 投资加密货币确实是投机, 但投资也是投机.
 
 2. 比特币不值钱, 美元也不值钱.
@@ -109,4 +101,36 @@ sidebar_position: 0
 
 43. [看这篇我的文章](https://mp.weixin.qq.com/s/mtpUympekLcCQRddylJzSw)
 
+44. [Arweave](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/arweave-yellow-paper-cn.pdf): [历史不再由胜利者书写, 而是 Arweave 书写.](https://www.forbes.com/sites/stevenehrlich/2022/02/25/a-blockchain-based-noahs-ark-is-being-used-to-preserve-a-record-of-the-ukraine-conflict/?sh=6ed865896651) 同时 Arweave 上的 SCP 代表了 Web3 无限的可能性.
+
+45. Social FUCKING Alpha!!!
+
+46. Innovation is innovation. 把所有所七八糟的扯的东西上链是很无聊的, 做一个Web3版本的某某东西是很无聊的. Superfluid, AsyncArt, RSS3, Arweave, Uniswap, Ethereum, BTC (货币不由胜利者发行) 这些才算是真正的 Innovation 和 Reinvention. Dfinity, Filecoin 这种真的比较没意思. 无论如何, 拉的和辣的 Innovation 现在都发生在 Crypto 领域, 这很好.
+
+47. ![Innovation === Innovation](/typewriter.JPG)
+
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷
+
+## BONUS! 我的研究方法
+
+《从零知识到别人口中商业互吹的研究大佬》
+
+在完全不懂区块链的时候, 我去了银联研究数字人民币. 在完全不懂公链的时候, 我去了 Foresight Ventures 研究 zk, Arweave, NFT. 接触 Crypto 差不多半年 (今天 22 年 3 月), 现在我已经进化到可以在各种 AMA 游刃有余吹认知, 吹技术实现, 吹愿景的时候了.
+
+0. 学, 抄, 写. 抄最重要, 你得知道从哪里抄.
+
+1. ~~Fuck~~ Fake it until you make it.
+
+2. [Peteris Erins 讲自己如何做研究](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/research-for-writers.pdf), 挺认可的.
+
+3. 建立并扩大每天的阅读范围, 包括但不限于推特列表、社群聊天记录、Discord 讨论、个人交流、潜在项目的投前、RSS 订阅、区块链媒体、自己脑补.
+
+4. 每天写点什么.
+
+5. 构建一个收藏夹. (我个人不倾向于公开, 因为说实话没多少人读, 而且财富密码, 干啥告诉别人)
+
+6. 别怕丢脸, 很多人比你还要傻逼.
+
+7. 专注英文区的宣传, 中文区质量普遍不高, 很好超越他们.
+
+8. [FinanceYF3 的基础研究方法](https://three-recorder-52a.notion.site/3-22-871924a4845a4e12911f54293e323954), 这位大佬的其他 list 也很牛逼.

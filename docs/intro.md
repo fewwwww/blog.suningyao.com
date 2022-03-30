@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 ---
 
 # Suning Yao
@@ -16,7 +16,10 @@ Contact me if you want at `sy2940@nyu.edu`.
 
 Or if you like to see my professional [resumé](https://github.com/fewwwww/resume/raw/main/Suning%20Yao-yaosuning%40gmail.com.pdf).
 
+Or if you want to know [the story of me](/docs/story).
+
 ### Education
+
 About my education, I am now at [NYU Tandon](https://engineering.nyu.edu) (纽约大学工程学院), studying Computer Science.
 
 For high school, I studied at [Shanghai Jianping
@@ -34,7 +37,7 @@ I spent a wonderful month at [Microsoft AIoT Lab](https://www.microsoftiotinside
 
 ### Project
 
-I am currently working on [WeLightProject](https://github.com/WeLightProject), an open-source community founded by SUIBE (上海对外经贸大学) 's [blockchain research center](https://suibe.net), aka [nonce geek studio](https://noncegeek.com/#/). I built [WeLightBlockchainOS](http://os.doge.university), [TaiShangWorldGenerator](https://welightproject.github.io/tai_shang_world_generator/), and [TaiShangArweaveUploadPlugin](https://github.com/WeLightProject/Tai-Shang-Arweave-Uploader-Plugin).
+I am currently working on [WeLightProject](https://github.com/WeLightProject), an open-source community founded by SUIBE (上海对外经贸大学) 's [blockchain research center](https://suibe.net), aka [nonce geek studio](https://noncegeek.com/#/). We are funded by Hashkey Investment, and received grants from Polygon and Moonbeam. I built [WeLightBlockchainOS](http://os.doge.university), [TaiShangWorldGenerator](https://welightproject.github.io/tai_shang_world_generator/), and [TaiShangArweaveUploadPlugin](https://github.com/WeLightProject/Tai-Shang-Arweave-Uploader-Plugin).
 
 I am working as Community Ambassador for [ArDrive](https://ardrive.io).
 
