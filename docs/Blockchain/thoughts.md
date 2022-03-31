@@ -11,6 +11,8 @@ sidebar_position: 0
 
 **[You see, cryptography is the only technology available to any individual today that enables defence against even the most powerful adversaries (like a mighty totalitarian regime).](https://twitter.com/amat_sophie/status/1449611174073405441)**
 
+**[Privacy is a tautological requirement in the sovereign individual thesis.](https://twitter.com/Crypto_McKenna/status/1509249790416232452)**
+
 1. 投资加密货币确实是投机, 但投资也是投机.
 
 2. 比特币不值钱, 美元也不值钱.
@@ -108,6 +110,10 @@ sidebar_position: 0
 46. Innovation is innovation. 把所有所七八糟的扯的东西上链是很无聊的, 做一个Web3版本的某某东西是很无聊的. Superfluid, AsyncArt, RSS3, Arweave, Uniswap, Ethereum, BTC (货币不由胜利者发行) 这些才算是真正的 Innovation 和 Reinvention. Dfinity, Filecoin 这种真的比较没意思. 无论如何, 拉的和辣的 Innovation 现在都发生在 Crypto 领域, 这很好.
 
 47. ![Innovation === Innovation](/typewriter.JPG)
+
+48. 要看一个生态是否真的有人玩, 就看是否有真正有社群的 NFT 项目, 目前来看就只有以太坊和 Solana 满足.
+
+49. 现在的 zk 都是 validity proof, [假 zk](https://twitter.com/kevinsekniqi/status/1508375273401724935), [没隐私](https://twitter.com/Crypto_McKenna/status/1509249790416232452). [很多术语都需要更新](https://twitter.com/jonwu_/status/1507102041767923712).
 
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷
 
