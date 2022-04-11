@@ -76,7 +76,7 @@ export default function UploadShow()  {
 }
 ```
 
-### 3. neonlabsorg/
+### 3. neonlabsorg/docs
 
 [#140 修正挂了的链接](https://github.com/neonlabsorg/neon-evm.docs/pull/140)
 
@@ -86,6 +86,8 @@ export default function UploadShow()  {
 - https://doc.neonlabs.org/docs/glossary#remix
 + https://doc.neon-labs.org/docs/glossary#remix
 ```
+
+项目方说后面会完全重构, 但是作为一个大项目, 这个事情还是挺紧急的.
 
 ## 文档翻译
 
@@ -99,14 +101,32 @@ export default function UploadShow()  {
 
 上面这两篇文章都是在 2022 年寒假期间在弗吉尼亚奶奶家翻译的. 当时每天都中午才起, 晚上发奋工作. 两篇文章让我有机会抢先阅读 everFinance 的先进设计, 学到不少. 挣了一点 AR 哈哈.
 
-### 3. everFinance/go-ar
+### 3. everFinance/medium
 
 [Use Goar To Store Data Permanently On Arweave 中翻英](https://arweave.news/use-goar-to-store-data-permanently-on-arweave/)
+
+### 4. everFinance/medium
+
+[How to Build Your Own SCP App: A Prototype for Next-generation Blockchainless DEXs 中翻英](https://medium.com/everfinance/how-to-build-your-own-scp-app-a-prototype-for-next-generation-blockchainless-dexs-87a6577fbd4)
+
+## AMA
+
+### 1. Arweave/BeWater Twitter Space
+
+![](/img/incubate/bewater-ama.PNG)
+
+这个是第一次搞这种, 大清早起来搞, 读稿子.
+
+### 2. Arweave/OFR Twitter Space
+
+![](/img/incubate/ofr-ama.JPG)
+
+脱稿了, 基本上感觉自己是中文圈比较能忽悠, 比较懂 AR 的人了.
 
 ## 社群运营
 
 ### 1. ardrive/discord
 
-[Ardrive Discord 中文频道管理](/img/incubate/ardrive.png)
+![Ardrive Discord 中文频道管理以及官网文档英翻中](/img/incubate/ardrive.png)
 
-之前一直在积极参加 Ardrive 的 [Public Drive Bounty](https://ardrive.io/pdb/). 后面就专门联系我让我做中文频道社群了, 还分配了个粉色 name tag, 很酷. Ardrive 和 AR I/O 团队很牛逼.
+之前一直在积极参加 Ardrive 的 [Public Drive Bounty](https://ardrive.io/pdb/). 后面就专门联系我让我做中文频道社群了, 顺便翻译文档帮忙 onboard 更多中国用户, 还分配了个粉色 name tag, 很酷. Ardrive 和 AR I/O 团队很牛逼.

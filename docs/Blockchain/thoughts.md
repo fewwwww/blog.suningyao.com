@@ -115,6 +115,16 @@ sidebar_position: 0
 
 49. 现在的 zk 都是 validity proof, [假 zk](https://twitter.com/kevinsekniqi/status/1508375273401724935), [没隐私](https://twitter.com/Crypto_McKenna/status/1509249790416232452). [很多术语都需要更新](https://twitter.com/jonwu_/status/1507102041767923712).
 
+50. 看 1000 个, 研究 100 个, 聊 10 个, 投 1 个.
+
+51. 设计上已经过度安全, 实践中却无法匹配设计.
+
+52. NFT 跨链桥的缺失主要是因为没有良好的 NFT 定价系统, 预言机喂不过来.
+
+53. 跨链桥不敢无脑用预言机, 因为很多时候它们自己的体量比 Chainlink 大.
+
+54. 社交 NFT = 奢侈品, 收藏品 NFT = 艺术品. 
+
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷
 
 ## BONUS! 我的研究方法
