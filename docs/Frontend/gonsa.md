@@ -66,6 +66,17 @@ update(): void {
 }
 ```
 
+还有就是切页面的时候要 call 一下 onPointerMove, 这样避免切的渲染时候突然会从 (0, 0) 跳到指针位置. 以及手机上没有 onmouseleave, 所以在 onclick 的时候也需要把页面的反色恢复.
+
+```js
+playDOM.onclick = function (event: any) {
+    // ...
+    model.activeView = (model.activeView + 1) % views.length;
+    // make camera not jumping
+    onPointerMove(event)
+};
+```
+
 ### 3. Web Audio API 使用
 
 由于浏览器限制, 我们无法直接播放音频, 所以需要按钮来触发音频的发声. 同时因为我们的项目分了组件, 所以我们挂了两个点击事件给两个组件.
@@ -102,7 +113,7 @@ playDOM.onclick = function () {
 #play {
     width: 30vh;
     height: 10vh;
-    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.7s;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s;
     position: fixed;
 /* ... */
 }
