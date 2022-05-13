@@ -1,9 +1,9 @@
 ---
-sidebar_label: '通过互动教程学习Solidity🧟‍♂️'
+sidebar_label: '通过互动教程学习Solidity 🧟‍♂️'
 sidebar_position: 5
 ---
 
-# 通过CryptoZombies快速上手Solidity🧟‍♂️
+# 通过CryptoZombies快速上手Solidity 🧟‍♂️
 
 找到一个很好的[学习Solidity的网站](https://cryptozombies.io/), 可以通过互动式的教程, 通过写智能合约来学习Solidity, 不用担心环境搭建, IDE配置等上来劝退的问题.
 

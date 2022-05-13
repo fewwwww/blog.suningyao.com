@@ -1,8 +1,8 @@
 ---
-sidebar_label: '我的一些域名(Web2,Web3)☎️'
+sidebar_label: '我的一些域名(Web2,Web3) ☎️'
 ---
 
-# 我手里的一些域名☎️
+# 我手里的一些域名 ☎️
 
 ## Web3
 

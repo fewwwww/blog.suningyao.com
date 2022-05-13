@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Vue项目首屏打开速度的优化⚡️'
+sidebar_label: 'Vue项目首屏打开速度的优化 ⚡️'
 sidebar_position: 3
 ---
 
-# Vue项目首屏打开速度的优化⚡
+# Vue项目首屏打开速度的优化 ⚡
 
 ## 项目的情况
 ---

@@ -1,9 +1,9 @@
 ---
-sidebar_label: '关于区块链的一些个人思考💡'
+sidebar_label: '关于区块链的一些个人思考 💡'
 sidebar_position: 0
 ---
 
-# 关于区块链的一些个人思考💡
+# 关于区块链的一些个人思考 💡
 
 **Foresight Ventures 牛逼.**
 
@@ -25,13 +25,13 @@ sidebar_position: 0
 
 6. 中国的场景(高并发, 移动支付, 央行)是最适合研究数字货币的. 央行把活儿分散给到了商业银行, 方便央行的制度管理和政策调整, 商业银行的活动开展和运营管理.
 
-> 巧合的是, 我在大一全年都是线上授课, 因此从未当面见到老师和同学, 恰巧写了关于人的精神自我和物理自我的关系的文章. 这和元宇宙也有所关系, 感兴趣的话可以[阅读一下](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/SuningYao-Fedbyfeed.pdf). 大二也水了[一篇关于去中心化的](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/SuningYao-DreamaboutDecentralization.pdf), 这篇有点瞎写.
+> 巧合的是, 我在大一全年都是线上授课, 因此从未当面见到老师和同学, 恰巧写了关于人的精神自我和物理自我的关系的文章. 这和元宇宙也有所关系, 感兴趣的话可以[阅读一下](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/doc/thoughts/SuningYao-Fedbyfeed.pdf). 大二也水了[一篇关于去中心化的](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/doc/thoughts/SuningYao-DreamaboutDecentralization.pdf), 这篇有点瞎写.
 
 6. 加密游戏的重点是游戏, 而不是加密, 加密的部分大多只是激励机制. (211104: 这条不对, 重点就是币. 211225: 游戏要么就PPT, 专注于搞钱; 要么就搞得真的很好玩, 不然不上不下很没意思.)
 
 7. 如果一定要投资加密货币, 那么只需要买入比特币, 其他的诸如以太坊或者其他垃圾币都是中心化的💩.
 
-8. 只有[比特币和以太坊的设计](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/Bitcoin系统与Ethereum系统技术特点整理.pdf) 值得研究, 其他的都是拙略的模仿者.
+8. 只有[比特币和以太坊的设计](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/doc/thoughts/Bitcoin系统与Ethereum系统技术特点整理.pdf) 值得研究, 其他的都是拙略的模仿者.
 
 9. 都怪预言机.
 
@@ -103,13 +103,13 @@ sidebar_position: 0
 
 43. [看这篇我的文章](https://mp.weixin.qq.com/s/mtpUympekLcCQRddylJzSw)
 
-44. [Arweave](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/arweave-yellow-paper-cn.pdf): [历史不再由胜利者书写, 而是 Arweave 书写.](https://www.forbes.com/sites/stevenehrlich/2022/02/25/a-blockchain-based-noahs-ark-is-being-used-to-preserve-a-record-of-the-ukraine-conflict/?sh=6ed865896651) 同时 Arweave 上的 SCP 代表了 Web3 无限的可能性.
+44. [Arweave](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/doc/thoughts/arweave-yellow-paper-cn.pdf): [历史不再由胜利者书写, 而是 Arweave 书写.](https://www.forbes.com/sites/stevenehrlich/2022/02/25/a-blockchain-based-noahs-ark-is-being-used-to-preserve-a-record-of-the-ukraine-conflict/?sh=6ed865896651) 同时 Arweave 上的 SCP 代表了 Web3 无限的可能性.
 
 45. Social FUCKING Alpha!!!
 
 46. Innovation is innovation. 把所有所七八糟的扯的东西上链是很无聊的, 做一个Web3版本的某某东西是很无聊的. Superfluid, AsyncArt, RSS3, Arweave, Uniswap, Ethereum, BTC (货币不由胜利者发行) 这些才算是真正的 Innovation 和 Reinvention. Dfinity, Filecoin 这种真的比较没意思. 无论如何, 拉的和辣的 Innovation 现在都发生在 Crypto 领域, 这很好.
 
-47. ![Innovation === Innovation](/typewriter.JPG)
+47. ![Innovation === Innovation](/img/thoughts/typewriter.JPG)
 
 48. 要看一个生态是否真的有人玩, 就看是否有真正有社群的 NFT 项目, 目前来看就只有以太坊和 Solana 满足.
 
@@ -131,6 +131,10 @@ sidebar_position: 0
 
 57. Cosmos 的卖点其实就是 App as Chain.
 
+58. Rollup 类的 Layer3 appchain 部署麻烦, subnet 部署方便, 共享安全性, 但是不 scale.
+
+59. NFT 对艺术品的投资会越来越大, 因为暴富之后还是想混 Old Money 圈子.
+
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷
 
 ## BONUS! 我的研究方法
@@ -143,7 +147,7 @@ sidebar_position: 0
 
 1. ~~Fuck~~ Fake it until you make it.
 
-2. [Peteris Erins 讲自己如何做研究](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/research-for-writers.pdf), 挺认可的.
+2. [Peteris Erins 讲自己如何做研究](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/doc/thoughts/research-for-writers.pdf), 挺认可的.
 
 3. 建立并扩大每天的阅读范围, 包括但不限于推特列表、社群聊天记录、Discord 讨论、个人交流、潜在项目的投前、RSS 订阅、区块链媒体、自己脑补.
 
@@ -151,8 +155,10 @@ sidebar_position: 0
 
 5. 构建一个收藏夹. (我个人不倾向于公开, 因为说实话没多少人读, 而且财富密码, 干啥告诉别人)
 
-6. 别怕丢脸, 很多人比你还要傻逼.
+6. 别怕丢脸, 很多人比你还要傻逼, 而且傻逼得多了.
 
 7. 专注英文区的宣传, 中文区质量普遍不高, 很好超越他们.
 
-8. [FinanceYF3 的基础研究方法](https://three-recorder-52a.notion.site/3-22-871924a4845a4e12911f54293e323954), 这位大佬的其他 list 也很牛逼.
+8. [FinanceYF3 的基础研究方法](https://three-recorder-52a.notion.site/3-22-871924a4845a4e12911f54293e323954).
+
+9. 虽然内行看笑话, 但是当傻逼不丢脸, 大胆说, 大胆写.

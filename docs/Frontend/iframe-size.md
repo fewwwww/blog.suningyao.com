@@ -1,8 +1,8 @@
 ---
-sidebar_label: 'CSS帧框内部内容过大和滤镜🔬'
+sidebar_label: 'CSS帧框内部内容过大和滤镜 🔬'
 sidebar_position: 2
 ---
-# CSS解决帧框内元素由于vw或vh而过大或过小以及CSS3的grayscale滤镜🔬
+# CSS解决帧框内元素由于vw或vh而过大或过小以及CSS3的grayscale滤镜 🔬
 
 ## 起因
 

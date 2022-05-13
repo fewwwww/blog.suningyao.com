@@ -1,8 +1,8 @@
 ---
-sidebar_label: 'Ubuntu搭建Fisco区块链📠'
+sidebar_label: 'Ubuntu搭建Fisco区块链 📠'
 sidebar_position: 5
 ---
-# Ubuntu搭建Fisco区块链📠
+# Ubuntu搭建Fisco区块链 📠
 
 ## 1. 搭建单群组四节点FISCO BCOS联盟链
 

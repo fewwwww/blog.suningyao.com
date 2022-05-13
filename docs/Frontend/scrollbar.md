@@ -1,8 +1,8 @@
 ---
-sidebar_label: 'CSS隐藏iframe与窗口滚动条🥷'
+sidebar_label: 'CSS隐藏iframe与窗口滚动条 🥷'
 sidebar_position: 1
 ---
-# CSS隐藏iframe与窗口滚动条🥷
+# CSS隐藏iframe与窗口滚动条 🥷
 
 今天在前端交流群里面遇到一位群友提出的问题蛮有意思的.
 

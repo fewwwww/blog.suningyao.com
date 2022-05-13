@@ -1,4 +1,4 @@
-# 音频可视化与ThreeJS的开发🎵
+# 音频可视化与ThreeJS的开发 🎵
 
 Demo: [music.suningyao.com](https://music.suningyao.com/)
 
