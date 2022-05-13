@@ -5,6 +5,10 @@ sidebar_position: 98
 
 # 观点: Crypto 在崩溃与融合中步入新生🐣
 
+本文受到了蔡文胜大佬的支持, 感恩.
+
+[](/img/reborn/cai.jpg)
+
 > [Crypto is dead. Long live crypto.](https://foresightnews.pro/article/detail/2379)
 >
 
