@@ -7,7 +7,7 @@ sidebar_position: 98
 
 本文受到了蔡文胜大佬的支持, 感恩.
 
-[](/img/reborn/cai.jpg)
+![](/img/reborn/cai.jpg)
 
 > [Crypto is dead. Long live crypto.](https://foresightnews.pro/article/detail/2379)
 >
