@@ -27,7 +27,7 @@ High School ECIC](http://www.jianping.com.cn/web/index1.html?id=1411&cid=133) (�
 
 About my experience, I will be working at Google Geo (the map) at the valley as STEP Intern in Summer 2022.
 
-I am now working for [Foresight Ventures](https://foresightventures.com), a VC backed by [Bitget](https://bitget.com) (Bitget's logo is [on Juventus's sleeves](https://www.juventus.com/en/news/articles/juventus-to-unveil-bitget-as-first-sleeve-partner)!) and Bitkeep (crypto wallet with 4 million users) focus on investment on blockchain and metaverse.
+I am now working full-time after 8 months of internship at [Foresight Ventures](https://foresightventures.com), a VC backed by [Bitget](https://bitget.com) (Bitget's logo is [on Juventus's sleeves](https://www.juventus.com/en/news/articles/juventus-to-unveil-bitget-as-first-sleeve-partner)!) and Bitkeep (crypto wallet with 4 million users) focus on investment on blockchain and metaverse.
 
 In Summer 2021, I worked at [UnionPay](https://cn.unionpay.com) (中国银联) with Blockchain team (区块链与数字货币组) at Fintech Research Group (金融科技研究院).
 
