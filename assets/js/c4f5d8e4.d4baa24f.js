@@ -1,1 +1,0 @@
-(self.webpackChunkblog=self.webpackChunkblog||[]).push([[195],{2841:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return c}});var u=t(7294),r=t(5977);function c(){return u.createElement(r.l_,{to:"/docs/intro"})}}}]);
