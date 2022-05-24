@@ -4,6 +4,10 @@ sidebar_position: 99
 
 # 观点: Crypto 破碎的可组合性 🧩
 
+> 本文为Foresight Ventures撰写, 已以机构身份发布于各大区块链媒体, 推荐在[Foresight Research 公众号](https://mp.weixin.qq.com/s/6Iu-F_VO11hFtUEdEiZicQ)上阅读).
+
+> English Version: [Medium](https://foresightventures.medium.com/foresight-ventures-composability-is-decomposing-2fdfcd9b1971).
+
 > 可组合性是指一种能力, 让组件能够重新组合成更大的结构, 并且一个组件的输出能够成为另一个组件的输入. 最好的例子就是每一块都可以连接到另一块的乐高.
 >
 

@@ -9,6 +9,10 @@ sidebar_position: 98
 
 ![](/img/reborn/cai.jpg)
 
+> 本文为Foresight Ventures撰写, 已以机构身份发布于各大区块链媒体平台, 推荐在[Foresight Research 公众号](https://mp.weixin.qq.com/s/s5qZFryvyJBXbMUU1KV5Iw)上阅读.
+
+> English Version: [Medium](https://foresightventures.medium.com/foresight-ventures-cryptos-nirvana-and-rebirth-d68521dfdf38).
+
 > [Crypto is dead. Long live crypto.](https://foresightnews.pro/article/detail/2379)
 >
 

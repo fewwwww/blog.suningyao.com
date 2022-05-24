@@ -1,5 +1,9 @@
 # 读懂Arbitrum: L2 第一生态 ⛰️
 
+> 本文为Foresight Ventures撰写, 已以机构身份发布于各大区块链媒体平台, 推荐在[Foresight Research 公众号](https://mp.weixin.qq.com/s/Gz8N2FxQLjZ8bE5eMknZoA)上阅读.
+
+> English Version: [Medium](https://foresightventures.medium.com/foresight-ventures-arbitrum-ecosystem-review-dd2b84c016be).
+
 ## 0. 概要
 
 - 在短短半年时间里, Arbitrum 生态飞速生长, 已经在各个赛道上都拥有成熟并且出圈的特色项目, Arbitrum 的潜力被初步兑现, 在未来的时间里, Arbitrum 会继续高速发展霸占 L2 的前列.
