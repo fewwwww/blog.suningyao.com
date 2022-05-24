@@ -1,5 +1,5 @@
 ---
-sidebar_label: '通过预加载提高页面加载速度 💫'
+sidebar_label: '💫 通过预加载提高页面加载速度'
 ---
 
 # 通过instant.page进行预加载提高页面加载速度 💫

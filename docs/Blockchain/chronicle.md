@@ -1,4 +1,4 @@
-# 读懂Crypto: 思潮编年史 📖
+# 📖 读懂Crypto: 思潮编年史
 
 > 本文为Foresight Ventures撰写, 已以机构身份发布于[Foresight News](https://www.foresightnews.pro/article/detail/961)等平台, 推荐在[Foresight Research 公众号](https://mp.weixin.qq.com/s/mtpUympekLcCQRddylJzSw)上阅读.
 

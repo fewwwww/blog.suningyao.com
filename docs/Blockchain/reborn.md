@@ -1,5 +1,5 @@
 ---
-sidebar_label: '观点: Crypto 崩溃融合新生🐣'
+sidebar_label: '🐣 观点: Crypto 崩溃融合新生'
 sidebar_position: 98
 ---
 

@@ -1,4 +1,4 @@
-# 读懂Arbitrum: L2 第一生态 ⛰️
+# ⛰️ 读懂Arbitrum: L2 第一生态
 
 > 本文为Foresight Ventures撰写, 已以机构身份发布于各大区块链媒体平台, 推荐在[Foresight Research 公众号](https://mp.weixin.qq.com/s/Gz8N2FxQLjZ8bE5eMknZoA)上阅读.
 

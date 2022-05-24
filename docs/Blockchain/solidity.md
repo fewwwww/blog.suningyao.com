@@ -1,5 +1,5 @@
 ---
-sidebar_label: '通过互动教程学习Solidity 🧟‍♂️'
+sidebar_label: '🧟‍♂️ 通过互动教程学习Solidity'
 sidebar_position: 5
 ---
 

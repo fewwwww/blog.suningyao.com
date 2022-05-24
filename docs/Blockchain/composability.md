@@ -2,7 +2,7 @@
 sidebar_position: 99
 ---
 
-# 观点: Crypto 破碎的可组合性 🧩
+# 🧩 观点: Crypto 破碎的可组合性
 
 > 本文为Foresight Ventures撰写, 已以机构身份发布于各大区块链媒体, 推荐在[Foresight Research 公众号](https://mp.weixin.qq.com/s/6Iu-F_VO11hFtUEdEiZicQ)上阅读).
 

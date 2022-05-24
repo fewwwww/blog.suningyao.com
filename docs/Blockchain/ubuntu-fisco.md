@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Ubuntu搭建Fisco区块链 📠'
+sidebar_label: '📠 Ubuntu搭建Fisco区块链'
 sidebar_position: 5
 ---
 # Ubuntu搭建Fisco区块链 📠

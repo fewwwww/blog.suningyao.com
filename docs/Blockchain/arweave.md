@@ -1,4 +1,4 @@
-# 读懂Arweave: Web3 Layer 0 🐘
+# 🐘 读懂Arweave: Web3 Layer 0
 
 > 特别鸣谢: Peter Li 共同撰文, [everFinance 熊炜](https://mobile.twitter.com/outprog_eth)进行技术讨论与指导, [李大狗老师](https://github.com/leeduckgo)牵线搭桥.
 

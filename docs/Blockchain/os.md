@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'WeLightOS开发的心路历程 ❤️'
+sidebar_label: '❤️ WeLightOS开发的心路历程'
 sidebar_position: 2
 ---
 
-# WeLightBlockchainOS开发的心路历程(as a tech lead) ❤️
+# ❤️ WeLightBlockchainOS开发的心路历程(as a tech lead)
 
 我在很多篇博客和朋友圈里都提到了[WeLightBlockchainOS](https://github.com/WeLightProject/WeLightBlockchainOS). 这个由我主导开发的项目, 目前我们组队代表上贸大—湖工程微芒区块链小队在参加电标院组织的[第五届中国区块链开发大赛](http://www.cbdforum.cn/bcweb/contest-mat.html), 已经获得了[华北赛区的奖项](https://mp.weixin.qq.com/s/ToNyplwYGREn6w0VJI8fUA), 之后或许能获得全国性奖项. 这里就稍微聊一下比赛的心路历程.
 

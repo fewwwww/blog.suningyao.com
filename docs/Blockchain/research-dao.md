@@ -1,5 +1,5 @@
 ---
-sidebar_label: '一天内组建一个研究 DAO 🤝'
+sidebar_label: '🤝 一天内组建一个研究 DAO'
 sidebar_position: 2
 ---
 

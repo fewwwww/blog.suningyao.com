@@ -1,4 +1,4 @@
-# 读懂隐私: Web3 的另一面 🎭
+# 🎭 读懂隐私: Web3 的另一面
 
 > 本文为Foresight Ventures撰写, 已以机构身份发布于[登链社区](https://learnblockchain.cn/article/3336)等平台, 推荐在[Foresight Research 公众号](https://mp.weixin.qq.com/s/b3wpHokezq3giknXxb1flQ)上阅读.
 

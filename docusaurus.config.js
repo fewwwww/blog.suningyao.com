@@ -67,8 +67,12 @@ module.exports = {
           ]
         },
         {
-          title: "Contact",
+          title: "Links",
           items: [
+            {
+              label: "Linktree",
+              href: "https://sny.is"
+            },
             {
               label: "WeChat",
               href: "https://fewwwww.github.io/WeChat-AddMe/"
