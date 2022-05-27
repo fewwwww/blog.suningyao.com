@@ -53,8 +53,6 @@
 - 没有 trusted setup (生成的参数仅对当前的应用有效, 若出现了修改需要重新 setup)
 - 后量子安全
 
-> Scroll Ye Zhang 补充: STARK 算法复杂度也不低的, 我觉得普遍意义上因为 STARK 被 StarkWare 过度 market 大家对他的性能有很深的误解.... 其实 STARK 跟 SNARK 的[界限已经没那么分明](https://twitter.com/izmeckler/status/1527794750190800896)了, STARK 快主要是避开了椭圆曲线的计算 (我补充: 数学工具用的不一样), 选择有限域的时候也更灵活, 但是实际也得用大量的 FFT.
-
 但是 STARK 生成的证明的体积更大, 并且还大不少, 由于比如 WASM 的一些限制, 可能会在构建时需要[额外的操作](https://hackmd.io/V-7Aal05Tiy-ozmzTGBYPA?view=) (这里是 SNARK). Mir 前段时间在 Starky 给出了一个 [AIR-based STARK](https://twitter.com/_bfarmer/status/1511486435077017607) 的[实践](https://github.com/mir-protocol/plonky2/tree/main/starky), 是 [Plonky2](https://blog.polygon.technology/introducing-plonky2/) 的一部分(Plonky2 和 Starky 的关系[比较复杂](https://twitter.com/dlubarov/status/1520090852093091840)...). 我个人认为, 体积大可以通过各种手法来优化, 但是算法本身的时间复杂度是很难再进一步压缩的.
 
 这些零知识证明技术可以通过合理的结合来构建更强大的应用. 比如 Polygon Hermez 就[通过 SNARK 来证实 STARK 的正确性](https://blog.polygon.technology/zkverse-deep-dive-into-polygon-hermez-2-0/), 从而减少最终发布证明时的 gas fee.
@@ -64,8 +62,6 @@
 ## 2. zkVM
 
 前面所说到的 [Tornado.cash](http://Tornado.cash) 和 [zk.money](http://zk.money) 类似都是仅支持转账操作的零知识证明应用, 不支持通用的计算. 类比来说, 这些应用都只有比特币的功能, 远远不及以太坊的图灵完备, 更不要说建生态了 (比特币上的智能合约一直没做出生态来).
-
-> 我补充: 用户的需求要优先满足. 太少的功能 + 更高 TPS + 更低 gas = 还是没人用. 用户心智很重要. 比如一个抗 MEV 的 zk Rollup (架构如下图, zk 用于保护时间锁的有效性, 抗 DoS 供给) 仅支持转账, 没用. 因为对于抗 MEV, 用户可能更感兴趣怎么赚 MEV 的钱. 抗 MEV 的 AMM 也没啥用.
 
 ![](/img/zkvm/radius.jpeg)
 
@@ -109,8 +105,6 @@ EVM 就是以太坊的虚拟机, 也可以理解为运行智能合约的一套�
 
 我们再来解读一下 zkEVM. 定义上来说, zkEVM 是一种兼容 EVM 同时又对零知识证明友好的虚拟机, 能保证程序, 操作, 和输入输出等的完全正确性.
 
-> [Podcast](https://twitter.com/i/spaces/1OwxWzkDQmZJQ) Eli 补充: zk Rollup 的去中心化不是必要的, 因为 1. 证明从数学上无法伪造 (zk: 有罪推定, based on Math; op: 无罪推定, based on game theory), 2. 用户可以通过 L1 的 DA 来重建所有状态, 3. 信任模型本身就是智能合约, 中心化性能更好. 但是会导致 censorship 等问题, 所以需要去中心化的 sequencer、prover、da.
-
 对于实现通用计算来说, 要做 zkEVM 主要需要解决两个难点:
 
 ### a) 电路复杂
@@ -139,8 +133,6 @@ zkEVM 的存在我认为是在以太坊生态上去翻新和打补丁, 能为以
 
 StarkNet 的 Cairo VM 尽管可能不是我想象中最完美的 zkVM, 但它能比 EVM 或者 zkEVM 干更多的事, 同时这些不止是停留在 EIP 级别的功能拓展. Cairo VM 上可以[跑机器学习模型](https://twitter.com/guiltygyoza/status/1458494941684850688), 甚至现在还有机器学习模型平台正在 StarkNet 上[建设](https://gizatech.xyz).
 
-> [Podcast](https://twitter.com/i/spaces/1OwxWzkDQmZJQ) Eli 补充: Cairo VM 就一个 pc 和两个 register, 能跑就行.
-
 相比 zkEVM, 一个 zkVM 会更加容易被构建 (无需担心 EVM 的技术债), 更加灵活 (无需担心 EVM 的更新), 更加容易优化 (电路和证明器的软硬件优化比构建 zkEVM 简单和便宜非常多).
 
 当然 zkVM 的一个最微小但很致命的缺点就是, 如果 zkVM 无法支持 EVM 兼容 (Solidity 语言层面), 那么 zkVM 就很难像 EVM 一样有最完备和成熟的 Web3 开发生态.
@@ -155,8 +147,6 @@ zkVM 或许是更大的趋势, 能让对 EVM 的纵向优化, 变成 EVM 生态�
 
 [Winterfall](https://github.com/novifinancial/winterfell#Usage) 或者 [Distaff](https://github.com/GuildOfWeavers/distaff) 或者 [Miden VM](https://github.com/maticnetwork/miden) 等 zkVM 都没有做到非常好的开发友好度. Nervos 有 RISC-V 的 [VM](https://docs.nervos.org/docs/basics/concepts/ckb-vm/), 但是 Nervos 没有用零知识证明技术.
 
-> 冰链科技张老师补充: 从计算机体系结构角度讲, 一般不太会说专门支持语言的 VM, 而是支持指令集. EVM 指令集就是专门为 Solidity 设计. 通用 VM 是因为可以把各种语言编译成可运行的指令集而通用.
-
 现状下最优解的方案就是构建一个 WASM 或者 RISC-V 的 zkVM, 最好能支持 Rust, Go, C++, 甚至 Solidity (zkSync 好像可以立大功) 等语言. 如果有这么一个通用 zkVM, 那么对于 zkEVM 会是降维打击.
 
 Web3 开发者的数量大概占所有开发者的 0.07%, 也就可以推断出, Solidity 开发者的数量实际上会比 0.07% 更少, 会用 Cairo 写合约或者用 Leo 写电路就更少了. 这样完美的 zkVM 所针对的是几乎 100% 的开发者, 任何开发者用几乎任何语言都可以得到一个完美的零知识运行环境.
@@ -168,6 +158,16 @@ Web3 开发者的数量大概占所有开发者的 0.07%, 也就可以推断出,
 原生 zkEVM 是区块链的未来.
 
 通用 zkVM 是 Web3 的未来.
+
+> Scroll Ye Zhang 补充: STARK 算法复杂度也不低的, 我觉得普遍意义上因为 STARK 被 StarkWare 过度 market 大家对他的性能有很深的误解.... 其实 STARK 跟 SNARK 的[界限已经没那么分明](https://twitter.com/izmeckler/status/1527794750190800896)了, STARK 快主要是避开了椭圆曲线的计算 (我补充: 数学工具用的不一样), 选择有限域的时候也更灵活, 但是实际也得用大量的 FFT.
+
+> 我补充: 用户的需求要优先满足. 太少的功能 + 更高 TPS + 更低 gas = 还是没人用. 用户心智很重要. 比如一个抗 MEV 的 zk Rollup (架构如下图, zk 用于保护时间锁的有效性, 抗 DoS 供给) 仅支持转账, 没用. 因为对于抗 MEV, 用户可能更感兴趣怎么赚 MEV 的钱. 抗 MEV 的 AMM 也没啥用.
+
+> [Podcast](https://twitter.com/i/spaces/1OwxWzkDQmZJQ) Eli 补充: zk Rollup 的去中心化不是必要的, 因为 1. 证明从数学上无法伪造 (zk: 有罪推定, based on Math; op: 无罪推定, based on game theory), 2. 用户可以通过 L1 的 DA 来重建所有状态, 3. 信任模型本身就是智能合约, 中心化性能更好. 但是会导致 censorship 等问题, 所以需要去中心化的 sequencer、prover、da.
+
+> [Podcast](https://twitter.com/i/spaces/1OwxWzkDQmZJQ) Eli 补充: Cairo VM 就一个 pc 和两个 register, 能跑就行.
+
+> 冰链科技张老师补充: 从计算机体系结构角度讲, 一般不太会说专门支持语言的 VM, 而是支持指令集. EVM 指令集就是专门为 Solidity 设计. 通用 VM 是因为可以把各种语言编译成可运行的指令集而通用.
 
 ## 相关文章
 
