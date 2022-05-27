@@ -89,6 +89,10 @@ export default function UploadShow()  {
 
 项目方说后面会完全重构, 但是作为一个大项目, 这个事情还是挺紧急的.
 
+### 4. ardriveapp/ardrive-web
+
+[#497 App 中文字符国际化](https://github.com/ardriveapp/ardrive-web/pull/497)
+
 ## 文档翻译
 
 ### 1. everFinance/medium
@@ -108,6 +112,14 @@ export default function UploadShow()  {
 ### 4. everFinance/medium
 
 [How to Build Your Own SCP App: A Prototype for Next-generation Blockchainless DEXs 中翻英](https://medium.com/everfinance/how-to-build-your-own-scp-app-a-prototype-for-next-generation-blockchainless-dexs-87a6577fbd4)
+
+### 5. everFinance/medium
+
+[Arweave Development Tutorial: How to Use everpay-js for Atomic Swaps](https://medium.com/everfinance/arweave-development-tutorial-how-to-use-everpay-js-for-atomic-swaps-b459199c9062)
+
+### 6. everFinance/medium
+
+[The first cross-chain DEX on Arweave — Permaswap has released its official website and whitepaper](https://medium.com/everfinance/the-first-cross-chain-dex-on-arweave-permaswap-has-released-its-official-website-and-whitepaper-7bbb46487a84)
 
 ## AMA
 

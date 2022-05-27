@@ -4,6 +4,8 @@
 
 > English Version: [Medium](https://foresightventures.medium.com/foresight-ventures-zk-zkvm-zkevm-and-their-future-6fb4b8b527d8).
 
+> 在推特上受到了 ZKFM、Scroll、Veridise、DCG、Bain Crypto 等机构以及密码学研究者 @ZKcommunity、@VeridiseInc、@captain8299、@OrestTa、@tkhrypto、@BenarrochDaniel、@kobigurk、@daddysether、@SandyPeng1、@_weidai 等的支持与讨论. 在中文社交圈受到了 TrapdoorTech、量子链等零知识证明研究与开发机构的支持.
+
 ## TL; DR
 
 - 零知识证明技术, 可以保证计算的完整性、正确性和隐私, 在区块链扩容和隐私中有应用.
@@ -37,7 +39,7 @@
 
 在目前的区块链版图中, zk 可以说是区块链扩容 (不 zk 的 Validity Proof) 与隐私技术 (真正的 zk) 的最前沿与最优解决方案, 在 [Tornado.cash](http://Tornado.cash), ZCash, zkSync, [zk.money](http://zk.money), Filecoin, 和 Mina 等项目中都有使用.
 
-目前的技术方案主要分为 SNARK 以及 STARK 两类. [STARK 中的 S 代表可扩展的, 意味着被证明的语句有重复的结构, 而 SNARK 支持任意的电路, 这些电路被预处理以实现简洁的证明.](https://twitter.com/_bfarmer/status/1520091937444925440) 其中对 SNARK 的技术实践占据了主导地位, STARK 主要有 StarkWare 在已上线的产品中大规模采用. 以下是它们之间的对比.
+目前的技术方案主要分为 SNARK 以及 STARK 两类. [STARK 中的 S 代表可扩展的, 意味着被证明的语句有重复的结构, 且验证算法更快更加 Scalable, 而 SNARK 支持任意的电路, 这些电路被预处理以实现简洁的证明.](https://twitter.com/_bfarmer/status/1520091937444925440) 其中对 SNARK 的技术实践占据了主导地位, STARK 主要有 StarkWare 在已上线的产品中大规模采用. 以下是它们之间的对比.
 
 ![](/img/zkvm/snark-stark.png)
 
@@ -51,6 +53,8 @@
 - 没有 trusted setup (生成的参数仅对当前的应用有效, 若出现了修改需要重新 setup)
 - 后量子安全
 
+> Scroll Ye Zhang 补充: STARK 算法复杂度也不低的, 我觉得普遍意义上因为 STARK 被 StarkWare 过度 market 大家对他的性能有很深的误解.... 其实 STARK 跟 SNARK 的[界限已经没那么分明](https://twitter.com/izmeckler/status/1527794750190800896)了, STARK 快主要是避开了椭圆曲线的计算 (我补充: 数学工具用的不一样), 选择有限域的时候也更灵活, 但是实际也得用大量的 FFT.
+
 但是 STARK 生成的证明的体积更大, 并且还大不少, 由于比如 WASM 的一些限制, 可能会在构建时需要[额外的操作](https://hackmd.io/V-7Aal05Tiy-ozmzTGBYPA?view=) (这里是 SNARK). Mir 前段时间在 Starky 给出了一个 [AIR-based STARK](https://twitter.com/_bfarmer/status/1511486435077017607) 的[实践](https://github.com/mir-protocol/plonky2/tree/main/starky), 是 [Plonky2](https://blog.polygon.technology/introducing-plonky2/) 的一部分(Plonky2 和 Starky 的关系[比较复杂](https://twitter.com/dlubarov/status/1520090852093091840)...). 我个人认为, 体积大可以通过各种手法来优化, 但是算法本身的时间复杂度是很难再进一步压缩的.
 
 这些零知识证明技术可以通过合理的结合来构建更强大的应用. 比如 Polygon Hermez 就[通过 SNARK 来证实 STARK 的正确性](https://blog.polygon.technology/zkverse-deep-dive-into-polygon-hermez-2-0/), 从而减少最终发布证明时的 gas fee.
@@ -60,6 +64,10 @@
 ## 2. zkVM
 
 前面所说到的 [Tornado.cash](http://Tornado.cash) 和 [zk.money](http://zk.money) 类似都是仅支持转账操作的零知识证明应用, 不支持通用的计算. 类比来说, 这些应用都只有比特币的功能, 远远不及以太坊的图灵完备, 更不要说建生态了 (比特币上的智能合约一直没做出生态来).
+
+> 我补充: 用户的需求要优先满足. 太少的功能 + 更高 TPS + 更低 gas = 还是没人用. 用户心智很重要. 比如一个抗 MEV 的 zk Rollup (架构如下图, zk 用于保护时间锁的有效性, 抗 DoS 供给) 仅支持转账, 没用. 因为对于抗 MEV, 用户可能更感兴趣怎么赚 MEV 的钱. 抗 MEV 的 AMM 也没啥用.
+
+![](/img/zkvm/radius.jpeg)
 
 zkVM 就是一个由零知识证明来保证安全可验证可信特性的虚拟机, 简单来说就是, 输入旧状态和程序, 返回新状态. 它能让所有的应用都被赋予零知识证明的超能力.
 
@@ -101,6 +109,8 @@ EVM 就是以太坊的虚拟机, 也可以理解为运行智能合约的一套�
 
 我们再来解读一下 zkEVM. 定义上来说, zkEVM 是一种兼容 EVM 同时又对零知识证明友好的虚拟机, 能保证程序, 操作, 和输入输出等的完全正确性.
 
+> [Podcast](https://twitter.com/i/spaces/1OwxWzkDQmZJQ) Eli 补充: zk Rollup 的去中心化不是必要的, 因为 1. 证明从数学上无法伪造 (zk: 有罪推定, based on Math; op: 无罪推定, based on game theory), 2. 用户可以通过 L1 的 DA 来重建所有状态, 3. 信任模型本身就是智能合约, 中心化性能更好. 但是会导致 censorship 等问题, 所以需要去中心化的 sequencer、prover、da.
+
 对于实现通用计算来说, 要做 zkEVM 主要需要解决两个难点:
 
 ### a) 电路复杂
@@ -129,6 +139,8 @@ zkEVM 的存在我认为是在以太坊生态上去翻新和打补丁, 能为以
 
 StarkNet 的 Cairo VM 尽管可能不是我想象中最完美的 zkVM, 但它能比 EVM 或者 zkEVM 干更多的事, 同时这些不止是停留在 EIP 级别的功能拓展. Cairo VM 上可以[跑机器学习模型](https://twitter.com/guiltygyoza/status/1458494941684850688), 甚至现在还有机器学习模型平台正在 StarkNet 上[建设](https://gizatech.xyz).
 
+> [Podcast](https://twitter.com/i/spaces/1OwxWzkDQmZJQ) Eli 补充: Cairo VM 就一个 pc 和两个 register, 能跑就行.
+
 相比 zkEVM, 一个 zkVM 会更加容易被构建 (无需担心 EVM 的技术债), 更加灵活 (无需担心 EVM 的更新), 更加容易优化 (电路和证明器的软硬件优化比构建 zkEVM 简单和便宜非常多).
 
 当然 zkVM 的一个最微小但很致命的缺点就是, 如果 zkVM 无法支持 EVM 兼容 (Solidity 语言层面), 那么 zkVM 就很难像 EVM 一样有最完备和成熟的 Web3 开发生态.
@@ -142,6 +154,8 @@ zkVM 或许是更大的趋势, 能让对 EVM 的纵向优化, 变成 EVM 生态�
 正如 [@kelvinfichter](https://twitter.com/kelvinfichter) 所说的: [Why zkEVM if zkMIPS](https://twitter.com/kelvinfichter/status/1516509144068464644)? 正如 [@KyleSamani](https://twitter.com/KyleSamani) 所说的: [EVM is a bug not a feature](https://twitter.com/KyleSamani/status/1511683267770163200). Why zkEVM if zkVM?
 
 [Winterfall](https://github.com/novifinancial/winterfell#Usage) 或者 [Distaff](https://github.com/GuildOfWeavers/distaff) 或者 [Miden VM](https://github.com/maticnetwork/miden) 等 zkVM 都没有做到非常好的开发友好度. Nervos 有 RISC-V 的 [VM](https://docs.nervos.org/docs/basics/concepts/ckb-vm/), 但是 Nervos 没有用零知识证明技术.
+
+> 冰链科技张老师补充: 从计算机体系结构角度讲, 一般不太会说专门支持语言的 VM, 而是支持指令集. EVM 指令集就是专门为 Solidity 设计. 通用 VM 是因为可以把各种语言编译成可运行的指令集而通用.
 
 现状下最优解的方案就是构建一个 WASM 或者 RISC-V 的 zkVM, 最好能支持 Rust, Go, C++, 甚至 Solidity (zkSync 好像可以立大功) 等语言. 如果有这么一个通用 zkVM, 那么对于 zkEVM 会是降维打击.
 

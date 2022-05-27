@@ -162,3 +162,5 @@ sidebar_position: 0
 8. [FinanceYF3 的基础研究方法](https://three-recorder-52a.notion.site/3-22-871924a4845a4e12911f54293e323954).
 
 9. 虽然内行看笑话, 但是当傻逼不丢脸, 大胆说, 大胆写.
+
+10. 必须统一格式, 必须要有模版, 必须要有强迫症.
