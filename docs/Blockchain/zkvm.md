@@ -146,7 +146,7 @@ OPRU 和 ZKRU 的拓展依然是要依赖于应用考虑的, 以下是一些对�
 |----------------|---------------------------------------------------------------------------------------------------|------------------------------------|
 | [机制](https://twitter.com/sreeramkannan/status/1530778827466502144)           | Cryptoeconomics (类似 Arweave)                                                                    | Cryptographic (类似 Filecoin)      |
 | [优化角度](https://twitter.com/sreeramkannan/status/1530790559064829955) | Spatial 空间角度                                                                                  | Temporal 时间角度                  |
-| [方式](](https://twitter.com/sreeramkannan/status/1530773769379205120))           | 并行的中心化 sequencer + [去中心化 stateless 验证](https://twitter.com/sreeramkannan/status/1530793792361537536) + 没有 LogC 的 proving overhead factor, 仅仅执行 | Fractual L3 Scaling 进一步压缩时间 |
+| [方式](https://twitter.com/sreeramkannan/status/1530773769379205120)            | 并行的中心化 sequencer + [去中心化 stateless 验证](https://twitter.com/sreeramkannan/status/1530793792361537536) + 没有 LogC 的 proving overhead factor, 仅仅执行 | Fractual L3 Scaling 进一步压缩时间 |
 | 结果           | [性能上赢 ZKRU 几百倍](https://twitter.com/sreeramkannan/status/1530773572372791296)                                                                              | 安全性更佳, [长期来看](https://twitter.com/sreeramkannan/status/1530807626744750080)只有它能[更好更方便地做隐私](https://twitter.com/sreeramkannan/status/1530806237691990016)         |
 
 ## 6. zkEVM 和 zkVM
