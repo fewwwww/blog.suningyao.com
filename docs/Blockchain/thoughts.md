@@ -109,7 +109,7 @@ sidebar_position: 0
 
 46. Innovation is innovation. 把所有所七八糟的扯的东西上链是很无聊的, 做一个Web3版本的某某东西是很无聊的. Superfluid, AsyncArt, RSS3, Arweave, Uniswap, Ethereum, BTC (货币不由胜利者发行) 这些才算是真正的 Innovation 和 Reinvention. Dfinity, Filecoin 这种真的比较没意思. 无论如何, 拉的和辣的 Innovation 现在都发生在 Crypto 领域, 这很好.
 
-47. ![Innovation === Innovation](/img/thoughts/typewriter.JPG)
+47. [Innovation === Innovation](/img/thoughts/typewriter.JPG)
 
 48. 要看一个生态是否真的有人玩, 就看是否有真正有社群的 NFT 项目, 目前来看就只有以太坊和 Solana 满足.
 
@@ -134,6 +134,26 @@ sidebar_position: 0
 58. Rollup 类的 Layer3 appchain 部署麻烦, subnet 部署方便, 共享安全性, 但是不 scale.
 
 59. NFT 对艺术品的投资会越来越大, 因为暴富之后还是想混 Old Money 圈子.
+
+60. 用户是爹, 从用户角度考虑.
+
+61. 对于 MEV 来说, 如何捕捉 MEV 比抗 MEV 更有吸引力.
+
+62. 去中心化的存在是否需要, 很重要.
+
+63. Rollup 的信任模型就是一个智能合约, 这很牛逼.
+
+64. 更好的 Web > 更好的区块链.
+
+65. zk Rollup 中心化其实够了, 理由参见 zkvm 那一篇末尾的补充.
+
+66. wen web3 accessibility?
+
+67. 对 web3 产品来说, 我从没看过收入什么 PX 比什么的, 就是卖币, 没了.
+
+68. Arweave vs Filecoin = Optimistic Rollup vs zk Rollup = 奖励好学生 vs 惩罚坏学生 = cryptoeconomic vs cryptography
+
+69. [Professor making lots of great points on rollups](/img/thoughts/sreeram-0.png) and [this](/img/thoughts/sreeram-1.PNG)
 
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷
 

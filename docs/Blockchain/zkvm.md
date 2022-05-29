@@ -4,7 +4,9 @@
 
 > English Version: [Medium](https://foresightventures.medium.com/foresight-ventures-zk-zkvm-zkevm-and-their-future-6fb4b8b527d8).
 
-> 在推特上受到了 ZKFM、Scroll、Veridise、DCG、Bain Crypto 等机构以及密码学研究者 @ZKcommunity、@VeridiseInc、@captain8299、@OrestTa、@tkhrypto、@BenarrochDaniel、@kobigurk、@daddysether、@SandyPeng1、@_weidai 等的支持与讨论. 在中文社交圈受到了 TrapdoorTech、量子链等零知识证明研究与开发机构的支持.
+> 在推特上受到了 ZKFM、Scroll、Veridise、DCG、Bain Crypto 等机构以及密码学研究者 @ZKcommunity、@VeridiseInc、@captain8299、@OrestTa、@tkhrypto、@BenarrochDaniel、@kobigurk、@daddysether、@SandyPeng1、@_weidai, @bitsplaining 等的支持与讨论. 在中文社交圈受到了 TrapdoorTech、量子链等零知识证明研究与开发机构的支持.
+
+> 本文正文中添加了后续一些讨论, 内容比原文更加丰富一些.
 
 ## TL; DR
 
@@ -53,7 +55,9 @@
 - 没有 trusted setup (生成的参数仅对当前的应用有效, 若出现了修改需要重新 setup)
 - 后量子安全
 
-但是 STARK 生成的证明的体积更大, 并且还大不少, 由于比如 WASM 的一些限制, 可能会在构建时需要[额外的操作](https://hackmd.io/V-7Aal05Tiy-ozmzTGBYPA?view=) (这里是 SNARK). Mir 前段时间在 Starky 给出了一个 [AIR-based STARK](https://twitter.com/_bfarmer/status/1511486435077017607) 的[实践](https://github.com/mir-protocol/plonky2/tree/main/starky), 是 [Plonky2](https://blog.polygon.technology/introducing-plonky2/) 的一部分(Plonky2 和 Starky 的关系[比较复杂](https://twitter.com/dlubarov/status/1520090852093091840)...). 我个人认为, 体积大可以通过各种手法来优化, 但是算法本身的时间复杂度是很难再进一步压缩的.
+STARK 快主要是避开了椭圆曲线的计算, 选择有限域的时候也更灵活, 但是实际也得用大量的 FFT. 实际上, STARK 算法复杂度也不低, 普遍意义上因为 STARK 被 StarkWare 过度 marketing. 其实 STARK 跟 SNARK 的[界限已经没那么分明](https://twitter.com/izmeckler/status/1527794750190800896)了.
+
+STARK 生成的证明的体积更大, 并且还大不少, 由于比如 WASM 的一些限制, 可能会在构建时需要[额外的操作](https://hackmd.io/V-7Aal05Tiy-ozmzTGBYPA?view=) (这里是 SNARK). Mir 前段时间在 Starky 给出了一个 [AIR-based STARK](https://twitter.com/_bfarmer/status/1511486435077017607) 的[实践](https://github.com/mir-protocol/plonky2/tree/main/starky), 是 [Plonky2](https://blog.polygon.technology/introducing-plonky2/) 的一部分(Plonky2 和 Starky 的关系[比较复杂](https://twitter.com/dlubarov/status/1520090852093091840)...). 我个人认为, 体积大可以通过各种手法来优化, 但是算法本身的时间复杂度是很难再进一步压缩的.
 
 这些零知识证明技术可以通过合理的结合来构建更强大的应用. 比如 Polygon Hermez 就[通过 SNARK 来证实 STARK 的正确性](https://blog.polygon.technology/zkverse-deep-dive-into-polygon-hermez-2-0/), 从而减少最终发布证明时的 gas fee.
 
@@ -86,6 +90,13 @@ zkVM 的缺点:
 现在主流的 zkVM 有三大类, 括号中是它们的指令集: 主流 (WASM, RISC-V)、EVM (EVM bytecode)、ZK-Optimized (全新指令集, 针对零知识证明所优化, 比如 Cairo 和 zkSync). 以下是根据 Miden 在 ETH Amsterdam 的演讲所整理的类型对比图:
 
 ![](/img/zkvm/zkvm-type.png)
+
+目前来说以上 zk Rollup 都是中心化 sequencer 和 prover 的组合, 但其实 zk Rollup 的去中心化不是必要的, 因为:
+1. 证明从数学上无法伪造 (zk: 有罪推定, based on Math; op: 无罪推定, based on game theory)
+2. 用户可以通过 L1 的 DA 来重建所有状态
+3. 信任模型本身就是智能合约, 中心化性能更好.
+
+但是会导致 censorship 等问题, 所以需要去中心化的 sequencer、prover、da.
 
 很多零知识证明开发生态所做的事情大多是让开发者能用 Circom 库 (以及 snarkyjs 这种) 或者其他新创造的语言 (Leo 或者 Cairo 这种语言都有[奇奇怪怪的限制](https://trapdoor-tech.github.io/zkstark-book/Cairo_example/frame.html)) 来做通用 zk DApp 的开发, 但是没有像以太坊上用 Solidity 那么直接和易学.
 
@@ -127,11 +138,22 @@ EVM 设计的时候就没想到后面要做 zkEVM, 造成了非常大的困难. 
 
 在开发者和用户层面, 这几个方案其实我认为是基本无差别的, 但是在基础设施上, 越靠右的方案 EVM 兼容性越好, 可以无缝接入 Geth 等基础设施, 但开发进度基本上也越慢.
 
-## 5. zkEVM 和 zkVM
+## 5. zk Rollup 和 Optimistic Rollup
+
+OPRU 和 ZKRU 的拓展依然是要依赖于应用考虑的, 以下是一些对比:
+
+|                | Optimistic Rollup                                                                                 | zk Rollup                          |
+|----------------|---------------------------------------------------------------------------------------------------|------------------------------------|
+| [机制](https://twitter.com/sreeramkannan/status/1530778827466502144)           | Cryptoeconomics (类似 Arweave)                                                                    | Cryptographic (类似 Filecoin)      |
+| [优化角度](https://twitter.com/sreeramkannan/status/1530790559064829955) | Spatial 空间角度                                                                                  | Temporal 时间角度                  |
+| [方式](](https://twitter.com/sreeramkannan/status/1530773769379205120))           | 并行的中心化 sequencer + [去中心化 stateless 验证](https://twitter.com/sreeramkannan/status/1530793792361537536) + 没有 LogC 的 proving overhead factor, 仅仅执行 | Fractual L3 Scaling 进一步压缩时间 |
+| 结果           | [性能上赢 ZKRU 几百倍](https://twitter.com/sreeramkannan/status/1530773572372791296)                                                                              | 安全性更佳, 只有它能[更好做隐私](https://twitter.com/sreeramkannan/status/1530806237691990016)         |
+
+## 6. zkEVM 和 zkVM
 
 zkEVM 的存在我认为是在以太坊生态上去翻新和打补丁, 能为以太坊及其生态的繁荣添砖加瓦, 而 zkVM 的存在却不一定是给以太坊做加强, 同时也具有更大的想象力.
 
-StarkNet 的 Cairo VM 尽管可能不是我想象中最完美的 zkVM, 但它能比 EVM 或者 zkEVM 干更多的事, 同时这些不止是停留在 EIP 级别的功能拓展. Cairo VM 上可以[跑机器学习模型](https://twitter.com/guiltygyoza/status/1458494941684850688), 甚至现在还有机器学习模型平台正在 StarkNet 上[建设](https://gizatech.xyz).
+StarkNet 的 Cairo VM 尽管可能不是我想象中最完美的 zkVM (简约到就一个 pc 和两个 register), 但它能比 EVM 或者 zkEVM 干更多的事, 同时这些不止是停留在 EIP 级别的功能拓展. Cairo VM 上可以[跑机器学习模型](https://twitter.com/guiltygyoza/status/1458494941684850688), 甚至现在还有机器学习模型平台正在 StarkNet 上[建设](https://gizatech.xyz).
 
 相比 zkEVM, 一个 zkVM 会更加容易被构建 (无需担心 EVM 的技术债), 更加灵活 (无需担心 EVM 的更新), 更加容易优化 (电路和证明器的软硬件优化比构建 zkEVM 简单和便宜非常多).
 
@@ -139,9 +161,11 @@ StarkNet 的 Cairo VM 尽管可能不是我想象中最完美的 zkVM, 但它能
 
 zkVM 或许是更大的趋势, 能让对 EVM 的纵向优化, 变成 EVM 生态的横向拓展, 跳出了 EVM 的限制.
 
-## 6. zkVM 的未来
+## 7. zkVM 的未来
 
 如果能有一种通用的 zkVM 能够让所有编程语言的智能合约, 不止是 Solidity, 不止是 Cairo, 而是 Rust, C++, Go,在零知识证明的加持下安全运行呢? ([Stellar 尝试过, 但失败了](https://www.reddit.com/r/Stellar/comments/q6ar3w/what_happened_to_zkvm_on_stellar/).)
+
+当然, 从计算机体系结构角度讲, 一般不太会说专门支持语言的 VM, 而是支持指令集. EVM 指令集就是专门为 Solidity 设计. 通用 VM 是因为可以把各种语言编译成可运行的指令集而通用.
 
 正如 [@kelvinfichter](https://twitter.com/kelvinfichter) 所说的: [Why zkEVM if zkMIPS](https://twitter.com/kelvinfichter/status/1516509144068464644)? 正如 [@KyleSamani](https://twitter.com/KyleSamani) 所说的: [EVM is a bug not a feature](https://twitter.com/KyleSamani/status/1511683267770163200). Why zkEVM if zkVM?
 
@@ -159,15 +183,33 @@ Web3 开发者的数量大概占所有开发者的 0.07%, 也就可以推断出,
 
 通用 zkVM 是 Web3 的未来.
 
+## 7. 后续讨论
+
+### STARK 定义与复杂度
+
 > Scroll Ye Zhang 补充: STARK 算法复杂度也不低的, 我觉得普遍意义上因为 STARK 被 StarkWare 过度 market 大家对他的性能有很深的误解.... 其实 STARK 跟 SNARK 的[界限已经没那么分明](https://twitter.com/izmeckler/status/1527794750190800896)了, STARK 快主要是避开了椭圆曲线的计算 (我补充: 数学工具用的不一样), 选择有限域的时候也更灵活, 但是实际也得用大量的 FFT.
 
-> 我补充: 用户的需求要优先满足. 太少的功能 + 更高 TPS + 更低 gas = 还是没人用. 用户心智很重要. 比如一个抗 MEV 的 zk Rollup (架构如下图, zk 用于保护时间锁的有效性, 抗 DoS 供给) 仅支持转账, 没用. 因为对于抗 MEV, 用户可能更感兴趣怎么赚 MEV 的钱. 抗 MEV 的 AMM 也没啥用.
+### Rollup 需求
+
+> 我补充: 用户的需求要优先满足. 太少的功能 + 更高 TPS + 更低 gas = 还是没人用. 用户心智很重要. 比如一个抗 MEV 的 zk Rollup (架构[如图](/img/zkvm/radius.jpeg), zk 用于保护时间锁的有效性, 抗 DoS 供给) 仅支持转账, 没用. 因为对于抗 MEV, 用户可能更感兴趣怎么赚 MEV 的钱. 抗 MEV 的 AMM 也没啥用.
+
+#### ZKRU 中心化
 
 > [Podcast](https://twitter.com/i/spaces/1OwxWzkDQmZJQ) Eli 补充: zk Rollup 的去中心化不是必要的, 因为 1. 证明从数学上无法伪造 (zk: 有罪推定, based on Math; op: 无罪推定, based on game theory), 2. 用户可以通过 L1 的 DA 来重建所有状态, 3. 信任模型本身就是智能合约, 中心化性能更好. 但是会导致 censorship 等问题, 所以需要去中心化的 sequencer、prover、da.
 
-> [Podcast](https://twitter.com/i/spaces/1OwxWzkDQmZJQ) Eli 补充: Cairo VM 就一个 pc 和两个 register, 能跑就行.
+#### zkVM 定义与 Cairo VM 设计
 
 > 冰链科技张老师补充: 从计算机体系结构角度讲, 一般不太会说专门支持语言的 VM, 而是支持指令集. EVM 指令集就是专门为 Solidity 设计. 通用 VM 是因为可以把各种语言编译成可运行的指令集而通用.
+
+> [Podcast](https://twitter.com/i/spaces/1OwxWzkDQmZJQ) Eli 补充: Cairo VM 就一个 pc 和两个 register, 能跑就行.
+
+#### OPRU 与 ZKRU 对比
+
+> Sreeram 补充: OPRU 可以通过 parallelization of sequencer 来进行 Fractal L3 scaling. OPRU 会赢得扩容竞争, 而 ZKRU 会因为更高的安全性以及只有它能做的个人隐私而赢 (Cryptoeconomics vs Cryptographic). Threshold cryptography 会因为 full state 隐私而赢.
+
+> Sreeram 补充: block producer 中心化和验证去中心化 ([stateless verification](https://twitter.com/epolynya/status/1530787644283625474)) 的情况下, OPRU 可以比 ZKRU 高几百倍的性能, 因为 Prover 会有 logC factor 的 overhead over 仅仅是执行.
+
+> Sreeram 补充: OPRU 和 ZKRU 的拓展还是依赖于应用计算的. 空间上, OPRU 会可以并行和没有 proving overhead 胜出; 时间上, ZKRU 会因为压缩胜出.
 
 ## 相关文章
 
