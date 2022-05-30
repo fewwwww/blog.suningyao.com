@@ -135,6 +135,10 @@ export default function UploadShow()  {
 
 脱稿了, 基本上感觉自己是中文圈比较能忽悠, 比较懂 AR 的人了.
 
+### 3. Arweave/OK Talk Twitter Space
+
+![](/img/incubate/ok-talk-ama.JPG)
+
 ## 社群运营
 
 ### 1. ardrive/discord
