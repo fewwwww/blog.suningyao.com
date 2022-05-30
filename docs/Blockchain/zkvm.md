@@ -138,28 +138,34 @@ EVM 设计的时候就没想到后面要做 zkEVM, 造成了非常大的困难. 
 
 ## 5. zk Rollup 和 Optimistic Rollup
 
-OPRU 和 ZKRU 的拓展依然是要依赖于应用考虑的, 以下是一些对比:
+[这篇](https://www.alexbeckett.xyz/the-benefits-of-optimistic-rollups-compared-to-zk-rollups/)讲了关于 OP 和 ZK 的一些基本对比, 可以先看下.
+
+要注意的是, 它们两者最根本的区别就是 zk Rollup 有一个 Prover 的角色, 同时在整个流程上都要考虑时间与硬件等的额外证明开销.
+
+除此之外, Optimistic Rollup 和 zk Rollup 的拓展依然是要依赖于应用考虑的, 虽然都是 Rollup, 但毕竟应用和功能可能会不太一样, 两者没有办法直接粗暴对比.
+
+以下是一些长远角度的对比:
 
 |                | Optimistic Rollup                                                                                 | zk Rollup                          |
 |----------------|---------------------------------------------------------------------------------------------------|------------------------------------|
 | [机制 (1)](https://twitter.com/sreeramkannan/status/1530778827466502144)           | Cryptoeconomics (类似 Arweave)                                                                    | Cryptographic (类似 Filecoin)      |
 | [优化角度 (2)](https://twitter.com/sreeramkannan/status/1530790559064829955) | Spatial 空间角度                                                                                  | Temporal 时间角度                  |
-| [方式 (3)](https://twitter.com/sreeramkannan/status/1530773769379205120)            | [去中心化 stateless 验证](https://twitter.com/sreeramkannan/status/1530793792361537536) (4) + 并行的中心化 sequencer (5) + 无 LogC 的 proving overhead factor, 运行时仅仅执行 (6), L1 确认时类似仅需存储 (7) | [stateless distributed prover(空间上)](https://twitter.com/yezhang1998/status/1530892694066974720) (9) + 硬件加速 (10) + L2 执行和证明解耦 (11), L1 确认时需要合约状态按顺序更新 (12), 所以通过 Fractual L3 Scaling 进一步压缩时间 (13) |
+| [方式 (3)](https://twitter.com/sreeramkannan/status/1530773769379205120)            | [去中心化 stateless 验证](https://twitter.com/sreeramkannan/status/1530793792361537536) (4) + [可并行处理 tx 的 sequencer](https://www.alexbeckett.xyz/the-path-toward-scaling-rollups/) (5) + 无 LogC 的 proving overhead factor, 运行时仅仅执行 (6), L1 确认时类似仅需存储 (7) | [stateless distributed prover(空间上)](https://twitter.com/yezhang1998/status/1530892694066974720) (9) + 硬件加速 (10) + L2 执行和证明解耦 (11), L1 确认时需要更复杂的合约验证 (12), 所以通过 Fractual L3 Scaling 进一步压缩时间 (13) |
 | 结果           | [性能上赢 ZKRU 几百倍](https://twitter.com/sreeramkannan/status/1530773572372791296), 也可以做[隐私 ZKOPRU](https://medium.com/privacy-scaling-explorations/zkopru-on-testnet-ba5b2d65ffa1) (8)                                                                            | 安全性更佳, [长期来看](https://twitter.com/sreeramkannan/status/1530807626744750080)只有它能[更适合地做隐私](https://twitter.com/sreeramkannan/status/1530806237691990016) (14)        |
 
 (1) 机制: 机制上的区别导致了两者最终天花板的上限. Arweave 我们其实深入了解之后也知道, 是没有办法保证数据 100% 的可用的, 因为就是使用了经济机制的博弈来平衡, 而不是密码学. 通过使用经济机制可以规避很多技术上的开销, 但是就是没有办法像 zk Rollup 和 Filecoin 这样 100% 保证可用性和安全性. 保证了性能的天花板够高, 但是安全性和可靠性始终是一个无伤大雅但是很硬伤的事情.
 
-(2) 优化角度: OP 的空间优化角度更像是在空间上, 架设更多的服务器, 来做到接收更大的量. ZK 的时间优化角度更像是在时间上, 同时有多个 Layer, 去同时干 Proving 的事情.
+(2) 优化角度: Optimistic Rollup 的空间优化角度更像是在空间上, 架设更多的服务器, 来做到接收更大的量. zk Rollup 的时间优化角度更像是在同一时间上, 同时有多个 Layer, 去同时干 Proving 等的事情.
 
-(3) 方式: 这里的优化方式更多是把所有未来的可能性都写上了, 算是非常长远的路线后的优化角度.
+(3) 方式: 这里的优化方式更多是把所有未来的可能性都写上了, 算是非常长远的路线后的优化角度. 除图中的方式之外[这里](https://www.alexbeckett.xyz/the-path-toward-scaling-rollups/)有讲通过 UTXO 模型来并行执行 (Fuel Labs), 可以适用于两种 Rollup 的扩容.
 
-(4) 去中心化 stateless 验证: 简单来说就是去随机验证, 来达到更快的验证速度. 但是相比 ZK 的无需信任验证来说, 需要额外架设.
+(4) 去中心化 stateless 验证: 简单来说就是去随机验证, 来达到更快的验证速度. 但是相比 zk Rollup 的无需信任验证来说, 需要额外架设.
 
-(5) 并行的中心化 sequencer: 类似就是可以同时有多个项目方控制的 sequencer 来同时出好多个块.
+(5) 可并行处理 tx 的 sequencer: 因为 Rollup 目前都是账户模型的, 所以 sequencer 可以同时来接收好多并行的 tx, 最终将部分的状态组合到一起计算出最终状态, 而不是每次只能接收一个 tx.
 
-(6) 无 LogC 的 proving overhead factor, 运行时仅仅执行: OP 没有 ZK 的证明这一步的额外开销, 只需要执行就可以, 所以从根本上来说, 会快.
+(6) 无 LogC 的 proving overhead factor, 运行时仅仅执行: Optimistic Rollup 没有 zk Rollup 的证明这一步的额外开销, 只需要执行就可以, 所以从根本上来说, 会快.
 
-(7) L1 确认时仅需存储: OP 的数据上 L1 的时候更快, 合约不用像 ZK 那样经过一个额外的验证的操作.
+(7) L1 确认时类似仅需存储: Optimistic Rollup 的数据上 L1 的时候更快, 合约不用像 zk Rollup 那样经过一个额外的验证的操作.
 
 (8) 也可以做隐私 ZKOPRU: 这个是以太坊基金会的人做的, 去年上了测试网然后就没进度了.
 
@@ -167,15 +173,13 @@ OPRU 和 ZKRU 的拓展依然是要依赖于应用考虑的, 以下是一些对�
 
 (10) 硬件加速: 图示[对比](/img/zkvm/zk-hardware-comparison.jpg)与[开发进度](/img/zkvm/zk-hardware-phase.jpg), [FPGA 是比较好的方案](https://www.paradigm.xyz/2022/04/zk-hardware), 因为性能消耗比优秀, 可根据网络更新或变化修改 (可编程) 同时生产更快 (硬件上并非完全客制化).
 
-(11) L2 执行和证明解耦: zk Rollup 它的执行和证明是分开的. 执行飞快, 然后证明是比较慢, 所以 L2 上的 finality 很快, 但是 L1 最终的 finality 就要看证明速度和上链速度. 我们看它的 TPS 一般都是看 L1 最终的 finality.
+(11) L2 执行和证明解耦: zk Rollup 它的执行和证明是分开的. 执行飞快, 然后证明是比较慢, 所以 L2 上的 finality 很快, 但是 L1 最终的 finality 就要看证明速度和上链速度. 我们看它的 TPS 一般都是看 L1 最终的 finality. 这里有个[对 zkSync 的计算](https://twitter.com/xiangganzi/status/1531204819242758144).
 
-(12) L1 确认时需要合约验证: 除了证明速度和上链速度, 上链速度中一个拉长时间的因素就是 zk 在 L1 智能合约的验证比 OP 稍微耗时间一些.
+(12) L1 确认时需要更复杂的合约验证: 除了证明速度和上链速度, 上链速度中一个同 gas 情况下, 可能拉长时间的因素就是 zk Rollup 在 L1 智能合约的验证比 Optimistic Rollup 稍微耗时间一些. 这里其实更多是 zk Rollup 的上链操作更复杂, 可能更耗 gas.
 
 (13) 通过 Fractual L3 Scaling 进一步压缩时间: 就是在 zk Rollup 上面再搭建一个 Layer3, 层层叠叠. 证明通过递归, 层层压缩, 最终提交到 L1.
 
-(14) 安全性更佳, [长期来看](https://twitter.com/sreeramkannan/status/1530807626744750080)只有它能[更适合地做隐私](https://twitter.com/sreeramkannan/status/1530806237691990016): 因为机制上是密码学保证, 所以 zk Rollup 更靠谱, 有保证. 如果真的要做一个隐私链的话, 要么是一个新的真正 zk 的 zk-zk Rollup, 要么是 zk-OP rollup, 要么是 Layer3 的 zk-zk Rollup. 其中说 zk Rollup 比 OP Rollup 更合适做隐私是因为, 本身自己 zk Rollup 已经用到 zk proof (validity proof) 了, 再去加一个隐私的 zk 对性能和架构的影响更小.
-
-这里也有篇 Alex Beckett 的很好的[文章](https://www.alexbeckett.xyz/the-path-toward-scaling-rollups/), 讲 OP 和 zk Rollup 未来的扩容路线, 以及[这篇](https://www.alexbeckett.xyz/the-benefits-of-optimistic-rollups-compared-to-zk-rollups/)讲了它们的一些对比.
+(14) 安全性更佳, [长期来看](https://twitter.com/sreeramkannan/status/1530807626744750080)只有它能[更适合地做隐私](https://twitter.com/sreeramkannan/status/1530806237691990016): 因为机制上是密码学保证, 所以 zk Rollup 更靠谱, 有保证. 如果真的要做一个隐私链的话, 要么是一个新的真正 zk 的 ZKZKRU, 要么是 ZKOPRU, 要么是 Layer3 的 ZKZKRU. 其中说 zk Rollup 比 Optimistic Rollup 更合适做隐私是因为, 本身自己 zk Rollup 已经用到 zk proof (validity proof) 了, 再去加一个隐私的 zk 对性能和架构的影响更小.
 
 ## 6. zkEVM 和 zkVM
 
