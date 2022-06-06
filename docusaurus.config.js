@@ -63,6 +63,10 @@ module.exports = {
             {
               label: "Sports",
               to: "/docs/Sports/racquets"
+            },
+            {
+              label: "Music",
+              to: "/docs/Music/music"
             }
           ]
         },
