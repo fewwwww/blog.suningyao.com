@@ -155,6 +155,8 @@ sidebar_position: 0
 
 69. [Professor making lots of great points on rollups](/img/thoughts/sreeram-0.png) and [this](/img/thoughts/sreeram-1.PNG)
 
+70. 走到后面才意识到原来当初为啥那么设计.
+
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷
 
 ## BONUS! 我的研究方法
