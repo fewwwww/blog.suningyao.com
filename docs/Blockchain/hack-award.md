@@ -12,6 +12,9 @@ sidebar_position: 2
 3. Polygon Web3 Game Hackathon Second Prize
 4. WhiteMatrix Metaverse&Web3 Hackathon First Prize
 5. Polygon Road to Web3 Team Prize
+6. Wanxiang Blockchain Spring Hackathon 2022 Third Prize
+7. Wanxiang Blockchain Spring Hackathon 2022 Venachain Choice
+8. Wanxiang Blockchain Spring Hackathon 2022 Protocol Labs Sponsor Award Potential Prize
 
 ## 中文
 
@@ -20,3 +23,6 @@ sidebar_position: 2
 3. [Polygon Web3 游戏开发黑客松二等奖](https://mp.weixin.qq.com/s/90SJqo_dteR2hfHUmibglA)
 4. [纯白矩阵元宇宙与 Web3 黑客松一等奖](https://mp.weixin.qq.com/s/90SJqo_dteR2hfHUmibglA)
 5. Polygon Road to Web3 团队奖
+6. [万向区块链春季黑客松 2022](https://mp.weixin.qq.com/s/LCm0Ur4kuxl4SPVCmLumoQ) 三等奖
+7. 万向区块链春季黑客松 Venachain 选择奖
+8. 万向区块链春季黑客松 Protocol Labs 赞助潜力奖
