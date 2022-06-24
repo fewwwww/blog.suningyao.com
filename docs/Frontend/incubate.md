@@ -139,6 +139,10 @@ export default function UploadShow()  {
 
 ![](/img/incubate/ok-talk-ama.JPG)
 
+### 4. VC/Gametaverse Twitter Space
+
+![](/img/incubate/gametaverse-ama.JPG)
+
 ## 社群运营
 
 ### 1. ardrive/discord
