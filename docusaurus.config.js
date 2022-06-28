@@ -19,17 +19,12 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'blog.suningyao',
+      hideOnScroll: true,
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'docs',
-        },
         {
           href: 'https://suningyao.com',
           label: 'Portfolio',
@@ -40,6 +35,26 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          label: "About",
+          to: "/docs/intro"
+        },
+        {
+          label: "Frontend",
+          to: "/docs/Frontend/incubate"
+        },
+        {
+          label: "Blockchain",
+          to: "/docs/Blockchain/thoughts"
+        },
+        {
+          label: "Sports",
+          to: "/docs/Sports/racquets"
+        },
+        {
+          label: "Music",
+          to: "/docs/Music/music"
+        }
       ],
     },
     footer: {

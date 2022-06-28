@@ -1,5 +1,5 @@
 ---
-sidebar_label: '🏢 Vue爬取并绑定公司Logo图片'
+sidebar_label: '🏢 Vue爬取绑定公司Logo图片'
 sidebar_position: 1
 ---
 

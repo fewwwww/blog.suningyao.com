@@ -163,6 +163,8 @@ sidebar_position: 0
 
 73. [比特币永远滴神](/img/thoughts/bitcoin.jpg).
 
+74. 从社会的发展上来看, MEV(neo-liberalism)和DAO(美国社会)的治理问题无法解决.
+
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷
 
 ## BONUS! 我的研究方法
