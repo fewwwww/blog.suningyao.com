@@ -121,6 +121,16 @@ export default function UploadShow()  {
 
 [The first cross-chain DEX on Arweave — Permaswap has released its official website and whitepaper](https://medium.com/everfinance/the-first-cross-chain-dex-on-arweave-permaswap-has-released-its-official-website-and-whitepaper-7bbb46487a84)
 
+### 7. everFinance/medium
+
+[Twitter Space: Why we believe WEB3 will happen on Arweave](https://medium.com/everfinance/twitter-space-why-we-believe-web3-will-happen-on-arweave-7be4e2710dcb)
+
+### 8. everFinance/medium
+
+[Metaverse Insight: Run Games on Chain](https://medium.com/everfinance/metaverse-insight-run-games-on-chain-69442f626036)
+
+最近太忙了, 之后应该没空搞了. `Translated by: everFinance` (😮‍💨...
+
 ## AMA
 
 ### 1. Arweave/BeWater Twitter Space
@@ -150,3 +160,5 @@ export default function UploadShow()  {
 ![Ardrive Discord 中文频道管理以及官网文档英翻中](/img/incubate/ardrive.png)
 
 之前一直在积极参加 Ardrive 的 [Public Drive Bounty](https://ardrive.io/pdb/). 后面就专门联系我让我做中文频道社群了, 顺便翻译文档帮忙 onboard 更多中国用户, 还分配了个粉色 name tag, 很酷. Ardrive 和 AR I/O 团队很牛逼.
+
+[中文网页](https://cn.ardrive.io/)和[中文 Web App](https://app.ardrive.io/cn)上的内容都是我翻的.
