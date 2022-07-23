@@ -20,6 +20,8 @@ sidebar_position: 1
 
 这几个 PR 都是为了领 permacast 在推特上发的 [bounty](https://twitter.com/permacastapp/status/1488931263079714823). permacast 的需求很简单, 一个是把主页搞得整齐一点, 另一个是禁止非正方形封面的上传. 两个其实都是为了主页整齐一点.
 
+> 2022-07-22: 貌似 container 里面套一个 `<div>` (防止样式污染导致容器宽度变化) 用上 flex 布局, 会自动 align-items: stretch, 然后高度就都一样了. 要宽度一样的话就 inline-flex, column direction.
+
 一开始我看到它主页的时候, 我还以为是故意的, 就那种瀑布流布局. 结果仔细一看, 原来是 React Bootstrap 的组件用的不好, 卡片是竖着排得. 加上文字的字数是没有限制的, 就导致了主页变成了这样.
 
 ![](/img/incubate/permacast-before.png)
