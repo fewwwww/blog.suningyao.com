@@ -5,3 +5,4 @@ node_modules
 CNAME
 yarn-error.log
 yarn.lock
+docs/one.md
