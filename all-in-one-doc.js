@@ -116,6 +116,7 @@ const docWithIntro = (doc, wordCount, wordPerMinute = 250) => {
   const introLines = [
     '---',
     'sidebar_position: 999999',
+    'sidebar_label: "All in One"',
     '---',
     '# _All in One_\n',
     '> This is a 472-pager (this number may be not exact) of all my blogs.',
