@@ -1,6 +1,5 @@
 ---
 sidebar_label: '🥷 CSS隐藏iframe与窗口滚动条'
-sidebar_position: 1
 ---
 # CSS隐藏iframe与窗口滚动条 🥷
 
