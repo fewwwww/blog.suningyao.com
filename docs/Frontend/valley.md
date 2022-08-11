@@ -5,9 +5,9 @@ sidebar_position: 1
 
 ## 周期报告
 
-### [Midterm Report](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/doc/incubate/midterm.pdf)
+### [Midterm Report](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/doc/valley/midterm.pdf)
 
-### [Final Report](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/doc/incubate/final.pdf)
+### [Final Report](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/doc/valley/final.pdf)
 
 ## 说说
 
@@ -36,6 +36,22 @@ sidebar_position: 1
 - 地方太小了, 我在鲜芋仙里坐着就遇到熟人.
 - 冰箱里已经一个多月没买食材了, 外面吃很爽.
 - 越南米粉 YYDS.
+- 爱上写测试, 讨厌 C++.
+- 爱上几何学, 讨厌给几何学写测试.
+- 讨厌 Borg, 喜欢云主机直接 Build.
+- 还是 TypeScript 代码写着顺手.
+- 在奶茶店写东西很舒服.
+- 公寓必须得有健身房和游泳池.
+- 看了壮志凌云和 Bullet Train.
+- 想每天看电影, 奢望和幻想中的女朋友每天看电影.
+- 2022 年下半年的 KPI: 谈恋爱.
+- 吃了好几次中国人和韩国人开得寿司店.
+- 不要往厕所扔太多纸.
+- 去 BeWater 参加了活动, 认识了很多朋友.
+- Meet 了 ZKGraph.io, Wesley, 谷歌的 Nelson, 拾象.
+- 最爱逛的二手街头服饰店关门了, 哭晕.
+- Milpitas 有耐克工厂店, 但是没啥好鞋.
+- Milpitas 真的有点臭.
 
 ## 小故事
 
@@ -58,3 +74,11 @@ sidebar_position: 1
 ### 看山是山
 
 实习后天就要结束, 但是却开始留恋了. 项目中遇到了一些难点还没有完全攻克, 也不知道能不能在最后两天把 CL 交上去. 技术上还是很有趣的, 虽然我自己代码写的不太行.
+
+### 涮羊肉
+
+公寓附近的 Mall 有家涮羊肉, 之前一直想去来着. 在这边吃过了海底捞, 但是火锅里面最好吃的还是铜锅涮肉. 是家[东来顺](https://www.yelp.com/biz/dong-lai-shun-mountain-view), 老板地道北京人. 看完电影顺路去吃, 刚进去的时候吓了一跳, 因为灯是黑的, 也没人. 最后吃完了也没其他的顾客来, 真的挺心酸. 隔壁的 Pacific Catch 倒是有很多人去. 味道很地道, 羊肉量给得也很实在.
+
+### 冰激淋
+
+和东来顺的事情差不多. 去一个很偏僻的地方吃小火锅, 然后吃完准备逛逛附近的, 结果走到海边得绕路, 所以就在旁边吃个冰激凌奶昔. 坐了半天就店员和我一个人, 我背对着打皇室. 总感觉空气中有种暧昧的气息... 店员真挺可爱的, 让我觉得越南 ABV 女孩子也好有感觉...
