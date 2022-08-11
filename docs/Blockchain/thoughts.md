@@ -177,6 +177,16 @@ sidebar_position: 0
 
 80. 技术方案和架构和代码是个屁, 解决问题和创造价值最重要.
 
+81. 共享安全性没用, 共了半天 trust model 还没 rollup 稳.
+
+82. 波卡和 Cosmos 一直都不是跨链, 而是多链.
+
+83. zk 的核心价值在于证明和验证的解耦, 这很模块化.
+
+84. [zk 原理](https://www.jianshu.com/p/7b772e5cdaef) (本来想写下的, 但是几句话说不清楚, [核心图](/img/thoughts/zk.png)).
+
+85. [Still early. Few.](/img/thoughts/early.jpeg)
+
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷
 
 ## BONUS! 我的研究方法
