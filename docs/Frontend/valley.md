@@ -48,10 +48,11 @@ sidebar_position: 1
 - 吃了好几次中国人和韩国人开得寿司店.
 - 不要往厕所扔太多纸.
 - 去 BeWater 参加了活动, 认识了很多朋友.
-- Meet 了 ZKGraph.io, Wesley, 谷歌的 Nelson, 拾象.
+- Meet 了 Herbie, ZKGraph.io, Wesley, 谷歌的 Nelson, 拾象.
 - 最爱逛的二手街头服饰店关门了, 哭晕.
 - Milpitas 有耐克工厂店, 但是没啥好鞋.
 - Milpitas 真的有点臭.
+- 硅谷去过了, 后面可能去华尔街看看吧.
 
 ## 小故事
 
