@@ -53,7 +53,7 @@ module.exports = {
         },
         {
           label: "Music",
-          to: "/docs/Music/music"
+          to: "/docs/Music/music-n-me"
         }
       ],
     },
@@ -81,7 +81,7 @@ module.exports = {
             },
             {
               label: "Music",
-              to: "/docs/Music/music"
+              to: "/docs/Music/music-n-me"
             }
           ]
         },

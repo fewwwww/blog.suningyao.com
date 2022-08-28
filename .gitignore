@@ -6,3 +6,4 @@ CNAME
 yarn-error.log
 yarn.lock
 docs/one.md
+package-lock.json
