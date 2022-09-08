@@ -3,13 +3,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
+  trailingSlash: true,
   i18n: {
     defaultLocale: 'zh',
     locales: ['zh'],
   },
   title: 'Blogs',
   tagline: 'by Suning Yao',
-  url: 'https://fewwwww.github.io', // Your website URL
+  url: 'https://fewwwww.github.io/', // Your website URL
   baseUrl: '/',
   projectName: 'blog.suningyao.com',
   organizationName: 'fewwwww',
@@ -26,34 +27,34 @@ module.exports = {
       },
       items: [
         {
-          href: 'https://suningyao.com',
+          href: 'https://suningyao.com/',
           label: 'Portfolio',
           position: 'right',
         },
         {
-          href: 'https://github.com/fewwwww/blog.suningyao.com',
+          href: 'https://github.com/fewwwww/blog.suningyao.com/',
           label: 'GitHub',
           position: 'right',
         },
         {
           label: "About",
-          to: "/docs/intro"
+          to: "/docs/intro/"
         },
         {
           label: "Frontend",
-          to: "/docs/Frontend/incubate"
+          to: "/docs/Frontend/incubate/"
         },
         {
           label: "Blockchain",
-          to: "/docs/Blockchain/thoughts"
+          to: "/docs/Blockchain/thoughts/"
         },
         {
           label: "Sports",
-          to: "/docs/Sports/racquets"
+          to: "/docs/Sports/racquets/"
         },
         {
           label: "Music",
-          to: "/docs/Music/music-n-me"
+          to: "/docs/Music/music-n-me/"
         }
       ],
     },
@@ -65,23 +66,23 @@ module.exports = {
           items: [
             {
               label: "About",
-              to: "/docs/intro"
+              to: "/docs/intro/"
             },
             {
               label: "Frontend",
-              to: "/docs/Frontend/incubate"
+              to: "/docs/Frontend/incubate/"
             },
             {
               label: "Blockchain",
-              to: "/docs/Blockchain/thoughts"
+              to: "/docs/Blockchain/thoughts/"
             },
             {
               label: "Sports",
-              to: "/docs/Sports/racquets"
+              to: "/docs/Sports/racquets/"
             },
             {
               label: "Music",
-              to: "/docs/Music/music-n-me"
+              to: "/docs/Music/music-n-me/"
             }
           ]
         },
@@ -90,7 +91,7 @@ module.exports = {
           items: [
             {
               label: "Linktree",
-              href: "https://sny.is"
+              href: "https://sny.is/"
             },
             {
               label: "WeChat",
@@ -98,11 +99,11 @@ module.exports = {
             },
             {
               label: "Portfolio",
-              href: "https://suningyao.com"
+              href: "https://suningyao.com/"
             },
             {
               label: "GitHub",
-              href: "https://github.com/fewwwww"
+              href: "https://github.com/fewwwww/"
             }
           ]
         },
