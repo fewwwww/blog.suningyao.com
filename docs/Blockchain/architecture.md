@@ -1,4 +1,4 @@
-# ㊙️ 读懂DApp: Web3原生架构
+# 🔑 读懂DApp: Web3原生架构
 
 > 本文为Foresight Ventures撰写, 已以机构身份发布于各大区块链媒体平台, 推荐在[Foresight Research 公众号](https://mp.weixin.qq.com/s/J6NIDPM9vx1R3sAnp8bLBA)上阅读.
 

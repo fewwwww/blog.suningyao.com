@@ -1,4 +1,4 @@
-# ♦️ 读懂Polygon: Hermez zkEVM
+# 🍱 读懂Polygon: Hermez zkEVM
 
 > 本文为Foresight Ventures撰写, 已以机构身份发布于各大区块链媒体平台, 推荐在[Foresight Research 公众号](https://mp.weixin.qq.com/s/i9O0vpHnkHFwVBPjNeqMUQ)上阅读.
 
