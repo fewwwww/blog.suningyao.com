@@ -207,6 +207,8 @@ sidebar_position: 0
 
 95. sovereign rollup 比 pos 好的就是不用 validator set, 可以直接 composable, 比 secured rollup 更好就是可以随意选择合约的环境. “可组合性”
 
+96. 比特币的脚本没有 loop, 因为都只是针对 utxo 解锁这个功能的.
+
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷
 
 ## BONUS! 我的研究方法
