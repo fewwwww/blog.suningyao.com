@@ -8,7 +8,7 @@ module.exports = {
     defaultLocale: 'zh',
     locales: ['zh'],
   },
-  title: 'Blogs',
+  title: 'Suning Yao / msfew | Blogs',
   tagline: 'by Suning Yao',
   url: 'https://fewwwww.github.io/', // Your website URL
   baseUrl: '/',
