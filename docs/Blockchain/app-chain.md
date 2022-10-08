@@ -4,6 +4,10 @@
 
 > English Version: [Medium](https://foresightventures.medium.com/foresight-ventures-app-chain-on-chain-app-14ae8d795047).
 
+> 22/10/08: [读者所做的概括图](https://twitter.com/kiki520_eth/status/1577668703704862720)
+
+![](/img/app-chain/rgc.jpeg)
+
 ## 0. 更多的 Rollup, 更多的链
 
 在 Rollup 的叙事越来越吸引目光, 同时整个行业对 App-chain 性能、主权、部署的要求越来越高的过程中, StarkEx 的 App-rollup 服务、 Celestia 的可复用 Layer1 安全层、与其他高性能 DA 方案成为了搭建 App-chain 中的主流选择.
