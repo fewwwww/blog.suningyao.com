@@ -2,7 +2,7 @@
 sidebar_label: '💪 Arm Mac搭建Fisco区块链'
 sidebar_position: 6
 ---
-# Arm Mac搭建Fisco区块链 💪
+# 💪 Arm Mac搭建Fisco区块链
 
 # 😅 TLDR: Fisco BsoC貌似暂不支持Arm架构的macOS (Fri Jun 25 2021 13:56:05 GMT+0800 (CST))
 ## 1. 搭建单群组FISCO BCOS联盟链

@@ -2,7 +2,7 @@
 sidebar_label: '⚛️ Redux和Jest这次真的就学会'
 ---
 
-# Redux和Jest这次真的一定直接上手 ⚛
+# ⚛ Redux和Jest这次真的一定直接上手
 
 ## 前端中缺失的拼图
 

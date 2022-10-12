@@ -2,7 +2,7 @@
 sidebar_label: '🤵🏻‍♂️ React Web3优雅的登录验证'
 ---
 
-# React Web3应用优雅的登录验证方案 🤵🏻‍♂️
+# 🤵🏻‍♂️ React Web3应用优雅的登录验证方案
 
 ## 项目概述
 

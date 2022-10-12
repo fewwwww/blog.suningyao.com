@@ -3,7 +3,7 @@ sidebar_label: '🤝 一天内组建一个研究 DAO'
 sidebar_position: 2
 ---
 
-# 一天内组建一个研究 DAO 🤝
+# 🤝 一天内组建一个研究 DAO
 
 受南京大学的教授之托, 帮忙组建了一个用 GitHub 和 Notion 管理的学术论文写作 DAO. 大概花了两天时间就建起来了. 以下是步骤:
 

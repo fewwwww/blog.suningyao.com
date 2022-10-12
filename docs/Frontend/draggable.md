@@ -2,7 +2,7 @@
 sidebar_label: '🤗 React组件拖拽改变大小功能'
 ---
 
-# React组件拖拽改变大小(Resizing)功能 🤗
+# 🤗 React组件拖拽改变大小(Resizing)功能
 
 > 呜呜, CSS有[原生的property](https://www.w3schools.com/cssref/css3_pr_resize.asp)让div能resize(注意overflow: visible下不奏效). 亏我还自己手动实现, 改了几个月...
 

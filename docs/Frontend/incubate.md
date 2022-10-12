@@ -2,7 +2,7 @@
 sidebar_label: '💁‍♂️ 对投后项目的改 Bug 等服务'
 sidebar_position: 1
 ---
-# 对投后项目的改 Bug 等服务 💁‍♂️
+# 💁‍♂️ 对投后项目的改 Bug 等服务
 
 > 这篇文档里主要记录了在 Foresight Ventures 期间对投后项目的一些 PR. 主要也是自己对投后的项目的一些兴趣, 很喜欢去上手玩他们的项目, 同时改 Bug 也能收点外快.
 
