@@ -88,7 +88,7 @@ contract ERC20 {
 
 屁话不多说, 上代码.
 
-### `subgraph.yaml`
+### 1) `subgraph.yaml`
 
 Subgraph 的配置文件.
 
@@ -140,7 +140,7 @@ handler 顺序: eventHandlers + callHandlers -> blockHandlers.
 
 abi: 编译时或者 Etherscan 找.
 
-### `schema.graphql`
+### 2) `schema.graphql`
 
 可以理解成单纯定义 GraphQL entity 数据类型的, 或者定义查询规则的. [文档](https://graphql.org/learn/schema/).
 
@@ -155,7 +155,7 @@ type Gravatar @entity {
 
 最后用 `codegen` 生成 `schema.ts`, 用于 `mapping.ts`.
 
-### `mapping.ts`
+### 3) `mapping.ts`
 
 用 AssemblyScript (TypeScript 子集) 写的.
 
@@ -186,4 +186,4 @@ export function handleBlock(block: ethereum.Block): void {
 }
 ```
 
-没了. 看不懂可以再看下[教程](https://www.bilibili.com/video/BV1wS4y1R76w/).
+没了. 看不懂可以再看下[教程](https://www.bilibili.com/video/BV1wS4y1R76w/), 或者 Messari 写的示例, 或者 [ENS 的 Subgraph](https://github.com/ensdomains/ens-subgraph).
