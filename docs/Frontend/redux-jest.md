@@ -1,8 +1,8 @@
 ---
-sidebar_label: '⚛️ Redux和Jest这次真的就学会'
+sidebar_label: '⚛️ React生态全家桶直接上手'
 ---
 
-# ⚛ Redux和Jest这次真的一定直接上手
+# ⚛ React生态全家桶直接上手
 
 ## 前端中缺失的拼图
 
@@ -273,3 +273,66 @@ describe("Stack: ", () => {
 ### 总结
 
 没啥好说的... 写起来简单, 用起来有效, 但是真的要做到测试驱动开发, 很难.
+
+## 2 分钟搞定 Router
+
+源码示例: [https://github.com/fewwwww/DM-UY-3193-NYUTANDON/tree/main/exercise-2/src](https://github.com/fewwwww/DM-UY-3193-NYUTANDON/tree/main/exercise-2/src)
+
+### app.js
+
+最大的 app 组件
+
+```jsx
+import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
+import Article from './pages/article';
+import List from './pages/list';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <List />,
+  },
+  {
+    path: '/article/:id',
+    element: <Article />,
+  },
+]);
+
+function App() {
+  return (
+    <div className='App'>
+      <RouterProvider router={router} />
+    </div>
+  );
+}
+
+export default App;
+```
+
+### article.js
+
+单独的文章组件页面, 用到了 id.
+
+```jsx
+// article.js
+import { useParams } from 'react-router';
+import Data from '../components/data';
+
+const Article = () => {
+  const { id } = useParams();
+
+  const article = Data.find((article) => article.id === id);
+
+  return (
+    <main>
+      {article}
+    </main>
+  );
+};
+
+export default Article;
+```
+
+### list.js
+
+这个没啥好说的, 就是一个列表, 不用再这里和 router 交互.
