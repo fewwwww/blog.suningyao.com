@@ -6,3 +6,5 @@ yarn-error.log
 yarn.lock
 docs/one.md
 package-lock.json
+docs/Draft
+static/draft
