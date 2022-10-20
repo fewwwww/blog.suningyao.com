@@ -30,7 +30,9 @@ For high school, I studied at [Shanghai Jianping High School ECIC](https://mp.we
 
 `2022`
 
-About my experience, I worked at [Google Geo](https://mapsplatform.google.com/) (the map) at the valley as STEP Intern in Summer 2022. I wrote code for the infra of Maps and tool suites of Maps platform.
+I am working as a Community Lead for [Hyper Oracle](https://hyperoracle.io/), a Web3 zkMiddleware startup. I co-authored the [litepaper](https://hyperoracle.medium.com/announcing-hyper-oracle-the-ultimate-web3-zkmiddleware-ed28ee393196), and helped raising by pitching VCs (polychain, binance labs, bain, etc), and applying for grants from Uniswap, and Zcash.
+
+I worked at [Google Geo](https://mapsplatform.google.com/) (the map) at the valley as STEP Intern in Summer 2022. I wrote code for the infra of Maps and tool suites of Maps platform.
 
 I am now working full-time after 8 months of internship at [Foresight Ventures](https://foresightventures.com), a VC backed by [Bitget](https://bitget.com) (Bitget's logo is [on Juventus's sleeves](https://www.juventus.com/en/news/articles/juventus-to-unveil-bitget-as-first-sleeve-partner)!) and Bitkeep (crypto wallet with 5 million users) focus on investment on blockchain and metaverse.
 

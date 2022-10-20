@@ -41,8 +41,8 @@ module.exports = {
           to: "/docs/intro/"
         },
         {
-          label: "Frontend",
-          to: "/docs/Frontend/incubate/"
+          label: "Code",
+          to: "/docs/Code/incubate/"
         },
         {
           label: "Blockchain",
@@ -69,8 +69,8 @@ module.exports = {
               to: "/docs/intro/"
             },
             {
-              label: "Frontend",
-              to: "/docs/Frontend/incubate/"
+              label: "Code",
+              to: "/docs/Code/incubate/"
             },
             {
               label: "Blockchain",

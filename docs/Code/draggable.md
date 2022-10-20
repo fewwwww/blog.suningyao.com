@@ -20,7 +20,7 @@ sidebar_label: '🤗 React组件拖拽改变大小功能'
 
 除了`onclick`和`onchange`, 其实是有无数多事件可以用的. 看了一圈事件以后我发现`onmousedown`. `onmouseup`. `onmousemove`这几个无比符合需求.
 
-> 关于这个`onmousedown`, 我今天看到vscode的开发组19年的[博客](https://fed.taobao.org/blog/taofed/do71ct/wpsf10), 里面就提到了用`onmousedown`替换`onmouseup`来提高用户体验. 其实这和我[另一篇博客里提到](https://blog.suningyao.com/docs/Frontend/instant-page)的instant.page有异曲同工之妙.
+> 关于这个`onmousedown`, 我今天看到vscode的开发组19年的[博客](https://fed.taobao.org/blog/taofed/do71ct/wpsf10), 里面就提到了用`onmousedown`替换`onmouseup`来提高用户体验. 其实这和我[另一篇博客里提到](https://blog.suningyao.com/docs/Code/instant-page)的instant.page有异曲同工之妙.
 
 于是我是这么想的: 拿到鼠标按下去瞬间的位置 -> 拖动时计算位移的距离 -> 给应用加上缩小放大的距离 -> 拿到鼠标放开时的位置.
 

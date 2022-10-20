@@ -186,4 +186,4 @@ export function handleBlock(block: ethereum.Block): void {
 }
 ```
 
-没了. 看不懂可以再看下[教程](https://www.bilibili.com/video/BV1wS4y1R76w/), 或者 Messari 写的示例, 或者 [ENS 的 Subgraph](https://github.com/ensdomains/ens-subgraph).
+没了. 看不懂可以再看下[教程](https://www.bilibili.com/video/BV1wS4y1R76w/), 或者 Messari 写的示例, 或者 [ENS 的 Subgraph](https://github.com/ensdomains/ens-subgraph), 或者这个[简单完整应用](https://github.com/amoweolubusayo/graph-client-enzyme-balancer-nextjs-example).

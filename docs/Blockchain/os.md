@@ -61,9 +61,9 @@ sidebar_position: 2
 
     第三个issue做的就是加入网易云音乐等子应用. 网易云真的很坑, 17年开始就有人说它的iframe播放器有问题, 21年了还是有问题. 网页版的大iframe点击不了, 不能放歌; 播放器版的iframe能放, 但是貌似就只能放电台的了. 于是我就找了嘉然的电台歌单, 让它背景是网页版的大iframe, 右下角是一个播放器版iframe. 这期间我记得我还修了不少窗口的bug. 之后就是轻轻松松按照改config, 加组件的流程加入了eth-build, 抖音, remix等应用.
 
-    第四个issue, 大的来了, 这个issue是我自己提的, 要做一个窗口放大缩小的功能. 唉, 说不动了, 看[这篇](https://blog.suningyao.com/docs/Frontend/draggable)就行了. 还有就是在VSCode子应用上反复横跳了好久才决定用webContainer的方案. 反正是学到了, 写代码之前一定要规划好逻辑, 想清楚算法, 不然真的会浪费很多无谓的时间.
+    第四个issue, 大的来了, 这个issue是我自己提的, 要做一个窗口放大缩小的功能. 唉, 说不动了, 看[这篇](https://blog.suningyao.com/docs/Code/draggable)就行了. 还有就是在VSCode子应用上反复横跳了好久才决定用webContainer的方案. 反正是学到了, 写代码之前一定要规划好逻辑, 想清楚算法, 不然真的会浪费很多无谓的时间.
 
-    第五个issue, [加个GitHub和MetaMask登录](https://blog.suningyao.com/docs/Frontend/auth), 看这个就可以啦.
+    第五个issue, [加个GitHub和MetaMask登录](https://blog.suningyao.com/docs/Code/auth), 看这个就可以啦.
 
     第六个没解决的issue, 给窗口加个好一点的拖拽功能, 现在的实在太卡了. 这个可能会这学期问下Web Dev的老师, 她的官网上有可拖动的组件.
 
