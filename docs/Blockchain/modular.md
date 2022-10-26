@@ -281,22 +281,6 @@ App-chain 的需求到底有多少?
 
 **比特币是区块链的概念, 以太坊是区块链的实践, 而模块化区块链会是区块链被广泛工程化与实践的基础**.
 
-### 关于 Foresight Ventures
-
-Foresight Ventures 押注加密货币未来几十年的创新历程，旗下管理多支基金：VC基金、二级主动管理基金、多策略FOF、特殊目的S基金「Foresight Secondary Fund l」, 总资产管理规模超过4亿美元。Foresight Ventures 坚持“Unique, Independent, Aggressive, Long-term”的理念，通过强大的生态力量为项目提供广泛的支持。其团队来自包括红杉中国，中金公司，谷歌，比特大陆等顶级金融和技术公司的资深人士。
-
-Website: [https://www.foresightventures.com/](https://www.foresightventures.com/)
-
-Twitter: [https://twitter.com/ForesightVen](https://twitter.com/ForesightVen)
-
-Medium: [](https://foresightventures.medium.com/)[https://medium.com/@foresightventures-zh](https://medium.com/@foresightventures-zh)
-
-Substack: [https://foresightventures.substack.com](https://foresightventures.substack.com/)
-
-Discord: [https://discord.com/invite/jYtyfxfB](https://discord.com/invite/jYtyfxfB)
-
-Linktree: [https://linktr.ee/foresightventures](https://linktr.ee/foresightventures)
-
 ## 相关阅读
 
 推荐精读:
