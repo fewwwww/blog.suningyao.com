@@ -5,9 +5,9 @@ sidebar_position: 0
 
 # 💡 关于区块链的一些个人思考
 
-**Foresight Ventures 牛逼.**
+**搞区块链就是为了来赚钱/洗钱的. 不忘初心, 牢记使命.**
 
-**搞区块链就是为了来赚钱的. 不忘初心, 牢记使命.**
+> 2022/10/27: 以下内容不重要.
 
 **[You see, cryptography is the only technology available to any individual today that enables defence against even the most powerful adversaries (like a mighty totalitarian regime).](https://twitter.com/amat_sophie/status/1449611174073405441)**
 
