@@ -16,21 +16,11 @@ Contact me if you want at `yaosuning@gmail.com`.
 
 Or if you like to see my professional [resumé](https://github.com/fewwwww/resume/raw/main/Suning%20Yao-yaosuning%40gmail.com.pdf).
 
-### Education
-
-`2020`
-
-About my education, I am now at [NYU Tandon](https://engineering.nyu.edu) (纽约大学工程学院), studying Computer Science.
-
-`2017`
-
-For high school, I studied at [Shanghai Jianping High School ECIC](https://mp.weixin.qq.com/s/2EpWdX7qU4PMqnN8aaGTRg) (建平中学国际课程班).
-
 ### Experience
 
 `2022`
 
-I am working as a Community Lead for [Hyper Oracle](https://hyperoracle.io/), a Web3 zkMiddleware startup. I co-authored the [litepaper](https://hyperoracle.medium.com/announcing-hyper-oracle-the-ultimate-web3-zkmiddleware-ed28ee393196), and helped raising by pitching VCs (polychain, binance labs, bain, etc), and applying for grants from Uniswap, and Zcash.
+I am working as a Community Lead for [Hyper Oracle](https://hyperoracle.io/), a Web3 zkMiddleware startup. I co-authored the [litepaper](https://hyperoracle.medium.com/announcing-hyper-oracle-the-ultimate-web3-zkmiddleware-ed28ee393196), helped on preseed fundraising by pitching VCs (Polychain, Binance labs, Bain Capital Crypto, and ~10 more), and helped apply for grants from Uniswap, Ethereum Foundation, and Zcash.
 
 I worked at [Google Geo](https://mapsplatform.google.com/) (the map) at the valley as STEP Intern in Summer 2022. I wrote code for the infra of Maps and tool suites of Maps platform.
 
@@ -43,6 +33,16 @@ In Summer 2021, I worked at [UnionPay](https://cn.unionpay.com) (中国银联) w
 `2020`
 
 I spent a wonderful month at [Microsoft AIoT Lab](https://www.microsoftiotinsiderlabs.com/) (微软人工智能与物联网实验室) in Shanghai.
+
+### Education
+
+`2020`
+
+About my education, I am now at [NYU Tandon](https://engineering.nyu.edu) (纽约大学工程学院), studying Computer Science.
+
+`2017`
+
+For high school, I studied at [Shanghai Jianping High School ECIC](https://mp.weixin.qq.com/s/2EpWdX7qU4PMqnN8aaGTRg) (建平中学国际课程班).
 
 ### Project
 
