@@ -7,16 +7,19 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "touch ./docs/one.md && rm ./docs/one.md && docusaurus deploy",
+    "deploy": "yarn remove-one && yarn move-draft && docusaurus deploy",
+    "move-draft": "bash ./script/move-draft.sh",
+    "restore-draft": "bash ./script/restore-draft.sh",
+    "remove-one": "touch ./docs/one.md && rm ./docs/one.md",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "one": "node ./all-in-one-doc.js"
+    "one": "node ./script/all-in-one-doc.js"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.1.0",
-    "@docusaurus/preset-classic": "^2.1.0",
+    "@docusaurus/core": "^2.2.0",
+    "@docusaurus/preset-classic": "^2.2.0",
     "@mdx-js/react": "^1.6.21",
     "@svgr/webpack": "^5.5.0",
     "clsx": "^1.1.1",

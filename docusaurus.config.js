@@ -27,6 +27,11 @@ module.exports = {
       },
       items: [
         {
+          href: "https://sny.is/",
+          label: "Links",
+          position: "right",
+        },
+        {
           href: 'https://suningyao.com/',
           label: 'Portfolio',
           position: 'right',
@@ -41,12 +46,12 @@ module.exports = {
           to: "/docs/intro/"
         },
         {
-          label: "Code",
-          to: "/docs/Code/incubate/"
-        },
-        {
           label: "Blockchain",
           to: "/docs/Blockchain/thoughts/"
+        },
+        {
+          label: "Code",
+          to: "/docs/Code/incubate/"
         },
         {
           label: "Sports",
@@ -69,12 +74,12 @@ module.exports = {
               to: "/docs/intro/"
             },
             {
-              label: "Code",
-              to: "/docs/Code/incubate/"
-            },
-            {
               label: "Blockchain",
               to: "/docs/Blockchain/thoughts/"
+            },
+            {
+              label: "Code",
+              to: "/docs/Code/incubate/"
             },
             {
               label: "Sports",
@@ -113,7 +118,7 @@ module.exports = {
           ]
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Blog. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Suning Yao's Blog. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
