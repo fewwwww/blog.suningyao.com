@@ -10,6 +10,7 @@
     "deploy": "yarn remove-one && yarn move-draft && docusaurus deploy",
     "move-draft": "bash ./script/move-draft.sh",
     "restore-draft": "bash ./script/restore-draft.sh",
+    "restore": "yarn restore-draft",
     "remove-one": "touch ./docs/one.md && rm ./docs/one.md",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",

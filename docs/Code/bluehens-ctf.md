@@ -14,7 +14,7 @@ Perhaps You Can
 
 于是我们可以从 `output` 中看到很多代码关键字, 但是没有办法确定是什么语言, 可能大概率是 `python`.
 
-![](/img/bluelens-ctf/hex.png)
+![](/img/bluehens-ctf/hex.png)
 
 之后我们再回到 `input` 中, 来敲定代码的语言. 我们通过[搜索前六位的前缀 `550d0d0a`](https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/.pyc), 可以从这个 magic number 中知道文件是 `.pyc`.
 
