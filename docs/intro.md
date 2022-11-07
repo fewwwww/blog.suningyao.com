@@ -20,11 +20,11 @@ Or if you like to see my professional [resumé](https://github.com/fewwwww/resum
 
 `2022`
 
-I am working as a Community Lead for [Hyper Oracle](https://hyperoracle.io/), a Web3 zkMiddleware startup. I co-authored the [litepaper](https://hyperoracle.medium.com/announcing-hyper-oracle-the-ultimate-web3-zkmiddleware-ed28ee393196), helped on preseed fundraising by pitching VCs (Polychain, Binance labs, Bain Capital Crypto, and ~10 more), and helped apply for grants from Uniswap, Ethereum Foundation, and Zcash.
+I am working as Head of Strategy for [Hyper Oracle](https://hyperoracle.io/), a Web3 zkMiddleware startup. I co-authored the [litepaper](https://hyperoracle.medium.com/announcing-hyper-oracle-the-ultimate-web3-zkmiddleware-ed28ee393196), helped on preseed fundraising by pitching top VCs, and helped apply for grants from Uniswap, Ethereum Foundation, and Zcash.
 
 I worked at [Google Geo](https://mapsplatform.google.com/) (the map) at the valley as STEP Intern in Summer 2022. I wrote code for the infra of Maps and tool suites of Maps platform.
 
-I am now working full-time after 8 months of internship at [Foresight Ventures](https://foresightventures.com), a VC backed by [Bitget](https://bitget.com) (Bitget's logo is [on Juventus's sleeves](https://www.juventus.com/en/news/articles/juventus-to-unveil-bitget-as-first-sleeve-partner)!) and Bitkeep (crypto wallet with 5 million users) focus on investment on blockchain and metaverse.
+I worked for 15 months as Researcher at [Foresight Ventures](https://foresightventures.com), a VC backed by [Bitget](https://bitget.com) (sponsor of Juventus and partnered with Messi) and Bitkeep (crypto wallet with 5 million users) focus on investment on Web3. I wrote about ~20 researches, leaded investment in [NFTInspect](https://www.nftinspect.xyz/), [Veridise](https://veridise.com/), and [Hyper Oracle](https://www.hyperoracle.io/), and helped 25x our account followers (400 to 10k).
 
 `2021`
 
