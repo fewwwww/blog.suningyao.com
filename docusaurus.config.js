@@ -60,6 +60,10 @@ module.exports = {
         {
           label: "Music",
           to: "/docs/Music/music-n-me/"
+        },
+        {
+          label: "Life",
+          to: "/docs/Life/valley/"
         }
       ],
     },
@@ -88,6 +92,10 @@ module.exports = {
             {
               label: "Music",
               to: "/docs/Music/music-n-me/"
+            },
+            {
+              label: "Life",
+              to: "/docs/Life/valley/"
             }
           ]
         },
