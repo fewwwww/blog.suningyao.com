@@ -8,7 +8,7 @@ sidebar_position: 0
 
 Nice to meet you. So that's my name.
 
-I am a web dev and web3 venture capitalist.
+I am a web dev and web3 researcher, was a web3 venture capitalist.
 
 My tech stack is `React`+`Vue`+`TypeScript`+`ThreeJS`.
 
@@ -20,7 +20,7 @@ Or if you like to see my professional [resumé](https://github.com/fewwwww/resum
 
 `2022`
 
-I am working as Head of Strategy for [Hyper Oracle](https://hyperoracle.io/), a Web3 zkMiddleware startup. I co-authored the [litepaper](https://hyperoracle.medium.com/announcing-hyper-oracle-the-ultimate-web3-zkmiddleware-ed28ee393196), helped on preseed fundraising by pitching top VCs, and helped apply for grants from Uniswap, Ethereum Foundation, and Zcash.
+I am working as Strategy Researcher for [Hyper Oracle](https://hyperoracle.io/), a Web3 zkMiddleware startup. I co-authored the [litepaper](https://hyperoracle.medium.com/announcing-hyper-oracle-the-ultimate-web3-zkmiddleware-ed28ee393196), helped on preseed fundraising by pitching top VCs and angels, and helped decison making.
 
 I worked at [Google Geo](https://mapsplatform.google.com/) (the map) at the valley as STEP Intern in Summer 2022. I wrote code for the infra of Maps and tool suites of Maps platform.
 

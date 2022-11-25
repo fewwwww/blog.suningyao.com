@@ -7,7 +7,9 @@ sidebar_position: 0
 
 **搞区块链就是为了来赚钱/洗钱的. 不忘初心, 牢记使命.**
 
-> 2022/10/27: 以下内容不重要.
+**[投研方面一些小小的工作](https://three-recorder-52a.notion.site/msfew-10-26-958088140df54ca2992c6fe359935f3b)**
+
+> 2022/10/27: 以下内容其实不是最重要的.
 
 **[You see, cryptography is the only technology available to any individual today that enables defence against even the most powerful adversaries (like a mighty totalitarian regime).](https://twitter.com/amat_sophie/status/1449611174073405441)**
 
@@ -208,6 +210,24 @@ sidebar_position: 0
 90. sovereign rollup 比 pos 好的就是不用 validator set, 可以直接 composable, 比 secured rollup 更好就是可以随意选择合约的环境. “可组合性”
 
 91. 比特币的脚本没有 loop, 因为都只是针对 utxo 解锁这个功能的.
+
+92. 比特币的智能合约是扶不起的阿斗.
+
+93. 稳定币本质上是指数基金.
+
+94. vc 不 care 去中心化.
+
+95. 不要轻易相信任何人, 他们可能有很好的理由, 结果是为了割你...
+
+96. 项目就是 move faster, or die slowly.
+
+97. 做局做局!
+
+98. 当心抄袭狗.
+
+99. 养社区最重要.
+
+100. 多去侧面打听, 越多的信息代表着越多越多的信息.
 
 > _"<b>我们失去的是锁链, 得到的却是整个世界</b>."_  ----卖书大爷
 
