@@ -27,13 +27,13 @@ sidebar_position: 0
 
 6. 中国的场景(高并发, 移动支付, 央行)是最适合研究数字货币的. 央行把活儿分散给到了商业银行, 方便央行的制度管理和政策调整, 商业银行的活动开展和运营管理.
 
-> 巧合的是, 我在大一全年都是线上授课, 因此从未当面见到老师和同学, 恰巧写了关于人的精神自我和物理自我的关系的文章. 这和元宇宙也有所关系, 感兴趣的话可以[阅读一下](/doc/thoughts/SuningYao-Fedbyfeed.pdf). 大二也水了[一篇关于去中心化的](/doc/thoughts/SuningYao-DreamaboutDecentralization.pdf), 这篇有点瞎写.
+> 巧合的是, 我在大一全年都是线上授课, 因此从未当面见到老师和同学, 恰巧写了关于人的精神自我和物理自我的关系的文章. 这和元宇宙也有所关系, 感兴趣的话可以[阅读一下](https://github.com/fewwwww/blog.suningyao.com/blob/master/static/doc/thoughts/SuningYao-Fedbyfeed.pdf). 大二也水了[一篇关于去中心化的](https://github.com/fewwwww/blog.suningyao.com/blob/master/static/doc/thoughts/SuningYao-DreamaboutDecentralization.pdf), 这篇有点瞎写.
 
 1. 加密游戏的重点是游戏, 而不是加密, 加密的部分大多只是激励机制. (211104: 这条不对, 重点就是币. 211225: 游戏要么就PPT, 专注于搞钱; 要么就搞得真的很好玩, 不然不上不下很没意思.)
 
 2. 如果一定要投资加密货币, 那么只需要买入比特币, 其他的诸如以太坊或者其他垃圾币都是中心化的💩.
 
-3. 只有[比特币和以太坊的设计](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/doc/thoughts/Bitcoin系统与Ethereum系统技术特点整理.pdf) 值得研究, 其他的都是拙略的模仿者.
+3. 只有[比特币和以太坊的设计](https://github.com/fewwwww/blog.suningyao.com/blob/master/static/doc/thoughts/Bitcoin系统与Ethereum系统技术特点整理.pdf) 值得研究, 其他的都是拙略的模仿者.
 
 4. 都怪预言机.
 
@@ -105,7 +105,7 @@ sidebar_position: 0
 
 38. [看这篇我的文章](https://mp.weixin.qq.com/s/mtpUympekLcCQRddylJzSw)
 
-39. [Arweave](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/doc/thoughts/arweave-yellow-paper-cn.pdf): [历史不再由胜利者书写, 而是 Arweave 书写.](https://www.forbes.com/sites/stevenehrlich/2022/02/25/a-blockchain-based-noahs-ark-is-being-used-to-preserve-a-record-of-the-ukraine-conflict/?sh=6ed865896651) 同时 Arweave 上的 SCP 代表了 Web3 无限的可能性.
+39. [Arweave](https://github.com/fewwwww/blog.suningyao.com/blob/master/static/doc/thoughts/arweave-yellow-paper-cn.pdf): [历史不再由胜利者书写, 而是 Arweave 书写.](https://www.forbes.com/sites/stevenehrlich/2022/02/25/a-blockchain-based-noahs-ark-is-being-used-to-preserve-a-record-of-the-ukraine-conflict/?sh=6ed865896651) 同时 Arweave 上的 SCP 代表了 Web3 无限的可能性.
 
 40. Social FUCKING Alpha!!!
 
@@ -241,7 +241,7 @@ sidebar_position: 0
 
 1. ~~Fuck~~ Fake it until you make it.
 
-2. [Peteris Erins 讲自己如何做研究](https://github.com/fewwwww/blog.suningyao.com/raw/master/static/doc/thoughts/research-for-writers.pdf), 挺认可的.
+2. [Peteris Erins 讲自己如何做研究](https://github.com/fewwwww/blog.suningyao.com/blob/master/static/doc/thoughts/research-for-writers.pdf), 挺认可的.
 
 3. 建立并扩大每天的阅读范围, 包括但不限于推特列表、社群聊天记录、Discord 讨论、个人交流、潜在项目的投前、RSS 订阅、区块链媒体、自己脑补.
 
