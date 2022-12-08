@@ -20,27 +20,27 @@ Or my professional [resumé](https://github.com/fewwwww/resume/raw/main/Suning%2
 
 ### `2022`
 
-- Strategy Researcher @ [Hyper Oracle](https://hyperoracle.io/)
+- **Strategy Researcher @ [Hyper Oracle](https://hyperoracle.io/)**
 
     Web3 zkMiddleware startup. Wrote [litepaper](https://hyperoracle.medium.com/announcing-hyper-oracle-the-ultimate-web3-zkmiddleware-ed28ee393196) and [researches](https://hyperoracle.medium.com/), helped on fundraising by pitching top VCs and angels, and helped CEO on decison making.
 
-- SDE Intern @ [Google Geo](https://mapsplatform.google.com/)
+- **SDE Intern @ [Google Geo](https://mapsplatform.google.com/)**
 
     STEP Intern. Wrote code for the infra of Maps and tool suites of Maps platform.
 
-- Researcher @ [Foresight Ventures](https://foresightventures.com)
+- **Researcher @ [Foresight Ventures](https://foresightventures.com)**
 
     A Web3 VC backed by [Bitget](https://bitget.com) and Bitkeep. Wrote about ~20 [researches](https://mirror.xyz/msfew.eth), leaded investment in [NFTInspect](https://www.nftinspect.xyz/), [Veridise](https://veridise.com/), and [Hyper Oracle](https://www.hyperoracle.io/), and helped 25x our account followers (400 to 10k).
 
 ### `2021`
 
-- Technical Researcher @ [UnionPay](https://cn.unionpay.com)
+- **Technical Researcher @ [UnionPay](https://cn.unionpay.com)**
 
     Blockchain team at Fintech Research Group. Basical Visa and MasterCard in China. Researched on Chinese CBDC and NFT.
 
 ### `2020`
 
-- Resident Software Engineer @ [Microsoft AIoT Lab](https://www.microsoftiotinsiderlabs.com/)
+- **Resident Software Engineer @ [Microsoft AIoT Lab](https://www.microsoftiotinsiderlabs.com/)**
 
     Explored everything about Microsoft Azure Cloud, learned basics about software, and did [a hardware project](https://github.com/fewwwww/Shepard-DTMF-controlled-contactless-button-kit-on-elevator).
 
@@ -48,31 +48,31 @@ Or my professional [resumé](https://github.com/fewwwww/resume/raw/main/Suning%2
 
 ### `2020`
 
-- BS in CS @ [NYU Tandon](https://engineering.nyu.edu)
+- **BS in CS @ [NYU Tandon](https://engineering.nyu.edu)**
 
 ### `2017`
 
-- High School @ [Shanghai Jianping High School ECIC](https://mp.weixin.qq.com/s/2EpWdX7qU4PMqnN8aaGTRg)
+- **High School @ [Shanghai Jianping High School ECIC](https://mp.weixin.qq.com/s/2EpWdX7qU4PMqnN8aaGTRg)**
 
 ## Project
 
 ### `2022`
 
-- Frontend Lead @ [WeLightProject](https://github.com/WeLightProject)
+- **Frontend Lead @ [WeLightProject](https://github.com/WeLightProject)**
 
     Built [WeLightBlockchainOS](http://os.doge.university), [TaiShangWorldGenerator](https://welightproject.github.io/tai_shang_world_generator/), and [TaiShangArweaveUploadPlugin](https://github.com/WeLightProject/Tai-Shang-Arweave-Uploader-Plugin).
 
-- Community Ambassador @ [ArDrive](https://ardrive.io)
+- **Community Ambassador @ [ArDrive](https://ardrive.io)**
 
-- Community Ambassador @ [everPay](https://everpay.io).
+- **Community Ambassador @ [everPay](https://everpay.io)**
 
-- Contributor @ [Dapp Learning](https://github.com/Dapp-Learning-DAO/Dapp-Learning)
+- **Contributor @ [Dapp Learning](https://github.com/Dapp-Learning-DAO/Dapp-Learning)**
 
     Wrote docs about [eth.build](https://github.com/austintgriffith/eth.build) for [Web3.0 dApp Camp](https://twitter.com/Web3dAppCamp) and translated a few episodes of MIT OCW about blockchain.
 
 ### `2021`
 
-- Frontend Developer @ [VioLegacy](https://violegacy.org/)
+- **Frontend Developer @ [VioLegacy](https://violegacy.org/)**
 
     A mini-linkedin for NYU students with `Vue` framework. Wrote JS and Vue.
 
