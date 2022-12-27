@@ -87,7 +87,7 @@ ZK 化之后的索引协议兼具了中心化和去中心化协议的所有优�
 - 不需要 EVM 兼容性.
 - 注重整体性能, 需要保证 Verifiable Query 的速率.
 
-The Graph 自己也意识到了自己的机制安全性的不足, 正在[琢磨 Shellproof](https://www.youtube.com/watch?v=B2X7D-hxVtQ](https://www.youtube.com/watch?v=B2X7D-hxVtQ).
+The Graph 自己也意识到了自己的机制安全性的不足, 正在[琢磨 Shellproof](https://www.youtube.com/watch?v=B2X7D-hxVtQ).
 
 ![](/img/indexing-keeper/shell-proof.png)
 
