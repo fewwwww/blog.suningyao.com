@@ -1,4 +1,4 @@
-# 💥 读懂zkPoS: 端到端Trustless
+# 🛰️ 读懂zkPoS: 端到端Trustless
 
 > 本文为Hyper Oracle撰写, English Version: [Medium](https://hyperoracle.medium.com/zkpos-end-to-end-trustless-65edccd87c5a).
 
