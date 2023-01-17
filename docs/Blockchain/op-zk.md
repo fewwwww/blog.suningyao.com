@@ -11,7 +11,7 @@ sidebar_position: 99
 两者的真实 “finality” 不一样, 类似可以理解成 “真实性能” 不一样. (当然 finality 的定义也[仁者见仁, 智者见智](https://twitter.com/norswap/status/1613329330410504193)....)
 
 - OP 系统 (大多) 有 (可人为调整) 的 7 天左右的仲裁期 (aka. 延迟?). 可以类比成 Nakamoto 共识中的长延迟 (实际上 Nakamoto 共识就没有 finality).
-- ZK 系统则是一旦生成证明且验证后就完全确认. 同时搭配硬件等加速可以做到无限趋近于零 (理论上) 的证明生成速度. 可以类比成 Tendermint 共识的 Single-slot Finality.
+- ZK 系统则是一旦生成证明且验证后就完全确认. 同时搭配硬件等加速可以做到无限趋近于零 (理论上) 的证明生成速度和额外开销. 可以类比成 Tendermint 共识的 Single-slot Finality.
 
 当然, 说了这么些 finality, 通过与共识机制的对比, 你其实也可以看出来, 这个 finality 根本无法代表人所通常指的 “性能”. 虽然 Tendermint 有 Single-slot Finality, 但是也不能说一定比 Nakamoto 快呀. 真正性能的衡量, 又可以开一篇新的文章 (scalability, throughput, real tps, performance)...
 
@@ -57,7 +57,7 @@ ZK 系统的复杂度被从表面和宏观, 转移到了微观和代码层面.
 
 结论: 都会要, 看场景.
 
-我前几天看到一个[观点](https://twitter.com/hosseeb/status/1612594359932948480), haseeb 写的. Web3 是自由开放的左翼, Crypto 是主权个人的右翼. 完全可以套用到我们的话题当中.
+我前几天看到一个[观点](https://twitter.com/hosseeb/status/1612594359932948480), Haseeb 写的. Web3 是自由开放的左翼, Crypto 是主权个人的右翼. 完全可以套用到我们的话题当中.
 
 - OP 给更加像现有体制的 Web3. 像银行等系统已经沿用类 OP 机制很久 (信用卡), 为了合规等, 我认为他们依旧会使用 OP. 具体的应用可能就是各种 Web2.5 的 “DeFi”, 跨链 (类似跨行转账, 当然 ZK 做也很好).
 - ZK 给更加纯粹和 Crypto-Native 的 Crypto. 因为密码学基因的存在, ZK 非常适合 power 比如隐私币/真 DeFi 等应用.
