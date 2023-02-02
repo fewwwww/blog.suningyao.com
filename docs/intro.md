@@ -20,7 +20,7 @@ Or my professional [resumé](https://github.com/fewwwww/resume/raw/main/Suning%2
 
 ### `2022`
 
-- **Strategy Researcher @ [Hyper Oracle](https://hyperoracle.io/)**
+- **Co-founder & Researcher @ [Hyper Oracle](https://hyperoracle.io/)**
 
     Web3 zkMiddleware startup. Wrote [litepaper](https://hyperoracle.medium.com/announcing-hyper-oracle-the-ultimate-web3-zkmiddleware-ed28ee393196) and [researches](https://hyperoracle.medium.com/), helped on fundraising by pitching top VCs and angels, and helped CEO on decison making.
 

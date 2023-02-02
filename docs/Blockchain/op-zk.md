@@ -6,6 +6,8 @@ sidebar_position: 99
 
 > 写于威尼斯开往罗马的火车, 2023.01.12.
 
+> English Version: [Mirror](https://mirror.xyz/msfew.eth/gBVAvKt_G6y0ns5eA5vjZYEBgWdvPRu6KI9CujUvsek)
+
 ## 0. “性能”
 
 两者的真实 “finality” 不一样, 类似可以理解成 “真实性能” 不一样. (当然 finality 的定义也[仁者见仁, 智者见智](https://twitter.com/norswap/status/1613329330410504193)....)
