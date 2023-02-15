@@ -17,6 +17,22 @@ sidebar_position: 1
   <source src="https://github.com/fewwwww/blog.suningyao.com/raw/master/static/music/rnd.mp3" type="audio/mpeg" />
 </audio>
 
+## msfew - radio.
+
+很慵懒的哈.
+
+<audio controls>
+  <source src="https://github.com/fewwwww/blog.suningyao.com/raw/master/static/music/radio.flac" type="audio/mpeg" />
+</audio>
+
+## msfew - 420.
+
+这个突然发现歌词很好...
+
+<audio controls>
+  <source src="https://github.com/fewwwww/blog.suningyao.com/raw/master/static/music/420.wav" type="audio/mpeg" />
+</audio>
+
 ## msfew - airdrop.
 
 这个也很好听, 但是需要一个甜美的女声来翻唱一下, 重制一下.
