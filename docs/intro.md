@@ -22,7 +22,7 @@ Or my professional [resumé](https://github.com/fewwwww/resume/raw/main/Suning%2
 
 - **Co-founder & Researcher @ [Hyper Oracle](https://hyperoracle.io/)**
 
-    Web3 zkMiddleware startup. Wrote [litepaper](https://hyperoracle.medium.com/announcing-hyper-oracle-the-ultimate-web3-zkmiddleware-ed28ee393196) and [researches](https://hyperoracle.medium.com/), helped on fundraising by pitching top VCs and angels, and helped CEO on decison making.
+    Programmable zkOracle startup. Wrote [litepaper](https://hyperoracle.medium.com/announcing-hyper-oracle-the-ultimate-web3-zkmiddleware-ed28ee393196) and [researches](https://mirror.xyz/hyperoracleblog.eth), helped on fundraising by pitching top VCs and angels, and helped CEO on decison making.
 
 - **SDE Intern @ [Google Geo](https://mapsplatform.google.com/)**
 

@@ -1,5 +1,7 @@
 # 🗺️ Subgraph 基本概念与开发
 
+> Update: [Messari 的 substream 教程, 逻辑一样](https://engineering.messari.io/blog/parallel-indexing-of-blockchain-data-with-substreams)
+
 > 一个字废话都没有, 直接开干.
 
 ## 0. [The Graph](https://thegraph.com/docs/en/about/)
