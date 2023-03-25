@@ -1,6 +1,6 @@
 # 🌈 读懂Hyper Oracle
 
-> 本文为Hyper Oracle撰写, English Version: [Mirror](https://mirror.xyz/dashboard/edit/qbefsToFgFxBZBocwlkX-HXbpeUzZiv2UB5CmxcaFTM).
+> 本文为Hyper Oracle撰写, English Version: [Mirror](https://mirror.xyz/hyperoracleblog.eth/qbefsToFgFxBZBocwlkX-HXbpeUzZiv2UB5CmxcaFTM).
 
 ## 摘要
 
