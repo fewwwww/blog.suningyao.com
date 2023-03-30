@@ -6,7 +6,7 @@ Hyper Oracle 白皮书发布也已经过去十天了, 本文将对 Hyper Oracle 
 
 ## I/O Oracle 的命名
 
-I/O Oracle 的数据流其实是先 Input Oracle, 再 Output Oracle. 它不叫 O/I, 因为 O/I 比 I/O 更不常用. 此外, 不会有真正输入然后输出 Oracle 的组合. 那更像是两个独立的 Oracle.
+I/O Oracle 的数据流其实是先 Output Oracle, 再 Input Oracle. 它不叫 O/I, 因为 O/I 比 I/O 更不常用. 此外, 不会有真正输入然后输出 Oracle 的组合. 那更像是两个独立的 Oracle.
 
 ## ZK 和收据的例子
 
