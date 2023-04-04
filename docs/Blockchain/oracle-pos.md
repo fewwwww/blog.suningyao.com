@@ -1,4 +1,4 @@
-# 🤔️ 预言机网络的PoS不安全
+# 🤔️ 读懂预言机的不安全PoS
 
 > 本文为Hyper Oracle撰写, English Version: [Mirror](https://mirror.xyz/).
 
