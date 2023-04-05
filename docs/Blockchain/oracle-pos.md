@@ -1,6 +1,6 @@
 # 🤔️ 读懂预言机的不安全PoS
 
-> 本文为Hyper Oracle撰写, English Version: [Mirror](https://mirror.xyz/).
+> 本文为Hyper Oracle撰写, English Version: [Mirror](https://mirror.xyz/hyperoracleblog.eth/RA-c_9ydwKhSo-KV2Ti5Fu4YwThxSTQuBrlLX1_huFw).
 
 ## TL;DR
 
