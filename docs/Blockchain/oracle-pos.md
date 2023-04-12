@@ -92,7 +92,7 @@ Flashbots 遵循一个基本原则, 即节点需要相信它将从 Flashbots 获
 
 作为一个中立的网络和平台, 以太坊不对运行在其上的应用程序 (如 Flashbots 和 AMM) 负责. 协议设计只需要确保无误的共识和计算, 而不需要考虑这些应用程序.
 
-另一方面, 预言机网络是一个服务提供商, 负责确保其自身数据的准确性和可验证性, 以及使用它的应用程序. 其协议设计和共识也与整个应用程序密切相关.
+另一方面, 预言机网络是一个服务提供商, 负责确保其自身数据的准确性和可验证性, 以及使用它的应用程序. 其协议设计和共识也与整个应用程序密切相关. 此外, [LUNA-Venus-Chainlink 漏洞](https://beincrypto.com/venus-protocol-loses-11m-chainlink-suspension-luna-price-oracle/) 是因为 Chainlink 关闭对 LUNA 价格预言机的支持, 证明了作为[数据服务提供商的预言机网络需要确保其应用程序的数据安全性](https://ethresear.ch/t/a-not-quite-cryptoeconomic-decentralized-oracle/6453/10).
 
 ![](/img/oracle-pos/comparison-business.png)
 
