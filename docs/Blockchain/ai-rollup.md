@@ -1,6 +1,6 @@
 # 🤯 观点: AI Rollup
 
-> English Version: [ethresear.ch](https://ethresear.ch/t/ai-rollup-replacing-fault-validity-proof-with-ai-oracle-proof/15320), [Mirror](https://mirror.xyz/dashboard/edit/NS4g2NzrFkdGK93KpIhMYB0BLnlZCmsxmhx4V48rZSg)
+> English Version: [ethresear.ch](https://ethresear.ch/t/ai-rollup-replacing-fault-validity-proof-with-ai-oracle-proof/15320), [Mirror](https://mirror.xyz/msfew.eth/NS4g2NzrFkdGK93KpIhMYB0BLnlZCmsxmhx4V48rZSg)
 
 ## Rollup 中的证明
 
