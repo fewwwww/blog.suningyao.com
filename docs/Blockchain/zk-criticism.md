@@ -5,6 +5,8 @@ sidebar_position: 99
 
 # 😤 观点: 批评一下 ZK
 
+> 媒体发布: [TechFlow](https://www.techflowpost.com/article/detail_11741.html)
+
 > English Version: [Mirror](https://mirror.xyz/msfew.eth/Q0NQDYIerEqqK4N7tMDX4OTIJ0flpPMgdH-XCNociEU)
 
 > 首先, 这是一个用一个小时写的草稿. 主要是为了快速收集信息, 所以可能存在非常多的潜在错误和不完整的信息.
@@ -58,3 +60,5 @@ ZK 现在的另一个批评是电路代码仍然需要正确 (没有 bug). 如�
 虽然 ZK 应用可以被称为 trustless, 但我们仍然需要确保项目的 ZK 协议和应用的代码和架构是正确的. 区块链领域 (https://www.youtube.com/watch?v=FMXTvxo3NsI) 中存在多种 ZK 错误. 例如, 由于 zkEVM (https://youtu.be/6hfVzCWT6YI?t=164) 的 ZK 电路代码库庞大的问题, Vitalik 谈到了 ZK 应用程序的多证明者的需求.
 
 因此, ZK 系统可能需要与形式验证 (https://medium.com/delendum/formal-verification-of-zk-constraint-systems-ab22f17b0525) 等安全工具或 Ecne (https://github.com/franklynwang/EcneProject) 等其他安全相关工具搭配使用. 应用程序级别, 它需要更多的审计, 特别是对于像 zkEVM (https://www.youtube.com/watch?v=WJewE8fdlmU) 这样的大项目.
+
+在实践中 (https://mirror.xyz/privacy-scaling-explorations.eth/BaqGMfBhEZR1cvTJlA9E3Xu5ZhD7IthLiUK-Q75rQMM), Ethereum PSE 维护了 zk bug tracker repo (https://github.com/0xPARC/zk-bug-tracker), 追踪 bug, 帮助审计人员快速找到 zk 应用中的常见漏洞. Veridise 在 zk 电路的形式化验证方面做了大量的研究和开发 (zk 电路原生地可以很容易地用数学公式来表达, 这很适合形式化验证), 以及 zk 静态分析的通用工具.
