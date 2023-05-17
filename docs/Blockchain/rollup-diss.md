@@ -40,7 +40,7 @@ L2 Rollups 中的交易实际上采取了独特的不同类型的 L1 交易的�
 集中式排序器可能会对以下去中心化方面产生负面影响.
 
 - 抗审查能力较弱: 与 L1 上近乎无限的分布式节点不同, 集中式排序器可能无法确保你的交易会被纳入链上. 在法律实体控制下的集中式排序器可能会受到监管部门对特定交易的审查阻力. 虽然有额外的机制可以解决 L2 的集中化失效问题中的弱审查阻力问题 (如强制退出、[逃生舱门](https://community.starknet.io/t/starknet-escape-hatch-research/1108/2)、[包含列表](https://notes.ethereum.org/@fradamt/H1TsYRfJc), 或阈值加密), 我们仍然需要接受集中化定序器更可能具有弱审查阻力的假设.
-- 弱活性: 集中式排序器的设计可能无法处理保持系统一直运行所需的计算处理和证明生成. 由于验证者或机器人的[硬件故障](https://offchain.medium.com/todays-arbitrum-sequencer-downtime-what-happened-6382a3066fbc)或[过度的垃圾邮件](https://twitter.com/kelvinfichter/status/1643056460836794373)造成的 RPC 或 Sequencer 停机, 会导致 L2 Rollup 的弱活性.
+- 弱活性: 集中式排序器的设计可能无法处理保持系统一直运行所需的计算处理和证明生成. 由于验证者或机器人的[硬件故障](https://offchain.medium.com/todays-arbitrum-sequencer-downtime-what-happened-6382a3066fbc)或[过度的垃圾邮件](https://twitter.com/kelvinfichter/status/1643056460836794373)  (eg. [Arbitrum Token Launch](https://twitter.com/kevinsekniqi/status/1638900081339293697), [Optimism Delay](https://github.com/ethereum-optimism/optimism/blob/develop/technical-documents/postmortems/2023-04-26-transaction-delays.md)) 造成的 RPC 或 Sequencer 停机, 会导致 L2 Rollup 的弱活性.
 - MEV捕获: 目前 L2 Rollup 的集中式排序器[通常](https://mirror.xyz/msfew.eth/exHDL1Rn32SSFT1_mnMyNgoC7hXmB3LlcYMFiW6KtRE)遵循交易排序的先到先得规则. 需要额外的信任来确保他们不会通过节点权限从用户交易中提取 MEV, 或者确保他们采用的第三方排序服务 (如Chainlink FSS) 不会是恶意的.
 
 [共享、外包或基于测序仪的解决方案](https://twitter.com/0xDinoEggs/status/1643252532674801667)可以通过权衡来解决这些问题, 但现在对这种解决方案来说还为时尚早. 此外, 许多分散的定序器解决方案 (如 [PoA、PoS 领导者选择、MEV 拍卖和 PoE](https://joncharbonneau.substack.com/p/rollups-arent-real)) 仍处于概念设计阶段.
