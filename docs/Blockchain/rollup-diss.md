@@ -10,6 +10,11 @@ sidebar_position: 99
 > [https://ethresear.ch/t/towards-world-supercomputer/15487/2](https://ethresear.ch/t/towards-world-supercomputer/15487/2)
 >
 
+> 在 [@DodoResearch](https://twitter.com/DodoResearch/status/1661964710496071680) 进行了分享后得到几个新的观点, 感谢非常有价值的 Q&A.
+> - Shared Sequencer 对于 MEV 可能有减缓作用, 因为它可以在 sequencer 的层面一步到位地解决 MEV, 而不是单独在 L2 单独解决.
+> - Shared Sequencer 可以提供功能完备的模块, 一步到位.
+> - 市场的角度来说, 大的 Rollup 可能没有那么高的需求. 举例来说: Arbitrum 没有打算做 decentralized sequencer. 最后可能是小 rollup 或者使用 RaaS 的方案进行 shared sequencer.
+
 ## 0. L2 Rollup 的定义
 
 经过多年的研究和开发, L2 Rollup 已经成为增强以太坊世界计算机性能的最广泛采用的扩展解决方案. 作为建立在以太坊之上的附加层, L2 Rollup 提供了显著的好处, 并得到了社区的拥护.

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 998
 ---
 # ⛱️ 加州湾区谷歌的暑假独居生活
 

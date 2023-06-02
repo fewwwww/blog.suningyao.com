@@ -63,7 +63,7 @@ module.exports = {
         },
         {
           label: "Life",
-          to: "/docs/Life/valley/"
+          to: "/docs/Life/nyu/"
         }
       ],
     },
@@ -95,7 +95,7 @@ module.exports = {
             },
             {
               label: "Life",
-              to: "/docs/Life/valley/"
+              to: "/docs/Life/nyu/"
             }
           ]
         },
