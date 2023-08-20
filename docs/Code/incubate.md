@@ -159,6 +159,10 @@ export default function UploadShow()  {
 
 ![](/img/incubate/zk-chaincatcher.jpg)
 
+### 6. ZK/Web3 Builders Student HackerHouse
+
+![](/img/incubate/hackerhouse.jpeg)
+
 ## 社群运营
 
 ### 1. ardrive/discord
