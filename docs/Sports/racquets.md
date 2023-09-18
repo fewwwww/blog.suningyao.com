@@ -7,6 +7,8 @@ sidebar_position: 1
 
 ![网球拍全家福](/img/tennis/racquets.jpg)
 
+![网球拍全家福, 没有 PC600](/img/tennis/racquets-v2.png)
+
 ![](/img/tennis/pc-pt.png)
 
 ## 1. PC600 XL
@@ -121,6 +123,8 @@ PT10是PC600的Pro Code, 是职业选手所用的拍模. 因为重量比市售�
 
 ## 6. Solinco Whiteout 18x20 XTD
 
+---
+
 一把 18x20 的 27.5 英寸球拍. 起因是来了加州之后, 没球拍, 所以临时赶紧 tw 上买了个. 但是 pt2.0 正好当天没货了, 所以看了半天试了下这个.
 
 拍子不错, 非常典型的控制型球拍, 可以用着. 硬度还是有点高, 所以不太行.
@@ -131,6 +135,8 @@ PT10是PC600的Pro Code, 是职业选手所用的拍模. 因为重量比市售�
 
 ## 7. Babolat Soft Drive Original
 
+---
+
 本质上是 Pure Drive Original 的新手友好版本. 重量轻, 硬度低. 买回家了还没打过.
 
 ### 我的 Babolat Soft Drive Original
@@ -140,8 +146,12 @@ PT10是PC600的Pro Code, 是职业选手所用的拍模. 因为重量比市售�
 
 ## 8. PC600
 
+---
+
 这个拍子不用多介绍了, 基本就是 PC600 XL 的正牌版. 但是版本当中最罕见的和最好的还是奥产的 trek font 版本的. 而且由于我手小, 所以得找 L2 或者 L3 的, 所以更加难了.
+
+![](/img/tennis/600.png)
 
 ### 我的 PC600
 
-
+- 第一把和第二把都是 MIA 的 trek font, 在美国买的西班牙卖家的. 卖家缠了 Fairway. 拿快递的时候快递居然在配送部挂机了一个月, 我九月份才拿到 (应该八月就到了).
