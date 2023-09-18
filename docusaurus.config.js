@@ -63,7 +63,7 @@ module.exports = {
         },
         {
           label: "Life",
-          to: "/docs/Life/nyu/"
+          to: "/docs/Life/valley/"
         }
       ],
     },
