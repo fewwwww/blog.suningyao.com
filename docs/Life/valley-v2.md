@@ -8,9 +8,9 @@ sidebar_position: 999
 
 ## 周期报告
 
-### [Midterm Report](https://github.com/fewwwww/blog.suningyao.com/blob/master/static/doc/valley/midterm.pdf)
+### [Midterm Report](https://github.com/fewwwww/blog.suningyao.com/blob/master/static/doc/valley-v2/midterm.pdf)
 
-### [Final Report](https://github.com/fewwwww/blog.suningyao.com/blob/master/static/doc/valley/final.pdf)
+### [Final Report](https://github.com/fewwwww/blog.suningyao.com/blob/master/static/doc/valley-v2/final.pdf)
 
 ## 说说
 
