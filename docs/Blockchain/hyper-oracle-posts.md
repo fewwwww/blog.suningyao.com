@@ -6,5 +6,6 @@
 - [Raffle with zkGraph](https://mirror.xyz/hyperoracleblog.eth/AvBEIgiYGOXWN-64PjWHRSq-iOFvm266KFQzQpDnwvA)
 - [Hyper Oracle, Simply Explained](https://mirror.xyz/hyperoracleblog.eth/FKvpIGI7fiuNr5rnTlFWAdxk4QCNFIR9rmqDPxWLc2w)
 - [Ethereum KZG Ceremony Client in Halo2](https://mirror.xyz/hyperoracleblog.eth/vPwYqWWmsWW5JPqlOjk9fMo7Ba72D40Ph9SyjthEZDE)
+- [Latest Applications Building on Hyper Oracle (Bonus: Things You Can Build Now)](https://mirror.xyz/hyperoracleblog.eth/Tik3nBI9mw05Ql_aHKZqm4hNxfxaEQdDAKn7JKcx0xQ)
 
 一部份中文版可以在[medium.com/@hyperoracle-zh](https://medium.com/@hyperoracle-zh)找到.
