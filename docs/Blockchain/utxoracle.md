@@ -1,6 +1,6 @@
 # 💬 对于 UTXOracle 的讨论
 
-> English Version: [Discussion on A Very Cool Price Oracle](https://mirror.xyz/msfew.eth/KrQ6NKUXXFIACtATHZi9A35KM9fIrp8JN3HUNLNQPDA).
+> English Version (latest version): [Discussion on A Very Cool Price Oracle](https://mirror.xyz/msfew.eth/KrQ6NKUXXFIACtATHZi9A35KM9fIrp8JN3HUNLNQPDA).
 
 ## 讨论
 
