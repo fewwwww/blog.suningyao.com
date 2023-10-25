@@ -1,10 +1,8 @@
 ---
-sidebar_label: '💁‍♂️ 对投后项目的改 Bug 等服务'
+sidebar_label: '💁‍♂️ 杂杂的 Contributions'
 sidebar_position: 1
 ---
-# 💁‍♂️ 对投后项目的改 Bug 等服务
-
-> 这篇文档里主要记录了在 Foresight Ventures 期间对投后项目的一些 PR. 主要也是自己对投后的项目的一些兴趣, 很喜欢去上手玩他们的项目, 同时改 Bug 也能收点外快.
+# 💁‍♂️ 杂杂的 Contributions (AMA, PR)
 
 ## GitHub PR
 
@@ -162,6 +160,10 @@ export default function UploadShow()  {
 ### 6. ZK/Web3 Builders Student HackerHouse
 
 ![](/img/incubate/hackerhouse.jpeg)
+
+### 7. ZK/DODO Internal
+
+![](/img/incubate/dodo-internal.jpg)
 
 ## 社群运营
 
