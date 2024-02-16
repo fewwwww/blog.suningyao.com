@@ -165,6 +165,10 @@ export default function UploadShow()  {
 
 ![](/img/incubate/dodo-internal.jpg)
 
+### 8. AI/Chain Times
+
+![](/img/incubate/chain-times.jpg)
+
 ## 社群运营
 
 ### 1. ardrive/discord
