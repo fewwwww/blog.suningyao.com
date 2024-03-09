@@ -18,11 +18,19 @@ Or my professional [resumé](https://github.com/fewwwww/resume/raw/main/Suning%2
 
 ## Experience
 
+### `2022 -`
+
+- **Researcher @ [ORA](https://ora.io/)**
+
+    Verifiable Oracle Protocol. Startup, invested by Sequoia China, dao5, and many undisclosed VCs.
+
+### `2023`
+
+- **SDE Intern @ [Google Cloud](https://mapsplatform.google.com/)**
+
+    Wrote code for the infra of Tensorflow and Cloud.
+
 ### `2022`
-
-- **Co-founder & Researcher @ [Hyper Oracle](https://hyperoracle.io/)**
-
-    Programmable zkOracle startup. Wrote [litepaper](https://mirror.xyz/hyperoracleblog.eth/qbefsToFgFxBZBocwlkX-HXbpeUzZiv2UB5CmxcaFTM) and [researches](https://mirror.xyz/hyperoracleblog.eth), helped on fundraising by pitching top VCs and angels, and helped CEO on decison making.
 
 - **SDE Intern @ [Google Geo](https://mapsplatform.google.com/)**
 

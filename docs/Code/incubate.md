@@ -169,6 +169,10 @@ export default function UploadShow()  {
 
 ![](/img/incubate/chain-times.jpg)
 
+### 9. AI/ETHDenver 2024
+
+![](/img/incubate/ethdenver-2024.PNG)
+
 ## 社群运营
 
 ### 1. ardrive/discord
