@@ -5,6 +5,7 @@ sidebar_position: 0
 # intro
 
 > Most of the blogs in this site were written in Chinese. Click the translation in your Browser when necessary :)
+> Note on 2024-04-14: I don't really have the time to update this site frequently, so please follow [ProofOfTrack](https://www.proofoftrack.xyz/) [on Twitter](https://twitter.com/ProofOfTrack) and [on Substack](https://www.proofoftrack.xyz/), and subscribe to [my Mirror blog](https://mirror.xyz/msfew.eth) for the latest updates.
 
 Nice to meet you. So that's my name.
 
